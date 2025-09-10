@@ -365,6 +365,94 @@
     "continent": "Global"
   },
   {
+    "title": "Imported Malaria in New York: Geographic Patterns and Implications for Emergency Physicians",
+    "description": "",
+    "url": "https://news.google.com/read/CBMi4gFBVV95cUxNaUJTNndIQ0FQZENqeDljcGlTbHVBclBfay1VUm1aQ3p5RXVtdm9ZSVFwZnV6VXF6WWJ6RkpfeVhjWTU0Snl5TVBpaUhPSlc0U1V3M3dILTNNOU0wbVZ0SGlOc20wN0hGTEd0NWxtUmlaWEZIQXJkTU8wOW9oRm9TWF9RVGJVNktWbUx0eW1zVGlwUnBONl93YjVTa3lMNThoYmU1ODhrdGUwYjJ1dkEzRTlQYlIzU1Y4S2xpX201ZGR1YUtnWnoxVXdmMVhWUzctUFY4cFU1ZWpya0V2YWVWYVJR?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-10T12:45:52.000Z",
+    "source": "Cureus",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMi4gFBVV95cUxNaUJTNndIQ0FQZENqeDljcGlTbHVBclBfay1VUm1aQ3p5RXVtdm9ZSVFwZnV6VXF6WWJ6RkpfeVhjWTU0Snl5TVBpaUhPSlc0U1V3M3dILTNNOU0wbVZ0SGlOc20wN0hGTEd0NWxtUmlaWEZIQXJkTU8wOW9oRm9TWF9RVGJVNktWbUx0eW1zVGlwUnBONl93YjVTa3lMNThoYmU1ODhrdGUwYjJ1dkEzRTlQYlIzU1Y4S2xpX201ZGR1YUtnWnoxVXdmMVhWUzctUFY4cFU1ZWpya0V2YWVWYVJR?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iJ0NnNHlWREpXZW1zNVozWTNiVGxMVFJDN0FSaU9BaWdCTWdNSkF3SQ=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Imported Malaria in New York: Geographic Patterns and Implications for Emergency Physicians"
+      },
+      "pt": {
+        "title": "Imported Malaria in New York: Geographic Patterns and Implications for Emergency Physicians"
+      },
+      "es": {
+        "title": "Imported Malaria in New York: Geographic Patterns and Implications for Emergency Physicians"
+      }
+    }
+  },
+  {
+    "title": "Metagenomic complexity of high, seasonal transmission of Plasmodium spp. in asymptomatic carriers in Northern Sahelian Ghana",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiX0FVX3lxTFBJZUlZMjZRNmRmOG1lSnNjeGtVaFltVmxZOXdMWGhGLXdYV19xcUk4Z1ZKRDJLeEFERkdGZFpweThsOFNlNU5Ya1NfeVN1Ri1VNm1NX25rZ1ZheDdzTmp3?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-10T12:24:56.000Z",
+    "source": "Nature",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiX0FVX3lxTFBJZUlZMjZRNmRmOG1lSnNjeGtVaFltVmxZOXdMWGhGLXdYV19xcUk4Z1ZKRDJLeEFERkdGZFpweThsOFNlNU5Ya1NfeVN1Ri1VNm1NX25rZ1ZheDdzTmp3?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNDFjRGwwYTNWUFZITjJNMkpaVFJEaEFoaXRCU2dLTWdZQlFKUjVJQWs=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": {
+      "country": "Ghana",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "ghana",
+      "region": "Africa"
+    },
+    "country": "Ghana",
+    "continent": "Africa",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Metagenomic complexity of high, seasonal transmission of Plasmodium spp. in asymptomatic carriers in Northern Sahelian Ghana"
+      },
+      "pt": {
+        "title": "Metagenomic complexity of high, seasonal transmission of Plasmodium spp. in asymptomatic carriers in Northern Sahelian Ghana"
+      },
+      "es": {
+        "title": "Metagenomic complexity of high, seasonal transmission of Plasmodium spp. in asymptomatic carriers in Northern Sahelian Ghana"
+      }
+    }
+  },
+  {
+    "title": "USF prof's app targets mosquito habitat, fights tropical diseases",
+    "description": "",
+    "url": "https://news.google.com/read/CBMitAFBVV95cUxPUU4wOFFZcTRuVnQ5OE9kQ1V3RG5FRTgwYUU4MFhwTXNvX1hiUUNkdjk2NW9BbWxCQ21HQjdMZE1iUUN4aVd3ZHRfQW84MUFwcEREN0Z4dXU1cnlsMkw2TzdBT04wWjl5NkEzX29YeU83QU50a0hkR3ZvWTJMRmJvNVFBMFVpckM2SEFTX3R2LUxXUTZwa1N2YkVWUUhGLWdhMU5tTW9DVnhZd3BrUjMtX2VlVEc?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-10T11:20:56.000Z",
+    "source": "83 Degrees",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMitAFBVV95cUxPUU4wOFFZcTRuVnQ5OE9kQ1V3RG5FRTgwYUU4MFhwTXNvX1hiUUNkdjk2NW9BbWxCQ21HQjdMZE1iUUN4aVd3ZHRfQW84MUFwcEREN0Z4dXU1cnlsMkw2TzdBT04wWjl5NkEzX29YeU83QU50a0hkR3ZvWTJMRmJvNVFBMFVpckM2SEFTX3R2LUxXUTZwa1N2YkVWUUhGLWdhMU5tTW9DVnhZd3BrUjMtX2VlVEc?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNUZiREpLTnpkalNGWkdPVFUyVFJERUF4aW5CU2dLTWdaQmM1WXpyUWM=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "USF prof's app targets mosquito habitat, fights tropical diseases"
+      },
+      "pt": {
+        "title": "USF prof's app targets mosquito habitat, fights tropical diseases"
+      },
+      "es": {
+        "title": "USF prof's app targets mosquito habitat, fights tropical diseases"
+      }
+    }
+  },
+  {
     "id": "bb71a64d7b30e6755e13fd6d12b96c89",
     "title": "Mumbai Clinics See Daily Surge Of 20 Patients As Monsoon Illnesses Rise",
     "description": "Doctors report that children between the ages of 4 and 10 are particularly vulnerable to flu and dengue, while adults in the 25–65 age group are increasingly affected by dengue, malaria, leptospirosis, and other water-borne illnesses.",
@@ -8972,6 +9060,33 @@
     }
   },
   {
+    "title": "Fox News’ John Roberts Hospitalized with ‘Severe' Malaria After ‘Uncontrolled Shivering' On-Air (Exclusive)",
+    "description": "",
+    "url": "https://news.google.com/read/CBMilwFBVV95cUxOcVRGMl9zb0ZqaWxjTFg2Yk5xUnhoYkFmUGhtZ01KYjBBNk9PZVBmRXFnNzB6R0JJeDYyVUE3a1RRTXZXdnp6VzVwT2M0SmVfMzYtci1aOXpIVWlqa0E0S1VLM0twOWFFM2FSLVB4bzNwZ1NDUDJIUWJsRHhMb2E4NkZZbVJNWHd0LVV0d2g1cG56ZlRFUUE0?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-28T07:00:00.000Z",
+    "source": "People.com",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMilwFBVV95cUxOcVRGMl9zb0ZqaWxjTFg2Yk5xUnhoYkFmUGhtZ01KYjBBNk9PZVBmRXFnNzB6R0JJeDYyVUE3a1RRTXZXdnp6VzVwT2M0SmVfMzYtci1aOXpIVWlqa0E0S1VLM0twOWFFM2FSLVB4bzNwZ1NDUDJIUWJsRHhMb2E4NkZZbVJNWHd0LVV0d2g1cG56ZlRFUUE0?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNUNNMU5rYmpWeVNYWk5ZVGsxVFJERUF4aW1CU2dLTWdZcEZwN3RsUW8=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Fox News’ John Roberts Hospitalized with ‘Severe' Malaria After ‘Uncontrolled Shivering' On-Air (Exclusive)"
+      },
+      "pt": {
+        "title": "Fox News’ John Roberts Hospitalized with ‘Severe' Malaria After ‘Uncontrolled Shivering' On-Air (Exclusive)"
+      },
+      "es": {
+        "title": "Fox News’ John Roberts Hospitalized with ‘Severe' Malaria After ‘Uncontrolled Shivering' On-Air (Exclusive)"
+      }
+    }
+  },
+  {
     "id": "94983184d8ddb2467909f6d6dcaeb528",
     "title": "Doctors Warn Of Spike In Dengue, Flu & Water-Borne Illnesses As Cases Of Seasonal Fevers Rise",
     "description": "Delhi-NCR hospitals report a surge in fever cases linked to dengue, malaria, and viral infections. Experts urge timely testing and medical care during monsoon.",
@@ -10352,6 +10467,40 @@
       "region": "Africa"
     },
     "continent": "Africa"
+  },
+  {
+    "title": "Burkina Faso says no to Bill Gates’ plan of creating modified species of mosquitoes",
+    "description": "",
+    "url": "https://news.google.com/read/CBMi2AFBVV95cUxPN1U2R245bDl6WHp6Zy1SdTZPcnEzRDZIR0dSSC1WemlKb2V6QkE0QkVhSmlCLVFjQ0ppSVNYSllWbFhYYjVRVU1fZHJHdEpJQ2RUT1NxR2hRMWNSRHhya1hYU1B2bU5VSU1jcGVfS20wRFlyemdGM0JXVDVLbktXMnNaX1FIRm9ISGU2MUVxM3Nic256a3M2amZodHc3Uk9uRHNtRUduUTFrbkltTHZQUUJ4VTBaX3JZMVhJbWNVNHVRS1kzRktMUnRGcjdrRWx5OXlPX3J2clE?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-24T07:00:00.000Z",
+    "source": "Business Insider Africa",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMi2AFBVV95cUxPN1U2R245bDl6WHp6Zy1SdTZPcnEzRDZIR0dSSC1WemlKb2V6QkE0QkVhSmlCLVFjQ0ppSVNYSllWbFhYYjVRVU1fZHJHdEpJQ2RUT1NxR2hRMWNSRHhya1hYU1B2bU5VSU1jcGVfS20wRFlyemdGM0JXVDVLbktXMnNaX1FIRm9ISGU2MUVxM3Nic256a3M2amZodHc3Uk9uRHNtRUduUTFrbkltTHZQUUJ4VTBaX3JZMVhJbWNVNHVRS1kzRktMUnRGcjdrRWx5OXlPX3J2clE?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iL0NnNHRMVVJXWjNKTWVFNUhVM0E1VFJDc0FSalpBaWdLTWdrTlVvNFVyYWFweXdF=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": {
+      "country": "Burkina Faso",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "burkina faso",
+      "region": "Africa"
+    },
+    "country": "Burkina Faso",
+    "continent": "Africa",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Burkina Faso says no to Bill Gates’ plan of creating modified species of mosquitoes"
+      },
+      "pt": {
+        "title": "Burkina Faso says no to Bill Gates’ plan of creating modified species of mosquitoes"
+      },
+      "es": {
+        "title": "Burkina Faso says no to Bill Gates’ plan of creating modified species of mosquitoes"
+      }
+    }
   },
   {
     "id": "015118c097cfb02dfcd7eea0b20f7f31",
@@ -18672,6 +18821,33 @@
     "country": "Global",
     "countryDetection": null,
     "continent": "Global"
+  },
+  {
+    "title": "Decreased dihydroartemisinin-piperaquine protection against recurrent malaria associated with Plasmodium falciparum plasmepsin 3 copy number variation in Africa",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiX0FVX3lxTE1reDNyYnQ1OE1wUGdBcnZoSWJicFJseVBUY29SanJuc2l0R2hNUkRScHJ0dHh5NjVERTRUYXN3U3VoUVk0YW9hY1ZKR0ltNGszWW40c3dwcmdtQ1dqOGxn?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-03-18T07:00:00.000Z",
+    "source": "Nature",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiX0FVX3lxTE1reDNyYnQ1OE1wUGdBcnZoSWJicFJseVBUY29SanJuc2l0R2hNUkRScHJ0dHh5NjVERTRUYXN3U3VoUVk0YW9hY1ZKR0ltNGszWW40c3dwcmdtQ1dqOGxn?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iJ0NnNDFiVW80U1U1UGVUVjVObll6VFJEZEFSamtBU2dCTWdPQkVRSQ=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Africa",
+    "continent": "Africa",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Decreased dihydroartemisinin-piperaquine protection against recurrent malaria associated with Plasmodium falciparum plasmepsin 3 copy number variation in Africa"
+      },
+      "pt": {
+        "title": "Decreased dihydroartemisinin-piperaquine protection against recurrent malaria associated with Plasmodium falciparum plasmepsin 3 copy number variation in Africa"
+      },
+      "es": {
+        "title": "Decreased dihydroartemisinin-piperaquine protection against recurrent malaria associated with Plasmodium falciparum plasmepsin 3 copy number variation in Africa"
+      }
+    }
   },
   {
     "title": "The Importance of Murine Models in Determining In Vivo Pharmacokinetics, Safety, and Efficacy in Antimalarial Drug Discovery.",
