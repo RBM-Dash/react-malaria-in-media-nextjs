@@ -1,0 +1,184 @@
+const CONFIG = {
+  apis: {
+    newsapi: {
+      apiKey: 'YOUR_NEWSAPI_KEY',
+      baseUrl: 'https://newsapi.org/v2'
+    },
+    guardian: {
+      apiKey: 'YOUR_GUARDIAN_API_KEY',
+      baseUrl: 'https://content.guardianapis.com'
+    },
+    eventregistry: {
+      apiKey: 'YOUR_EVENTREGISTRY_API_KEY',
+      baseUrl: 'https://eventregistry.org/api/v1'
+    },
+    googlenews: {
+      apiKey: 'YOUR_GOOGLE_NEWS_API_KEY',
+      baseUrl: 'https://gnews.io/api/v4'
+    },
+    rss2json: {
+      apiKey: 'YOUR_RSS2JSON_API_KEY',
+      baseUrl: 'https://api.rss2json.com/v1/api.json'
+    },
+    openai: {
+        apiKey: 'YOUR_OPENAI_API_KEY'
+    },
+    microsoft: {
+      apiKey: 'YOUR_MICROSOFT_TRANSLATOR_KEY',
+      baseUrl: 'https://microsoft-translator-text.p.rapidapi.com',
+      host: 'microsoft-translator-text.p.rapidapi.com'
+    },
+    newsdata: {
+        apiKey: 'YOUR_NEWSDATA_API_KEY',
+        baseUrl: 'https://newsdata.io/api/1'
+    }
+  },
+  search: {
+    allMalariaKeywords: {
+     en: [
+        'malaria','malariae','falciparum','malaria outbreak', 'malaria epidemic', 'malaria deaths',
+        'malaria cases', 'antimalarial resistance', 'malaria vaccine', 'bed nets malaria',
+        'malaria prevention', 'anopheles mosquito', 'plasmodium', 'malaria elimination',
+        'malaria control', 'malaria treatment', 'cerebral malaria', 'malaria surveillance',
+        'malaria diagnosis', 'artemisinin resistance', 'falciparum malaria', 'vivax malaria',
+        'malaria transmission', 'vector control malaria', 'malaria parasite', 'malaria research',
+        'malaria chemoprevention', 'malaria campaigns', 'insecticide resistance malaria',
+        'anopheles larviciding', 'malaria ACT', 'artemisinin', 'artemsinin combination',
+        'malaria in pregnancy', 'artesunate', 'malaria rapid diagnostic test', 'malaria AI',
+        'malaria artificial intelligence', 'AI malaria diagnosis', 'machine learning malaria', 'antiplasmodial'
+      ],
+      fr: [
+        'paludisme', 'malaria', 'plasmodium', 'épidémie de paludisme', 'décès du paludisme',
+        'cas de paludisme', 'résistance antipaludique', 'vaccin contre le paludisme',
+        'moustiquaire imprégnée', 'prévention du paludisme', 'anophèle', 'élimination du paludisme',
+        'contrôle du paludisme', 'traitement du paludisme', 'paludisme cérébral',
+        'surveillance du paludisme', 'diagnostic du paludisme', 'résistance à l\'artémisinine',
+        'paludisme à falciparum', 'paludisme à vivax', 'transmission du paludisme',
+        'lutte antivectorielle', 'parasite du paludisme', 'recherche sur le paludisme',
+        'chimioprévention du paludisme', 'campagnes antipaludiques', 'résistance aux insecticides',
+        'larvicidage des anophèles', 'CTA paludisme', 'artémisinine', 'combinaison artémisinine',
+        'paludisme chez la femme enceinte', 'artésunate', 'test de diagnostic rapide du paludisme',
+        'paludisme IA', 'intelligence artificielle paludisme','antipaludique'
+      ],
+      pt: [
+        'malária', 'paludismo', 'plasmodium', 'surto de malária', 'epidemia de malária',
+        'casos de malária', 'mortes por malária', 'resistência antimalárica', 'vacina da malária',
+        'mosquiteiro impregnado', 'prevenção da malária', 'anopheles', 'eliminação da malária',
+        'controle da malária', 'tratamento da malária', 'malária cerebral',
+        'vigilância da malária', 'diagnóstico da malária', 'resistência à artemisinina',
+        'malária falciparum', 'malária vivax', 'transmissão da malária',
+        'controle vetorial', 'parasita da malária', 'pesquisa sobre malária',
+        'quimioprevenção da malária', 'campanhas antimaláricas', 'resistência a inseticidas',
+        'larvicidas anopheles', 'ACT malária', 'artemisinina', 'combinação artemisinina',
+        'malária na gravidez', 'artesunato', 'teste diagnóstico rápido malária',
+        'malária IA', 'inteligência artificial malária'
+      ],
+      es: [
+        'malaria', 'paludismo', 'plasmodium', 'brote de malaria', 'epidemia de malaria',
+        'casos de malaria', 'muertes por malaria', 'resistencia antimalárica', 'vacuna contra la malaria',
+        'mosquitero impregnado', 'prevención de la malaria', 'anopheles', 'eliminación de la malaria',
+        'control de la malaria', 'tratamiento de la malaria', 'malaria cerebral',
+        'vigilancia de la malaria', 'diagnóstico de la malaria', 'resistencia a la artemisinina',
+        'malaria falciparum', 'malaria vivax', 'transmisión de la malaria',
+        'control vectorial', 'parásito de la malaria', 'investigación sobre malaria',
+        'quimioprevención de la malaria', 'campañas antimaláricas', 'resistencia a insecticidas',
+        'larvicidas anopheles', 'ACT malaria', 'artemisinina', 'combinación artemisinina',
+        'malaria en el embarazo', 'artesunato', 'prueba diagnóstica rápida malaria',
+        'malaria IA', 'inteligencia artificial malaria'
+      ],
+    },
+    countryNameMappings: {
+      // English variations
+      'drc': 'Democratic Republic of Congo',
+      'dr congo': 'Democratic Republic of Congo',
+      'democratic republic of the congo': 'Democratic Republic of Congo',
+      'congo democratic republic': 'Democratic Republic of Congo',
+      'ivory coast': 'Ivory Coast',
+      'cote d\'ivoire': 'Ivory Coast',
+      'car': 'Central African Republic',
+      'central african republic': 'Central African Republic',
+      'burkina': 'Burkina Faso',
+      'upper volta': 'Burkina Faso',
+      'cameroon': 'Cameroon',
+      'ethiopia': 'Ethiopia',
+      'guinea': 'Guinea',
+      'republic of guinea': 'Guinea',
+      'guinea conakry': 'Guinea',
+      'mozambique': 'Mozambique',
+      'brazil': 'Brazil',
+      'suriname': 'Suriname',
+      'surinam': 'Suriname',
+      // French variations
+      'république démocratique du congo': 'Democratic Republic of Congo',
+      'rd congo': 'Democratic Republic of Congo',
+      'rdc': 'Democratic Republic of Congo',
+      'côte d\'ivoire': 'Ivory Coast',
+      'république centrafricaine': 'Central African Republic',
+      'rca': 'Central African Republic',
+      'burkina': 'Burkina Faso',
+      'burkina faso': 'Burkina Faso',
+      'haute-volta': 'Burkina Faso',
+      'guinée': 'Guinea',
+      'république de guinée': 'Guinea',
+      'guinée conakry': 'Guinea',
+      'cameroun': 'Cameroon',
+      'république du cameroun': 'Cameroon',
+      'éthiopie': 'Ethiopia',
+      'mozambique': 'Mozambique',
+      'brésil': 'Brazil',
+      'suriname': 'Suriname',
+      // Portuguese variations
+      'república democrática do congo': 'Democratic Republic of Congo',
+      'rd congo': 'Democratic Republic of Congo',
+      'costa do marfim': 'Ivory Coast',
+      'república centro-africana': 'Central African Republic',
+      'burquina faso': 'Burkina Faso',
+      'guiné': 'Guinea',
+      'república da guiné': 'Guinea',
+      'guiné conacri': 'Guinea',
+      'camarões': 'Cameroon',
+      'república dos camarões': 'Cameroon',
+      'etiópia': 'Ethiopia',
+      'moçambique': 'Mozambique',
+      'brasil': 'Brazil',
+      'suriname': 'Suriname',
+      // Spanish variations
+      'república democrática del congo': 'Democratic Republic of Congo',
+      'rd congo': 'Democratic Republic of Congo',
+      'costa de marfil': 'Ivory Coast',
+      'república centroafricana': 'Central African Republic',
+      'burkina faso': 'Burkina Faso',
+      'guinea': 'Guinea',
+      'república de guinea': 'Guinea',
+      'guinea conakry': 'Guinea',
+      'camerún': 'Cameroon',
+      'república de camerún': 'Cameroon',
+      'etiopía': 'Ethiopia',
+      'mozambique': 'Mozambique',
+      'brazil': 'Brazil',
+      'surinam': 'Suriname',
+      // Swahili variations
+      'jamhuri ya kidemokrasia ya kongo': 'Democratic Republic of Congo',
+      'kongo': 'Democratic Republic of Congo',
+      'pwani ya pembe': 'Ivory Coast',
+      'jamhuri ya afrika ya kati': 'Central African Republic',
+      'burkina faso': 'Burkina Faso',
+      'gine': 'Guinea',
+      'jamhuri ya gine': 'Guinea',
+      'kameruni': 'Cameroon',
+      'jamhuri ya kameruni': 'Cameroon',
+      'ethiopia': 'Ethiopia',
+      'msumbiji': 'Mozambique',
+      'brazili': 'Brazil',
+      'surinamu': 'Suriname'
+    },
+    excludeKeywords: [
+      'Trump administration', 'USAID', 'United States aid', 'US foreign aid',
+      'American aid', 'Donald Trump'
+    ]
+  }
+};
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = CONFIG;
+}
