@@ -9,6 +9,7 @@ import '../app/globals.css';
 export default function Home() {
   const [allArticles, setAllArticles] = useState([]);
   const [filteredArticles, setFilteredArticles] = useState([]);
+  const [searchQuery, setSearchQuery] = useState(''); // Add search query state
   const [logs, setLogs] = useState([]);
   const [kpiData, setKpiData] = useState([]);
   const [sourceCounts, setSourceCounts] = useState([]);
@@ -23,10 +24,10 @@ export default function Home() {
 
   useEffect(() => {
     addLog('Fetching articles...');
-    fetch(`/articles.json?v=${new Date().getTime()}`)
+            fetch(`https://rbm-dash.github.io/react-malaria-in-media-nextjs/articles.json?v=${new Date().getTime()}`)
       .then(res => res.json())
       .then(data => {
-        setArticles(data);
+        setAllArticles(data);
         console.log('Initial articles (after research filter):', data); // Debugging
         setFilteredArticles(data); // Initialize filtered articles with all non-research articles
       })
@@ -35,6 +36,30 @@ export default function Home() {
 
   useEffect(() => {
     let articles = [...allArticles];
+
+    // Filter by search query first
+    if (searchQuery) {
+      const lowerCaseQuery = searchQuery.toLowerCase();
+      articles = articles.filter(article => {
+        const lowerCaseQuery = searchQuery.toLowerCase();
+        
+        const fieldsToSearch = [
+          article.title,
+          article.description,
+          article.country,
+          article.translations?.en?.title,
+          article.translations?.en?.description,
+          article.translations?.fr?.title,
+          article.translations?.fr?.description,
+          article.translations?.es?.title,
+          article.translations?.es?.description,
+          article.translations?.pt?.title,
+          article.translations?.pt?.description
+        ];
+
+        return fieldsToSearch.some(field => field && field.toLowerCase().includes(lowerCaseQuery));
+      });
+    }
 
     if (currentContentType === 'science') {
         articles = articles.filter(a => a.type === 'research' || a.source === 'PubMed');
@@ -64,6 +89,7 @@ export default function Home() {
     });
 
     setFilteredArticles(articles);
+    console.log('Filtered articles (after all filters):', articles); // Debugging
 
     if (allArticles.length > 0) {
         const sources = allArticles.reduce((acc, article) => {
@@ -79,7 +105,7 @@ export default function Home() {
             { label: 'Continents', value: new Set(allArticles.map(a => a.continent)).size }
         ]);
     }
-  }, [allArticles, currentContentType]);
+  }, [allArticles, currentContentType, searchQuery]);
 
   const handleMarkAsRead = (uniqueId) => {
     setAllArticles(prevArticles =>
@@ -102,6 +128,8 @@ export default function Home() {
         onExport={() => addLog('Export functionality not yet implemented.', 'warning')}
         currentLanguage={currentLanguage}
         currentContentType={currentContentType}
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
       />
       <div className="main-content-component">
         <MainContent 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = ({ onSwitchTab, onTranslate, onExport, currentLanguage, currentContentType }) => {
+const Header = ({ onSwitchTab, onTranslate, onExport, currentLanguage, currentContentType, searchQuery, setSearchQuery }) => {
   // Function to handle tab clicks and manage active state
   const handleTabClick = (e, tab) => {
     onSwitchTab(tab);
@@ -32,6 +32,15 @@ const Header = ({ onSwitchTab, onTranslate, onExport, currentLanguage, currentCo
             <button className={`translation-btn ${currentLanguage === 'fr' ? 'active' : ''}`} data-lang="fr" onClick={() => onTranslate('fr')}>FR</button>
             <button className={`translation-btn ${currentLanguage === 'pt' ? 'active' : ''}`} data-lang="pt" onClick={() => onTranslate('pt')}>PT</button>
             <button className={`translation-btn ${currentLanguage === 'es' ? 'active' : ''}`} data-lang="es" onClick={() => onTranslate('es')}>ES</button>
+        </div>
+        <div className="search-container">
+          <input
+            type="text"
+            placeholder="Search by keyword, country..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="search-input"
+          />
         </div>
         <div>
             <button className="primary-button" onClick={() => onExport('json')}>Export JSON</button>

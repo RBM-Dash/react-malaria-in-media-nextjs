@@ -9,6 +9,10 @@ const cheerio = require('cheerio');
 const { JSDOM } = require('jsdom');
 const { Readability } = require('@mozilla/readability');
 const CONFIG = require('./config.js');
+const { exec } = require('child_process');
+const { deduplicateMalariaNews } = require('./src/utils/openaiDeduplicator.js');
+const { normalizeUrl, cleanText } = require('./src/utils/dedupHelper.js');
+const stringSimilarity = require('string-similarity');
 
 // Use path.resolve to ensure paths are always correct relative to the script location
 const TRANSLATION_CACHE_PATH = path.resolve(__dirname, 'translation_cache.json');
@@ -65,19 +69,6 @@ async function fetchWithTimeout(url, options = {}, timeout = 20000) {
     }
 }
 
-function generateStoryFingerprint(title) {
-    if (!title) return new Set();
-    const commonWords = new Set(['a', 'an', 'the', 'and', 'or', 'but', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'of', 'in', 'on', 'at', 'by', 'for', 'with', 'from', 'about', 'as', 'into', 'like', 'through', 'after', 'before', 'over', 'under', 'up', 'down', 'out', 'off', 'to']);
-    const words = title.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(' ').filter(word => word.length > 2 && !commonWords.has(word));
-    return new Set(words);
-}
-
-function jaccardSimilarity(set1, set2) {
-    const intersection = new Set([...set1].filter(x => set2.has(x)));
-    const union = new Set([...set1, ...set2]);
-    return union.size === 0 ? 0 : intersection.size / union.size;
-}
-
 function extractDateFromUrl(url) {
     if (!url) return null;
     // Regex to find YYYY/MM/DD or YYYY-MM-DD patterns in the URL
@@ -108,6 +99,45 @@ function sortArticles(a, b) {
 
 const { detectCountry } = require('./src/utils/countryDetector.js');
 
+function filterArticlesByDate(articles) {
+    serverLog(`[DATE-FILTER] Starting date filtering on ${articles.length} articles.`);
+    const sixMonthsAgo = new Date();
+    sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+
+    const filtered = articles.filter(article => {
+        let articleDate = null;
+        if (article.publishedAt) {
+            articleDate = new Date(article.publishedAt);
+        }
+
+        if (!article.publishedAt || isNaN(articleDate.getTime())) {
+            const extractedDate = extractDateFromUrl(article.url);
+            if (extractedDate) {
+                article.publishedAt = extractedDate; // Update the article with the extracted date
+                articleDate = new Date(extractedDate);
+                serverLog(`[INFO] Extracted date ${extractedDate} from URL for article: ${article.title}`);
+            } else {
+                serverLog(`[FILTER] Article "${article.title}" has no valid date. Keeping it for now.`, 'warning');
+                return true; // Keep articles with no date
+            }
+        }
+
+        if (isNaN(articleDate.getTime())) {
+            serverLog(`[FILTER] Article "${article.title}" has invalid date: "${article.publishedAt}". Keeping it for now.`, 'warning');
+            return true; // Keep articles with invalid dates
+        }
+
+        const isRecent = articleDate >= sixMonthsAgo;
+
+        if (!isRecent) {
+            serverLog(`[FILTER] Removing old article (${articleDate.toISOString().split('T')[0]}): ${article.title}`);
+        }
+        return isRecent;
+    });
+    serverLog(`[DATE-FILTER] After date filtering: ${filtered.length} articles remain.`);
+    return filtered;
+}
+
 
 class EnhancedMalariaIntelligence {
     constructor() {
@@ -124,6 +154,68 @@ class EnhancedMalariaIntelligence {
         const duration = (Date.now() - start) / 1000;
         this.logProgress(`[PERF] Finished: ${label} in ${duration.toFixed(2)}s`);
         return result;
+    }
+
+    removeDuplicatesFast(newArticles, existingArticles = []) {
+        this.logProgress(`[DEDUP-FAST] Starting fast deduplication on ${newArticles.length} new articles against ${existingArticles.length} existing articles.`);
+        
+        const DEDUP_OPTIONS = { threshold: 0.85, recentLimit: 2000 };
+
+        const existingUrlSet = new Set(existingArticles.map(a => normalizeUrl(a.url)).filter(Boolean));
+        const existingCleanedTexts = existingArticles.slice(-DEDUP_OPTIONS.recentLimit).map(a => cleanText((a.title || '') + ' ' + (a.description || '')));
+
+        const uniqueNewArticles = [];
+        const newUrlSet = new Set();
+        const newCleanedTexts = [];
+
+        for (const article of newArticles) {
+            let isDuplicate = false;
+
+            // 1. URL Check against existing and new articles
+            const u = normalizeUrl(article.url);
+            if (u && (existingUrlSet.has(u) || newUrlSet.has(u))) {
+                isDuplicate = true;
+            }
+
+            // 2. Fuzzy Text Check
+            if (!isDuplicate) {
+                const newText = cleanText((article.title || '') + ' ' + (article.description || ''));
+                if (newText) {
+                    // Check against recent existing articles
+                    for (const existingText of existingCleanedTexts) {
+                        if (stringSimilarity.compareTwoStrings(newText, existingText) >= DEDUP_OPTIONS.threshold) {
+                            isDuplicate = true;
+                            break;
+                        }
+                    }
+                    // Check against new articles found in this run
+                    if (!isDuplicate) {
+                        for (const newCleanedText of newCleanedTexts) {
+                            if (stringSimilarity.compareTwoStrings(newText, newCleanedText) >= DEDUP_OPTIONS.threshold) {
+                                isDuplicate = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (!isDuplicate) {
+                uniqueNewArticles.push(article);
+                if (u) {
+                    newUrlSet.add(u);
+                }
+                const newText = cleanText((article.title || '') + ' ' + (article.description || ''));
+                if (newText) {
+                    newCleanedTexts.push(newText);
+                }
+            } else {
+                this.logProgress(`[DEDUP-FAST] Skipped duplicate: "${article.title}"`);
+            }
+        }
+        
+        this.logProgress(`[DEDUP-FAST] After fast deduplication: ${uniqueNewArticles.length} new articles remain.`);
+        return uniqueNewArticles;
     }
 
     async openAITranslateProvider(text, lang) {
@@ -317,6 +409,7 @@ class EnhancedMalariaIntelligence {
                 searchTerm: "malaria",
                 prettyURLs: true,
                 timeframe: "7d",
+                // getArticleContent: true, // Temporarily commented out due to 'Execution context was destroyed' errors. Revisit for full content.
                 getArticleContent: true,
                 puppeteerArgs: ['--no-sandbox', '--disable-setuid-sandbox']
             });
@@ -380,7 +473,7 @@ class EnhancedMalariaIntelligence {
         const score = this.calculateRelevanceScore(article);
         article.relevanceScore = score;
         if (score < 20) {
-            this.logProgress(`[FILTER] Skipping low score (${score}): ${article.title}`)
+            this.logProgress(`[FILTER] Skipping low score (${score}): ${article.title}`) 
             return false;
         }
         this.logProgress(`[FILTER] Passed with score (${score}): ${article.title}`);
@@ -911,67 +1004,6 @@ class EnhancedMalariaIntelligence {
         return results;
     }
 
-    removeDuplicatesAdvanced(articles) {
-        this.logProgress(`[DEDUP] Starting advanced deduplication on ${articles.length} articles.`);
-        
-        const uniqueArticlesMap = new Map();
-        articles.forEach(article => {
-            const key = article.url || article.uniqueId;
-            if (key && !uniqueArticlesMap.has(key)) {
-                uniqueArticlesMap.set(key, article);
-            }
-        });
-        
-        const urlUniqueArticles = Array.from(uniqueArticlesMap.values());
-        this.logProgress(`[DEDUP] After URL deduplication: ${urlUniqueArticles.length} articles.`);
-
-        if (urlUniqueArticles.length < 2) {
-            return urlUniqueArticles;
-        }
-
-        this.logProgress(`[DEDUP] Starting title similarity analysis...`);
-        const finalUniqueArticles = [];
-        const articleFingerprints = new Map();
-
-        for (const article of urlUniqueArticles) {
-            let isDuplicate = false;
-            const articleTitle = article.title || '';
-            if (!articleTitle) continue;
-
-            if (!articleFingerprints.has(articleTitle)) {
-                articleFingerprints.set(articleTitle, generateStoryFingerprint(articleTitle));
-            }
-            const fingerPrint1 = articleFingerprints.get(articleTitle);
-
-            for (const existingArticle of finalUniqueArticles) {
-                const existingTitle = existingArticle.title || '';
-                if (!existingTitle) continue;
-
-                if (!articleFingerprints.has(existingTitle)) {
-                    articleFingerprints.set(existingTitle, generateStoryFingerprint(existingTitle));
-                }
-                const fingerPrint2 = articleFingerprints.get(existingTitle);
-
-                const similarity = jaccardSimilarity(fingerPrint1, fingerPrint2);
-
-                if (similarity > 0.8) {
-                    this.logProgress(`[DEDUP] Found similar titles (Score: ${similarity.toFixed(2)}):`);
-                    this.logProgress(`  - Existing: ${existingTitle}`);
-                    this.logProgress(`  - New:      ${articleTitle}`);
-                    isDuplicate = true;
-                    break;
-                }
-            }
-
-            if (!isDuplicate) {
-                finalUniqueArticles.push(article);
-            }
-        }
-        
-        this.logProgress(`[DEDUP] After title similarity analysis: ${finalUniqueArticles.length} articles.`);
-        return finalUniqueArticles;
-    }
-
     async aggregateAll(existingArticles = []) {
         this.logProgress('Starting data aggregation with all optimizations...');
         const sources = [
@@ -993,66 +1025,87 @@ class EnhancedMalariaIntelligence {
             this.time('Gavi', this.searchGavi())
         ];
         const results = await Promise.all(sources.map(p => p.catch(e => { this.logProgress(e.message, 'error'); return []; })));
-        const combined = results.flat();
-        this.logProgress(`[AGGREGATE] Retrieved ${combined.length} raw articles from all sources.`);
+        const newlyFetchedArticles = results.flat();
+        this.logProgress(`[AGGREGATE] Retrieved ${newlyFetchedArticles.length} raw articles from all sources.`);
         
-        const allArticles = [...existingArticles, ...combined];
-        let uniqueArticles = await this.time('Deduplication', Promise.resolve(this.removeDuplicatesAdvanced(allArticles)));
-        let filteredArticles = await this.time('Filtering', Promise.resolve(uniqueArticles.filter(article => this.filterArticle(article))));
-        this.logProgress(`[AGGREGATE] After initial filtering: ${filteredArticles.length} articles.`);
+        // Step 1: Fast Deduplication of new articles against existing ones
+        let uniqueNewArticles = await this.time('FastDeduplication', Promise.resolve(this.removeDuplicatesFast(newlyFetchedArticles, existingArticles)));
 
-        // Apply 6-month date filter
-        const sixMonthsAgo = new Date();
-        sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+        // Step 2: Filtering on new articles
+        let filteredNewArticles = await this.time('Filtering', Promise.resolve(uniqueNewArticles.filter(article => this.filterArticle(article))));
+        this.logProgress(`[AGGREGATE] After initial filtering: ${filteredNewArticles.length} new articles.`);
 
-        filteredArticles = await this.time('DateFiltering', Promise.resolve(filteredArticles.filter(article => {
-            let articleDate = null;
-            if (article.publishedAt) {
-                articleDate = new Date(article.publishedAt);
-            }
+        // Step 3: Date Filtering on new articles
+        let dateFilteredNewArticles = filterArticlesByDate(filteredNewArticles);
 
-            if (!article.publishedAt || isNaN(articleDate.getTime())) {
-                const extractedDate = extractDateFromUrl(article.url);
-                if (extractedDate) {
-                    article.publishedAt = extractedDate; // Update the article with the extracted date
-                    articleDate = new Date(extractedDate);
-                    this.logProgress(`[INFO] Extracted date ${extractedDate} from URL for article: ${article.title}`);
-                } else {
-                    this.logProgress(`[FILTER] Article "${article.title}" has no valid date. Keeping it for now.`, 'warning');
-                    return true; // Keep articles with no date
-                }
-            }
-
-            if (isNaN(articleDate.getTime())) {
-                this.logProgress(`[FILTER] Article "${article.title}" has invalid date: "${article.publishedAt}". Keeping it for now.`, 'warning');
-                return true; // Keep articles with invalid dates
-            }
-
-            const sixMonthsAgo = new Date();
-            sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-            const isRecent = articleDate >= sixMonthsAgo;
-
-            if (!isRecent) {
-                this.logProgress(`[FILTER] Removing old article (${articleDate.toISOString().split('T')[0]}): ${article.title}`);
-            }
-            return isRecent;
-        })));
-        this.logProgress(`[AGGREGATE] After 6-month date filtering: ${filteredArticles.length} articles.`);
-
-        const translatedArticles = [];
+        // Step 4: Translation of new articles
+        const translatedNewArticles = [];
         const batchSize = 10;
-        for (let i = 0; i < filteredArticles.length; i += batchSize) {
-            const batch = filteredArticles.slice(i, i + batchSize);
-            this.logProgress(`[TRANSLATE] Processing batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(filteredArticles.length / batchSize)}...`);
+        for (let i = 0; i < dateFilteredNewArticles.length; i += batchSize) {
+            const batch = dateFilteredNewArticles.slice(i, i + batchSize);
+            this.logProgress(`[TRANSLATE] Processing batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(dateFilteredNewArticles.length / batchSize)}...`);
             const translatedBatch = await this.time(`TranslationBatch-${i}`, Promise.all(batch.map(article => this.translateArticle(article))));
-            translatedArticles.push(...translatedBatch);
+            translatedNewArticles.push(...translatedBatch);
         }
-        this.logProgress(`[AGGREGATE] Translation complete.`);
+        this.logProgress(`[AGGREGATE] Translation complete for new articles.`);
 
-        let finalArticles = await this.time('FinalDeduplication', Promise.resolve(this.removeDuplicatesAdvanced(translatedArticles)));
-        finalArticles.sort(sortArticles);
-        this.logProgress(`[AGGREGATE] Aggregation complete. Final article count: ${finalArticles.length}`);
-        return finalArticles;
+        // Step 5: Final AI Deduplication of new translated articles against existing ones
+        const finalDedupResult = await this.time('FinalDeduplication', deduplicateMalariaNews(translatedNewArticles, existingArticles, this.openai.apiKey));
+        let finalNewArticles = finalDedupResult.uniqueArticles;
+        
+        // Step 6: Combine and Sort
+        const finalArticleList = [...existingArticles, ...finalNewArticles];
+        finalArticleList.sort(sortArticles);
+
+        this.logProgress(`[AGGREGATE] Aggregation complete. Final article count: ${finalArticleList.length}`);
+        return finalArticleList;
+    }
+}
+
+
+// New function to push to GitHub
+async function pushToGitHub() {
+    serverLog('[GIT] Starting Git operations to push articles.json to GitHub...');
+    try {
+        // Add articles.json to staging
+        await new Promise((resolve, reject) => {
+            exec('git add articles.json', { cwd: __dirname }, (error, stdout, stderr) => {
+                if (error) {
+                    serverLog(`[GIT ERROR] git add failed: ${stderr}`, 'error');
+                    return reject(error);
+                }
+                serverLog(`[GIT] git add output: ${stdout.trim()}`);
+                resolve();
+            });
+        });
+
+        // Commit the changes
+        await new Promise((resolve, reject) => {
+            const commitMessage = "chore: Update articles.json via fetch_data script";
+            exec(`git commit -m "${commitMessage}"`, { cwd: __dirname }, (error, stdout, stderr) => {
+                if (error && !stdout.includes('nothing to commit')) { // 'nothing to commit' is not an error
+                    serverLog(`[GIT ERROR] git commit failed: ${stderr}`, 'error');
+                    return reject(error);
+                }
+                serverLog(`[GIT] git commit output: ${stdout.trim()}`);
+                resolve();
+            });
+        });
+
+        // Push to GitHub
+        await new Promise((resolve, reject) => {
+            exec('git push origin main', { cwd: __dirname }, (error, stdout, stderr) => {
+                if (error) {
+                    serverLog(`[GIT ERROR] git push failed: ${stderr}`, 'error');
+                    return reject(error);
+                }
+                serverLog(`[GIT] git push output: ${stdout.trim()}`);
+                serverLog('[GIT] Successfully pushed articles.json to GitHub.');
+                resolve();
+            });
+        });
+    } catch (error) {
+        serverLog(`[GIT CRITICAL] Failed to push to GitHub: ${error.message}`, 'error');
     }
 }
 
@@ -1091,12 +1144,23 @@ async function fetchDataAndSave() {
         serverLog(`[FINAL SUMMARY] PubMed articles with no/invalid date: ${pubmedArticlesWithNoDateCount}`);
         if (articlesWithNoDateTitles.length > 0) {
             serverLog(`[FINAL SUMMARY] Titles of articles with no/invalid date:
-${articlesWithNoDateTitles.join('\n')}`);
+${articlesWithNoDateTitles.join(' \
+')}`);
         }
 
         await fs.writeFile(outputPath, JSON.stringify(articles, null, 2));
-        await saveTranslationCache();
         serverLog(`Processing complete. Aggregated ${articles.length} articles and saved to articles.json`);
+
+        // Copy articles.json to root for GitHub Pages
+        const rootOutputPath = path.resolve(__dirname, 'articles.json');
+        await fs.copyFile(outputPath, rootOutputPath); // Use fs.copyFile for Node.js
+        serverLog(`[FILE] Copied articles.json to root for GitHub Pages.`);
+
+        await saveTranslationCache();
+
+        // Call the new function to push to GitHub
+        await pushToGitHub(); // Call this after saving and copying
+
     } catch (error) {
         serverLog(`A critical error occurred in fetchDataAndSave: ${error.message}`, 'error');
         console.error(error);
@@ -1121,3 +1185,4 @@ cron.schedule('0 2 * * *', () => {
 
 serverLog('Scheduler initialized. Waiting for the next scheduled run at 2:00 AM UTC.');
 */
+
