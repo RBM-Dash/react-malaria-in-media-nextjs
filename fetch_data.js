@@ -433,37 +433,9 @@ class EnhancedMalariaIntelligence {
     }
 
     filterArticle(article) {
-        const politicalKeywords = [
-            "military regime",
-            "coup",
-            "junta",
-            "dictatorship",
-            "authoritarian",
-            "totalitarian",
-            "sanctions",
-            "embargo",
-            "political unrest",
-            "civil unrest",
-            "protest",
-            "riot",
-            "uprising",
-            "rebellion",
-            "insurgency",
-            "genocide",
-            "ethnic cleansing",
-            "political prisoner",
-            "terrorist organization",
-            "extremist group",
-            "separatist movement",
-            "Trump cuts",
-            "USAID dismantling",
-            "US government funding cuts",
-            "USAID budget cuts"
-        ];
-
         const articleText = ((article.title || '') + ' ' + (article.description || '')).toLowerCase();
 
-        for (const keyword of politicalKeywords) {
+        for (const keyword of CONFIG.search.excludeKeywords) {
             if (articleText.includes(keyword)) {
                 this.logProgress(`[FILTER] Skipping politically sensitive article: ${article.title}`);
                 return false;
