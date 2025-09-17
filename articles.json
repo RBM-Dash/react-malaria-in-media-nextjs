@@ -382,6 +382,45 @@
     }
   },
   {
+    "id": "cbfd7119ccf986711231921085c2eae1",
+    "title": "Cameroon could be turning waste to energy: Study uncovers why it's not, and sets out solutions",
+    "description": "Many African cities still struggle with litter and garbage that is not properly disposed of. This poses serious public health risks. It attracts vectors of disease like mosquitoes and flies, and can lead to cholera and malaria outbreaks.",
+    "content": "Many African cities still struggle with litter and garbage that is not properly disposed of. This poses serious public health risks. It attracts vectors of disease like mosquitoes and flies, and can lead to cholera and malaria outbreaks.\nDumping orga... [5937 chars]",
+    "url": "https://phys.org/news/2025-09-cameroon-energy-uncovers-solutions.html",
+    "image": "https://scx2.b-cdn.net/gfx/news/hires/2025/landfills.jpg",
+    "publishedAt": "2025-09-16T19:00:01Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://phys.org/news/2025-09-cameroon-energy-uncovers-solutions.html",
+    "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2025/landfills.jpg",
+    "countryDetection": {
+      "country": "Cameroon",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "cameroon",
+      "region": "Africa"
+    },
+    "country": "Cameroon",
+    "continent": "Africa",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Le Cameroun pourrait transformer les déchets en énergie : Une étude révèle pourquoi cela ne se fait pas et propose des solutions.",
+        "description": "De nombreuses villes africaines continuent de lutter contre les déchets et les ordures qui ne sont pas correctement éliminés. Cela pose de sérieux risques pour la santé publique. Cela attire des vecteurs de maladies comme les moustiques et les mouches, et peut entraîner des épidémies de choléra et de paludisme."
+      },
+      "pt": {
+        "title": "Camarões poderia estar transformando resíduos em energia: Estudo revela por que isso não acontece e apresenta soluções.",
+        "description": "Muitas cidades africanas ainda enfrentam problemas com lixo e resíduos que não são descartados adequadamente. Isso representa sérios riscos à saúde pública. Atrai vetores de doenças, como mosquitos e moscas, e pode levar a surtos de cólera e malária."
+      },
+      "es": {
+        "title": "Camerún podría estar convirtiendo residuos en energía: Un estudio descubre por qué no lo está haciendo y propone soluciones.",
+        "description": "Muchas ciudades africanas todavía luchan con la basura y los desechos que no se eliminan adecuadamente. Esto representa graves riesgos para la salud pública. Atrae vectores de enfermedades como mosquitos y moscas, y puede provocar brotes de cólera y malaria."
+      }
+    }
+  },
+  {
     "title": "Alerta en Bolívar por detección de nueva especie de mosquito transmisor de la malaria",
     "description": "La especie ha sido hallada en zonas devastadas por la minería ilegal y la deforestaciónThe post Alerta en Bolívar por detección de nueva especie de mosquito transmisor de la malaria appeared first on Efecto Cocuyo.",
     "url": "https://efectococuyo.com/salud/alerta-en-bolivar-por-deteccion-de-nueva-especie-de-mosquito-transmisor-de-la-malaria/",
@@ -1808,6 +1847,38 @@
       },
       "es": {
         "title": "USF prof's app targets mosquito habitat, fights tropical diseases"
+      }
+    }
+  },
+  {
+    "id": "faa88f53ced88b3fbf6b829e18694a3f",
+    "title": "Malaria: le Fonds mondial redoute plus de décès d'enfants",
+    "description": "Le Fonds mondial redoute davantage de décès d'enfants de la malaria en raison des coupes de l'aide internationale. Plus réjouissant, l'organisation a affirmé mercredi à Genève avoir franchi la barre des 70 millions de vies sauvées en près de 25 ans.",
+    "content": "Plus\nAvant-postes de la recherche\nLa Suisse ne vole pas au secours des scientifiques américains\nlire plus La Suisse ne vole pas au secours des scientifiques américains\nPlus\nCinquième Suisse\nSuisses de l’étranger à temps partiel: les défis d’une vie p... [388 chars]",
+    "url": "https://www.swissinfo.ch/fre/malaria%3a-le-fonds-mondial-redoute-plus-de-d%c3%a9c%c3%a8s-d%27enfants/89980194",
+    "image": "https://www.swissinfo.ch/content/wp-content/uploads/sites/13/2025/09/3f09da05854a93e92a3beb0e2d51a4d6da05a005-89980181.jpg?ver=ca674643&fit=1200,900",
+    "publishedAt": "2025-09-10T10:00:00Z",
+    "lang": "fr",
+    "source": "Google News",
+    "language": "fr",
+    "uniqueId": "https://www.swissinfo.ch/fre/malaria%3a-le-fonds-mondial-redoute-plus-de-d%c3%a9c%c3%a8s-d%27enfants/89980194",
+    "imageUrl": "https://www.swissinfo.ch/content/wp-content/uploads/sites/13/2025/09/3f09da05854a93e92a3beb0e2d51a4d6da05a005-89980181.jpg?ver=ca674643&fit=1200,900",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "Malaria: the Global Fund fears more child deaths.",
+        "description": "The Global Fund fears more child deaths from malaria due to cuts in international aid. More encouragingly, the organization stated in Geneva on Wednesday that it has surpassed the milestone of 70 million lives saved in nearly 25 years."
+      },
+      "pt": {
+        "title": "Malária: o Fundo Global teme mais mortes de crianças.",
+        "description": "O Fundo Global teme mais mortes de crianças por malária devido aos cortes na ajuda internacional. Mais animador, a organização afirmou na quarta-feira em Genebra ter ultrapassado a marca de 70 milhões de vidas salvas em quase 25 anos."
+      },
+      "es": {
+        "title": "Malaria: el Fondo Mundial teme más muertes de niños.",
+        "description": "El Fondo Mundial teme más muertes de niños por malaria debido a los recortes en la ayuda internacional. Más alentador, la organización afirmó el miércoles en Ginebra que ha superado la barrera de los 70 millones de vidas salvadas en casi 25 años."
       }
     }
   },
@@ -9950,6 +10021,33 @@
       },
       "es": {
         "title": "Qué significan dos posibles casos locales de malaria para la salud en EE. UU."
+      }
+    }
+  },
+  {
+    "title": "Article | Trump’s global health cuts have upended the CDC’s malaria work",
+    "description": "",
+    "url": "https://news.google.com/read/CBMisAFBVV95cUxPOFc2Y3doYk53ODdFRmlYWG9rZ25ybEx4dkZOT1ZDZnZzMjRRMVVBT0FGVmdoUjdUZnoxak4wazREczJuUm83QlJWZUZQMnVDUThhTjF3VmVLMGFoOVdVbHoyTzNOcEJQS0pQOWxTenNnVGw5YUJaMXpRVS10QzhlNjU0TzBySnNGR2x1Vk5QVVE5SjF2ZWZ1SUktRTNnUmRpUklwVGc4TEJSTmdfQ3VYeA?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-20T07:00:00.000Z",
+    "source": "POLITICO Pro",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMisAFBVV95cUxPOFc2Y3doYk53ODdFRmlYWG9rZ25ybEx4dkZOT1ZDZnZzMjRRMVVBT0FGVmdoUjdUZnoxak4wazREczJuUm83QlJWZUZQMnVDUThhTjF3VmVLMGFoOVdVbHoyTzNOcEJQS0pQOWxTenNnVGw5YUJaMXpRVS10QzhlNjU0TzBySnNGR2x1Vk5QVVE5SjF2ZWZ1SUktRTNnUmRpUklwVGc4TEJSTmdfQ3VYeA?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNWxZVTFZY1hCTlZ6SmtOR3gzVFJDM0FSaVRBaWdCTWdhcEE0eFFnUXc=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Article | Les coupes dans la santé mondiale de Trump ont bouleversé le travail de la CDC sur le paludisme."
+      },
+      "pt": {
+        "title": "Artigo | Os cortes na saúde global de Trump desestabilizaram o trabalho da CDC no combate à malária"
+      },
+      "es": {
+        "title": "Artículo | Los recortes en salud global de Trump han desbaratado el trabajo del CDC en malaria"
       }
     }
   },
