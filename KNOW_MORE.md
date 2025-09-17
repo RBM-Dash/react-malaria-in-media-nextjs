@@ -1,14 +1,14 @@
-# Unveiling Global Health Insights: Your Multilingual, Multi-Region Malaria Dashboard
+# About the Malaria News & Research Dashboard
 
-Navigate the complex landscape of malaria news and research across diverse languages and regions with unparalleled clarity. This dashboard empowers you with real-time, localized intelligence, breaking down geographical and linguistic barriers to understanding. Discover how we bring you comprehensive, actionable insights from every corner of the globe.
+This dashboard is a tool for exploring news and research about malaria from around the world. It's designed to help you navigate the complex landscape of malaria news and research across different languages and regions.
 
 ## How the Dashboard Operates
 
-This interactive dashboard serves as a dynamic hub for malaria-related information, offering a streamlined way to access and analyze global trends. It provides a centralized view of news articles, scientific research, and key performance indicators (KPIs) related to malaria. Users can effortlessly filter content by various criteria, including content type (general news or scientific research), specific continents, and relevant search terms. This robust filtering capability ensures a highly tailored experience, allowing you to focus on the information most pertinent to your interests. The dashboard's intuitive interface, built with modern web technologies like React and Next.js, guarantees a smooth, responsive, and engaging user experience across all devices.
+This interactive dashboard serves as a hub for malaria-related information, offering a way to access and analyze global trends. It provides a centralized view of news articles, scientific research, and key data related to malaria. You can filter content by various criteria, including content type (general news or scientific research), specific continents, and relevant search terms. This filtering capability allows you to focus on the information most pertinent to your interests. The dashboard's interface is built with modern web technologies like React and Next.js for a smooth and responsive experience.
 
 ## Interactive Features: Filtering and Searching
 
-The dashboard is equipped with powerful interactive features that allow you to refine the content and quickly find the information that matters most to you.
+The dashboard is equipped with interactive features that allow you to refine the content and find the information that matters most to you.
 
 ### Content Filters
 
@@ -38,25 +38,21 @@ A powerful, multi-lingual search bar is available in the header. You can use thi
 *   The English, French, Spanish, and Portuguese translations of the title and description.
 *   The detected country of the article.
 
-This allows you to search for a term in one language and find relevant articles that may have been originally published in another, breaking down language barriers in your research.
+This allows you to search for a term in one language and find relevant articles that may have been originally published in another.
 
 ## Who Can Benefit from this Dashboard?
 
-This dashboard is designed to serve a wide range of professionals and organizations involved in the global effort to combat malaria. Its comprehensive and multi-faceted data provides valuable insights for:
+This dashboard is designed to be useful for a wide range of professionals and organizations involved in the global effort to combat malaria. Its comprehensive and multi-faceted data can provide valuable insights for:
 
-*   **Public Health Professionals & NGOs:** Monitor real-time news and public health announcements in high-burden countries to inform programmatic decisions, track disease outbreaks, and understand community-level concerns and responses.
-*   **Researchers & Academics:** Stay updated on the latest scientific publications from sources like PubMed and DOAJ, and track how research findings are being discussed in the public sphere. The dashboard can help identify research gaps and opportunities.
-*   **Policymakers & Government Agencies:** Gain a high-level overview of the malaria situation in different regions, understand the impact of health policies, and monitor media coverage of public health campaigns.
-*   **Journalists & Media Professionals:** Quickly access a curated stream of global news and research to support reporting, identify trends, and find localized stories from a variety of international and regional sources.
-*   **Funding & Advocacy Organizations:** Use the dashboard to gather evidence, provide visibility on the situation in high-malaria-burden countries, and support advocacy efforts with up-to-date information.
-
-By providing a centralized, translated, and searchable platform, the dashboard helps to break down information silos and offers a unique, panoramic view of the global malaria landscape.
-
-
+*   **Public Health Professionals & NGOs:** To monitor real-time news and public health announcements in high-burden countries to inform programmatic decisions, track disease outbreaks, and understand community-level concerns and responses.
+*   **Researchers & Academics:** To stay updated on the latest scientific publications from sources like PubMed and DOAJ, and track how research findings are being discussed in the public sphere. The dashboard can help identify research gaps and opportunities.
+*   **Policymakers & Government Agencies:** To gain a high-level overview of the malaria situation in different regions, understand the impact of health policies, and monitor media coverage of public health campaigns.
+*   **Journalists & Media Professionals:** To quickly access a curated stream of global news and research to support reporting, identify trends, and find localized stories from a variety of international and regional sources.
+*   **Funding & Advocacy Organizations:** To use the dashboard to gather evidence, provide visibility on the situation in high-malaria-burden countries, and support advocacy efforts with up-to-date information.
 
 ## Data Sources
 
-Our commitment to providing a comprehensive and accurate overview of global malaria trends is underpinned by our meticulous aggregation of data from a diverse array of highly reputable and specialized sources. The `fetch_data.js` script automatically collects, processes, and enriches data from this entire ecosystem.
+To provide a comprehensive overview of global malaria trends, the dashboard gathers data from a diverse array of reputable and specialized sources. The `fetch_data.js` script automatically collects, processes, and enriches data from this ecosystem.
 
 ### Major News Aggregators
 *   **Google News (API & RSS):** Provides a cornerstone for real-time news, accessing a vast collection of articles from thousands of international and local news outlets.
@@ -85,15 +81,15 @@ Our commitment to providing a comprehensive and accurate overview of global mala
 
 ## Multilingual and Multi-Region Focus
 
-A core strength of this dashboard lies in its unwavering commitment to multilingualism and multi-region coverage. We understand that malaria is a global challenge, and effective understanding requires access to information from all affected areas.
+A core feature of this dashboard is its focus on multilingualism and multi-region coverage. Malaria is a global challenge, and a broad understanding requires access to information from all affected areas.
 
 *   **Global Reach:** Our data collection spans across all continents, ensuring that news and research from every region impacted by malaria are represented. This includes articles from Africa, Asia, Latin America, North America, Europe, and the Caribbean, providing a truly global perspective.
-*   **Seamless Translation:** Every article on the dashboard is available with on-demand translation into multiple languages (currently English, French, Spanish, and Portuguese). This feature is powered by advanced machine translation, allowing users to instantly grasp the content of articles published in languages other than their own. This breaks down language barriers, fostering a more inclusive and comprehensive understanding of global malaria efforts.
-*   **Localized Context:** By integrating articles from diverse regional sources and providing continent-specific filtering, the dashboard allows users to delve into localized contexts and understand the unique challenges and successes in different parts of the world.
+*   **Seamless Translation:** Every article on the dashboard is available with on-demand translation into multiple languages (currently English, French, Spanish, and Portuguese). This feature is powered by machine translation, allowing you to instantly grasp the content of articles published in languages other than their own.
+*   **Localized Context:** By integrating articles from diverse regional sources and providing continent-specific filtering, the dashboard allows you to delve into localized contexts and understand the unique challenges and successes in different parts of the world.
 
 ## Frequency of Updates
 
-To ensure the dashboard remains a timely and relevant resource, our data is updated on a daily basis. The `fetch_data.js` script is scheduled to run once every 24 hours, systematically refreshing the `articles.json` dataset. This daily update cycle ensures that the dashboard consistently reflects the most recent news, research, and developments in the fight against malaria, providing you with fresh insights every day.
+To ensure the dashboard remains a timely and relevant resource, our data is updated on a daily basis. The `fetch_data.js` script is scheduled to run once every 24 hours, systematically refreshing the `articles.json` dataset. This daily update cycle ensures that the dashboard consistently reflects the most recent news, research, and developments in the fight against malaria.
 
 ## Disclaimers
 
