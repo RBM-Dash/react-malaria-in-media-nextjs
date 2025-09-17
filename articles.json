@@ -328,6 +328,33 @@
     "continent": "Global"
   },
   {
+    "title": "College endorses competition to combat malaria",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiiwFBVV95cUxPNnBrblB3cS1EX2N5aXBOM2k1TlN5Wm4zVnRRWWRWOFh2MWkzMERrTW1YaFQzTl94TFFVVjlTWlhYV09Hc2hZUTJrdEw3UFZPQXlERUl1RTJyVURka1hacjNSWEdEMEMtM04weHoxTXE5cXRsc1hGRk5HQS1pVlJtS3V3Z1RUOXk2VnJn?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-17T10:48:17.000Z",
+    "source": "The Guardian Nigeria News",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiiwFBVV95cUxPNnBrblB3cS1EX2N5aXBOM2k1TlN5Wm4zVnRRWWRWOFh2MWkzMERrTW1YaFQzTl94TFFVVjlTWlhYV09Hc2hZUTJrdEw3UFZPQXlERUl1RTJyVURka1hacjNSWEdEMEMtM04weHoxTXE5cXRsc1hGRk5HQS1pVlJtS3V3Z1RUOXk2VnJn?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iI0NnNDBZek41YUhaeFgxYzFaWHBaVFJDbkF4aldCU2dLTWdB=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Le collège soutient une compétition pour lutter contre le paludisme."
+      },
+      "pt": {
+        "title": "Faculdade apoia competição para combater a malária"
+      },
+      "es": {
+        "title": "La universidad apoya una competencia para combatir la malaria."
+      }
+    }
+  },
+  {
     "title": "Rwanda: Inside Govt Plan to Curb Rising Malaria Cases",
     "pubDate": "2025-09-17 08:38:23",
     "link": "https://allafrica.com/stories/202509170132.html",
@@ -12410,6 +12437,33 @@
     }
   },
   {
+    "title": "Surprising malaria case in western Washington state prompts close look at region’s mosquitoes",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiugFBVV95cUxPSmVhV09BRVlrd2JuQlJWMkhPalBEUTRjZ21zaXdtUjNMMVUzOFQ5VmxlRmZGTkpOc1hubHBhdk1IclNJWUl1R21uNE1pSXpYaDltMXRoMkJ2OHBxOEZwZnB6YkROWGVhZE80MHplZUdsNlhJeUxveVpQVjlUNmhLU3V4bnRqZ1NWWElNODlzdEw0Mk1ZUnB5Y2pQR2FiazF6SnNaZ2ozUm10NW54TFh6X0YtQ1lpYjA1OXc?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-11T07:00:00.000Z",
+    "source": "Anchorage Daily News",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiugFBVV95cUxPSmVhV09BRVlrd2JuQlJWMkhPalBEUTRjZ21zaXdtUjNMMVUzOFQ5VmxlRmZGTkpOc1hubHBhdk1IclNJWUl1R21uNE1pSXpYaDltMXRoMkJ2OHBxOEZwZnB6YkROWGVhZE80MHplZUdsNlhJeUxveVpQVjlUNmhLU3V4bnRqZ1NWWElNODlzdEw0Mk1ZUnB5Y2pQR2FiazF6SnNaZ2ozUm10NW54TFh6X0YtQ1lpYjA1OXc?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNUpSV2xDVWtWd1ZreHRia1ZOVFJESkF4aWZCU2dLTWdhaFE1eHVuUWs=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Un cas de paludisme surprenant dans l'État de Washington occidental incite à examiner de près les moustiques de la région."
+      },
+      "pt": {
+        "title": "Caso surpreendente de malária no estado de Washington ocidental leva a uma análise cuidadosa dos mosquitos da região."
+      },
+      "es": {
+        "title": "Un sorprendente caso de malaria en el estado de Washington occidental provoca un examen detallado de los mosquitos de la región."
+      }
+    }
+  },
+  {
     "source": "NewsAPI",
     "author": "Ryan Kerubo",
     "title": "More than just temperature: What fever means for your child's well-being",
@@ -15161,6 +15215,60 @@
     "relevanceScore": 35
   },
   {
+    "title": "Novartis receives approval for first malaria medicine for newborn babies and young infants",
+    "description": "",
+    "url": "https://news.google.com/read/CBMixgFBVV95cUxNbHNiVUt6MUxELUVhcERISU5RVkZVVkhTNWJSXzhHR19XOTI2WEF5MFZWREY1Sk14ODZkOWkzaEphUmtGRG5yTzJOeTJOeEhnS1MycDRYUF9vZEhPMFRwYVV4ejF3N0c2WF91NHhleGxIbnJkekVWWndoOFlZRENIZ1l3QkoxdXdZX3R6eWRFb1c5eDR3WWJNMm1ybmRBbGxQNmRIQV83YTR4anZDb243NnZQUWVWQk4wLTI5VWF1Y0VWc3FFekE?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-07-08T07:00:00.000Z",
+    "source": "Novartis",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMixgFBVV95cUxNbHNiVUt6MUxELUVhcERISU5RVkZVVkhTNWJSXzhHR19XOTI2WEF5MFZWREY1Sk14ODZkOWkzaEphUmtGRG5yTzJOeTJOeEhnS1MycDRYUF9vZEhPMFRwYVV4ejF3N0c2WF91NHhleGxIbnJkekVWWndoOFlZRENIZ1l3QkoxdXdZX3R6eWRFb1c5eDR3WWJNMm1ybmRBbGxQNmRIQV83YTR4anZDb243NnZQUWVWQk4wLTI5VWF1Y0VWc3FFekE?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Novartis reçoit l'approbation pour le premier médicament contre le paludisme destiné aux nouveau-nés et aux jeunes nourrissons."
+      },
+      "pt": {
+        "title": "A Novartis recebe aprovação para o primeiro medicamento contra a malária para recém-nascidos e lactentes."
+      },
+      "es": {
+        "title": "Novartis recibe aprobación para el primer medicamento contra la malaria para recién nacidos y bebés jóvenes."
+      }
+    }
+  },
+  {
+    "title": "Malaria deaths spiked during the pandemic, study finds",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiiwFBVV95cUxNMWJLa3FzYmN1bGZ4LVVYdTB4RGl0RVNyNFluUkNDOHhsY1dBLXZjXzEweGZvbkFuMGRhbG5sTmpwUWR5NDVUWFRMS1BBUlo0ODhKQ3lxUHVjS2p5VDJEUWJFblk2Q1QtdEFHTTMxSklzemlfZTJkaU1mNmZBenNFUG1MVElWTWpXYzRV?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-07-08T07:00:00.000Z",
+    "source": "Gavi, the Vaccine Alliance",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiiwFBVV95cUxNMWJLa3FzYmN1bGZ4LVVYdTB4RGl0RVNyNFluUkNDOHhsY1dBLXZjXzEweGZvbkFuMGRhbG5sTmpwUWR5NDVUWFRMS1BBUlo0ODhKQ3lxUHVjS2p5VDJEUWJFblk2Q1QtdEFHTTMxSklzemlfZTJkaU1mNmZBenNFUG1MVElWTWpXYzRV?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNDBYemRTTTFsa1psaE1lbTkzVFJDM0FSaVRBaWdCTWdZVlFveHZIUWc=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 40,
+    "translations": {
+      "fr": {
+        "title": "Les décès dus au paludisme ont augmenté pendant la pandémie, selon une étude."
+      },
+      "pt": {
+        "title": "Estudos encontraram que as mortes por malária aumentaram durante a pandemia."
+      },
+      "es": {
+        "title": "Las muertes por malaria aumentaron durante la pandemia, encuentra un estudio."
+      }
+    }
+  },
+  {
     "title": "Investigating the relationship between &lt;i&gt;Pfkelch13&lt;/i&gt; mutations and response to artemisinin-based treatment for uncomplicated falciparum malaria: a protocol for a systematic review and individual patient data meta-analysis.",
     "publishedAt": "2025-07-08",
     "source": "Europe PMC",
@@ -16595,6 +16703,33 @@
     }
   },
   {
+    "title": "Study shows promise in targeting the parasite that causes malaria",
+    "description": "",
+    "url": "https://news.google.com/read/CBMinwFBVV95cUxQbGxEQjBQUW5LU01WZmE2M0hmNVZhSHRjaTFSa0UzQzN1bmVSc2xIMmVQQzBkRWNqeFdKQ05hWnhoc3pEWWc1RGozbVhfMTlvdkE5ZE04bUJ5ZUx2b25DcVVRUXdEbzhENVZLLVBoSHFLZGozUDNLTy1veWlRem0taFNjeW9mb2ltOXFsT2lVYS1KYm5XbFNHeF9GZnRmQnM?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-05-21T07:00:00.000Z",
+    "source": "OHSU News",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMinwFBVV95cUxQbGxEQjBQUW5LU01WZmE2M0hmNVZhSHRjaTFSa0UzQzN1bmVSc2xIMmVQQzBkRWNqeFdKQ05hWnhoc3pEWWc1RGozbVhfMTlvdkE5ZE04bUJ5ZUx2b25DcVVRUXdEbzhENVZLLVBoSHFLZGozUDNLTy1veWlRem0taFNjeW9mb2ltOXFsT2lVYS1KYm5XbFNHeF9GZnRmQnM?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNHllbnAyVTFJMFpuRllSME5IVFJDM0FSaVRBaWdCTWdhQk01QUhuZ2M=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Une étude montre des promesses dans le ciblage du parasite qui cause le paludisme."
+      },
+      "pt": {
+        "title": "Estudo mostra promessas em direcionar o parasita que causa a malária."
+      },
+      "es": {
+        "title": "Un estudio muestra promesas en la lucha contra el parásito que causa la malaria."
+      }
+    }
+  },
+  {
     "title": "A dendrimer-based dual delivery system for artesunate and fluconazole: Effective malaria treatment in a murine model of Plasmodium berghei.",
     "publishedAt": "2025-05-21",
     "source": "Europe PMC",
@@ -17555,6 +17690,33 @@
       },
       "es": {
         "title": "Impacto en la salud pública de la quimioprofilaxis perenne contra la malaria, actual y propuesta, ampliada por edad: un estudio de modelado."
+      }
+    }
+  },
+  {
+    "title": "Malaria vectors with leaky guts",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiX0FVX3lxTE9jb2tMWDdVTHdWYmJqWFEyWjNlMklLV1pDS2ltME5rZzVVaTJvR1hIOEs4bVZrc3kxeklkaUY1ZG1RRWx4YlVxUTZpUGFmb0JVaXZSZ0ZQdzUyVXZvRS00?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-03-20T07:00:00.000Z",
+    "source": "Nature",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiX0FVX3lxTE9jb2tMWDdVTHdWYmJqWFEyWjNlMklLV1pDS2ltME5rZzVVaTJvR1hIOEs4bVZrc3kxeklkaUY1ZG1RRWx4YlVxUTZpUGFmb0JVaXZSZ0ZQdzUyVXZvRS00?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNWlTbHBsTlhGRVdFaExkVkJFVFJDakJCaXhCQ2dLTWdZQklZeGtwZ2M=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Vecteurs de la malaria avec des intestins perméables"
+      },
+      "pt": {
+        "title": "Vetores de malária com intestinos permeáveis"
+      },
+      "es": {
+        "title": "Vectores de malaria con intestinos permeables"
       }
     }
   },
