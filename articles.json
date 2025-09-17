@@ -328,6 +328,67 @@
     "continent": "Global"
   },
   {
+    "title": "Mumbai Sees Sharp Rise in Malaria, Chikungunya and Hepatitis; BMC Steps Up Control Measures",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiuwFBVV95cUxPdW9zQXNlV2dvc0JYR0NSUmxWcmx2U1hfNGNUWFVTc3Q4dEFLdWx1MjExYU1XUUkwU3UxUmtvb0dXNm1RTWFuNFFPTm01ZThhM3BfZnZIVjgtQVpCWjlIb1FNSl8wTGliZEh1TjNqYnBlSDVfcjRIX3hzdGpqUnhqODB6OEN2cVZLVlRzaDNWai1uYXpHX1hPZE5mRUx6X3FXS28zZWxPb2FDc2RQTTlYWlZneV9DeTZlY3NJ?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-17T11:38:55.000Z",
+    "source": "The Logical Indian",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiuwFBVV95cUxPdW9zQXNlV2dvc0JYR0NSUmxWcmx2U1hfNGNUWFVTc3Q4dEFLdWx1MjExYU1XUUkwU3UxUmtvb0dXNm1RTWFuNFFPTm01ZThhM3BfZnZIVjgtQVpCWjlIb1FNSl8wTGliZEh1TjNqYnBlSDVfcjRIX3hzdGpqUnhqODB6OEN2cVZLVlRzaDNWai1uYXpHX1hPZE5mRUx6X3FXS28zZWxPb2FDc2RQTTlYWlZneV9DeTZlY3NJ?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iL0NnNUlVVmMwV1RKT1ZubEVRVkJCVFJDcUJCaXFCQ2dLTWdrQk1JaEIweU1temdF=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": {
+      "country": "India",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "city",
+      "term": "mumbai",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 45,
+    "translations": {
+      "fr": {
+        "title": "Mumbai connaît une forte hausse des cas de paludisme, de chikungunya et d'hépatite ; la BMC renforce les mesures de contrôle."
+      },
+      "pt": {
+        "title": "Mumbai Registra Aumento Afiado em Malária, Chikungunya e Hepatite; BMC Intensifica Medidas de Controle"
+      },
+      "es": {
+        "title": "Mumbai observa un aumento significativo en malaria, chikungunya y hepatitis; BMC intensifica medidas de control."
+      }
+    }
+  },
+  {
+    "title": "The great mosquito resurgence",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiqgFBVV95cUxPZm1QczhRa29BTVJVc2VPSHk2U0VSYnlSTVJ6bzlQb2Fac0hGeDVVeWlrQlFUNGdOZFhmT204WEZEV3JfMHRhcUw4Q29HdmVEQ0tKQm1Pc2ZqenVURWJXS0MxUEhOR1pseTNKemxjMmZtdElTU3RWSGF0SkotQmh0T0MwaklVV1ZXU1BrMkJ3Z3drbEx4Uk1hQjJ2b3dnWW50QW1lUlJJaDNCdw?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-17T11:30:00.000Z",
+    "source": "vox.com",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiqgFBVV95cUxPZm1QczhRa29BTVJVc2VPSHk2U0VSYnlSTVJ6bzlQb2Fac0hGeDVVeWlrQlFUNGdOZFhmT204WEZEV3JfMHRhcUw4Q29HdmVEQ0tKQm1Pc2ZqenVURWJXS0MxUEhOR1pseTNKemxjMmZtdElTU3RWSGF0SkotQmh0T0MwaklVV1ZXU1BrMkJ3Z3drbEx4Uk1hQjJ2b3dnWW50QW1lUlJJaDNCdw?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iJ0NnNVhkamN0VWw5VmRtUmFNR3hEVFJDc0JCaW5CQ2dLTWdNaEloZw=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Le grand retour des moustiques"
+      },
+      "pt": {
+        "title": "O grande ressurgimento dos mosquitos"
+      },
+      "es": {
+        "title": "El gran resurgimiento de los mosquitos"
+      }
+    }
+  },
+  {
     "title": "College endorses competition to combat malaria",
     "description": "",
     "url": "https://news.google.com/read/CBMiiwFBVV95cUxPNnBrblB3cS1EX2N5aXBOM2k1TlN5Wm4zVnRRWWRWOFh2MWkzMERrTW1YaFQzTl94TFFVVjlTWlhYV09Hc2hZUTJrdEw3UFZPQXlERUl1RTJyVURka1hacjNSWEdEMEMtM04weHoxTXE5cXRsc1hGRk5HQS1pVlJtS3V3Z1RUOXk2VnJn?hl=en-US&gl=US&ceid=US%3Aen",
@@ -399,6 +460,40 @@
       "es": {
         "title": "Ruanda: Dentro del plan del gobierno para frenar el aumento de casos de malaria.",
         "description": "[Nuevos Tiempos] Ruanda ha registrado un resurgimiento de la malaria después de casi seis años de progreso constante en la reducción de la enfermedad. Entre 2017 y 2023, los casos habían disminuido en un 90 por ciento, pero las infecciones han vuelto a aumentar desde enero de 2024."
+      }
+    }
+  },
+  {
+    "title": "Sudan: Malaria, Dengue, Typhoid Spread As Mosquitos Multiply in Sudan Capital",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiW0FVX3lxTFBHcF80dnhJX3QwSlJQODZScjRha1NhRHRqb01fdnRXamk4S1QzSW4tRmg0RG9yNE9WTU9WUjVUZUJ3ZVNXaUxMay1PQ0xIdjBCNWlTaXdveWFoZEU?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-17T05:00:17.000Z",
+    "source": "allAfrica.com",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiW0FVX3lxTFBHcF80dnhJX3QwSlJQODZScjRha1NhRHRqb01fdnRXamk4S1QzSW4tRmg0RG9yNE9WTU9WUjVUZUJ3ZVNXaUxMay1PQ0xIdjBCNWlTaXdveWFoZEU?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNTBkbGhHUzAxblRrdHFMVkUzVFJDeEF4akVCU2dLTWdZUlZad0pKZ2s=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": {
+      "country": "Sudan",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "sudan",
+      "region": "Africa"
+    },
+    "country": "Sudan",
+    "continent": "Africa",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Soudan : Malaria, dengue, typhoïde se propagent alors que les moustiques se multiplient dans la capitale soudanaise."
+      },
+      "pt": {
+        "title": "Sudão: Malária, Dengue e Tifo se Espalham à Medida que Mosquitos se Multiplicam na Capital do Sudão"
+      },
+      "es": {
+        "title": "Sudán: Malaria, Dengue y Tifus se Propagan a Medida que los Mosquitos se Multiplican en la Capital de Sudán."
       }
     }
   },
@@ -487,6 +582,84 @@
       },
       "es": {
         "title": "El mayor aumento de malaria en 8 años; el departamento de salud intensifica la vigilancia."
+      }
+    }
+  },
+  {
+    "title": "GUINÉE / SANTÉ : Vers la vulgarisation de la plante Artemisia annua contre le paludisme",
+    "description": "L’article GUINÉE / SANTÉ : Vers la vulgarisation de la plante Artemisia annua contre le paludisme est apparu en premier sur AGP GUINEE.",
+    "url": "https://agpguinee.com/guinee-sante-vers-la-vulgarisation-de-la-plante-artemisia-annua-contre-le-paludisme/",
+    "publishedAt": "2025-09-16 23:59:58",
+    "source": "NewsData.io",
+    "language": "french",
+    "uniqueId": "https://agpguinee.com/guinee-sante-vers-la-vulgarisation-de-la-plante-artemisia-annua-contre-le-paludisme/",
+    "imageUrl": "https://agpguinee.com/wp-content/uploads/2025/09/sddefault-23.jpg",
+    "countryDetection": {
+      "country": "Oman",
+      "probability": 0.85,
+      "risk": "Low-Moderate",
+      "type": "city",
+      "term": "sur",
+      "region": "Asia"
+    },
+    "country": "Oman",
+    "continent": "Asia",
+    "relevanceScore": 35,
+    "translations": {
+      "en": {
+        "title": "GUINEA / HEALTH: Towards the popularization of the plant Artemisia annua against malaria",
+        "description": "The article GUINEA / HEALTH: Towards the popularization of the plant Artemisia annua against malaria first appeared on AGP GUINEA."
+      },
+      "fr": {
+        "title": "GUINÉE / SANTÉ : Vers la vulgarisation de la plante Artemisia annua contre le paludisme",
+        "description": "L’article GUINÉE / SANTÉ : Vers la vulgarisation de la plante Artemisia annua contre le paludisme est apparu en premier sur AGP GUINÉE."
+      },
+      "pt": {
+        "title": "GUINÉIA / SAÚDE: Rumo à vulgarização da planta Artemisia annua contra a malária",
+        "description": "O artigo GUINÉ / SAÚDE: Rumo à vulgarização da planta Artemisia annua contra a malária apareceu primeiro na AGP GUINÉ."
+      },
+      "es": {
+        "title": "GUINEA / SALUD: Hacia la vulgarización de la planta Artemisia annua contra la malaria.",
+        "description": "El artículo GUINEA / SALUD: Hacia la divulgación de la planta Artemisia annua contra la malaria apareció primero en AGP GUINEA."
+      }
+    }
+  },
+  {
+    "title": "Highest Malaria spike in 8 years; Health dept steps up vigil - The Times of India",
+    "description": "Highest Malaria spike in 8 years; Health dept steps up vigil The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdkh4bDg3bE5sUVFoak5OMjI2VXhYVlRiS1Q0LS1uemxKYUZLNVZoWnVzV0JUXzhacGl3OWJVQVotMm5mVkh2TEo1SWVGMDRwQ3RuanF3MDI0TWF3VTlCTmNHQzdnaDhEYVJQZXk0dHZmTlBSRWw4VWJHRWVmTVVuRkhJd1JSdE4tOE9VZThCdkVnZUthbHFKNTg1b0pPS1ZENUVtQl85Mk1HLWV5dDdSNzZJZC1MOV8xQXY0bnVaeXJHS1A1WUF5Q05lZzRiR1V00gHWAUFVX3lxTFBxUHZIZFhic0cxUXZWR3dHN0lCRnppNzZJeWR5UWlnUTA2ZXhROHJBWUFUM1lQdTJ2S3NlOW0zMFlvNG11bnRCRm1odXRYQlVoSEJuWlVVTExEUkJ5eG5WcUxDakhsTEgxa2dIMEwwSTl5V3M4Sm9ySzV1LUh2WklYdkVvWnZjc1NJMGZlY0IzZWpSdjlibFczU0MxaFVpSFRKZ1JNSXcxWk11YXpkbjRiWko4MlhnZzlxTnJuMDZzZ09WMmFyZXB4SFZKUlo2LVFjWDBMcEE?oc=5",
+    "publishedAt": "2025-09-16 23:25:00",
+    "source": "NewsData.io",
+    "language": "english",
+    "uniqueId": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdkh4bDg3bE5sUVFoak5OMjI2VXhYVlRiS1Q0LS1uemxKYUZLNVZoWnVzV0JUXzhacGl3OWJVQVotMm5mVkh2TEo1SWVGMDRwQ3RuanF3MDI0TWF3VTlCTmNHQzdnaDhEYVJQZXk0dHZmTlBSRWw4VWJHRWVmTVVuRkhJd1JSdE4tOE9VZThCdkVnZUthbHFKNTg1b0pPS1ZENUVtQl85Mk1HLWV5dDdSNzZJZC1MOV8xQXY0bnVaeXJHS1A1WUF5Q05lZzRiR1V00gHWAUFVX3lxTFBxUHZIZFhic0cxUXZWR3dHN0lCRnppNzZJeWR5UWlnUTA2ZXhROHJBWUFUM1lQdTJ2S3NlOW0zMFlvNG11bnRCRm1odXRYQlVoSEJuWlVVTExEUkJ5eG5WcUxDakhsTEgxa2dIMEwwSTl5V3M4Sm9ySzV1LUh2WklYdkVvWnZjc1NJMGZlY0IzZWpSdjlibFczU0MxaFVpSFRKZ1JNSXcxWk11YXpkbjRiWko4MlhnZzlxTnJuMDZzZ09WMmFyZXB4SFZKUlo2LVFjWDBMcEE?oc=5",
+    "imageUrl": null,
+    "countryDetection": {
+      "country": "India",
+      "probability": 1,
+      "risk": "Moderate",
+      "type": "country",
+      "term": "india",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 35,
+    "translations": {
+      "en": {
+        "title": "Highest malaria spike in 8 years; Health department increases vigilance - The Times of India",
+        "description": "Highest malaria spike in 8 years; Health department increases vigilance - The Times of India"
+      },
+      "fr": {
+        "title": "Pic de paludisme le plus élevé en 8 ans ; le ministère de la Santé renforce sa vigilance - The Times of India",
+        "description": "Pic de paludisme le plus élevé en 8 ans ; Le département de la santé renforce sa vigilance - The Times of India"
+      },
+      "pt": {
+        "title": "Maior aumento de Malária em 8 anos; Departamento de Saúde intensifica vigilância - The Times of India",
+        "description": "Pico mais alto de malária em 8 anos; Departamento de Saúde intensifica vigilância - The Times of India"
+      },
+      "es": {
+        "title": "Pico más alto de malaria en 8 años; el departamento de salud intensifica la vigilancia - The Times of India",
+        "description": "Pico más alto de malaria en 8 años; el departamento de salud intensifica la vigilancia. The Times of India."
       }
     }
   },
@@ -597,6 +770,33 @@
       "es": {
         "title": "Camerún podría estar convirtiendo residuos en energía: Un estudio descubre por qué no lo está haciendo y propone soluciones.",
         "description": "Muchas ciudades africanas todavía luchan con la basura y los desechos que no se eliminan adecuadamente. Esto representa graves riesgos para la salud pública. Atrae vectores de enfermedades como mosquitos y moscas, y puede provocar brotes de cólera y malaria."
+      }
+    }
+  },
+  {
+    "title": "Malaria, chikungunya cases rise; dengue, gastro see dip: BMC report",
+    "description": "",
+    "url": "https://news.google.com/read/CBMivgFBVV95cUxPSERwYjZsYzVPXzFraS1tbHRTVDREeWNJX0t3Y3BPQWdlMTcyTjJSTHVTeGJUYlZZaGNOTk9vQXd5dVo5b2haTFRtZnpQa2V2UkJvSmp1OUpDNUJUQUk0UDdQSmVDMVpzTl9xOVNlekhyQk5EYjI0SVE1Y1pRVUFGVko5a0JTTE9tYUo5S1c0M0luYnphd0dXTVpydmtnTHI1R1lQSUxDTmZrVnlsYnpjeGNNNXdEbEl1YVJsdkVB0gHEAUFVX3lxTE9LSm9XdVVEVEZxOW9HRFFQamt1MEZaNmJOU0pEWkw3TFFubGlmclBqeVJKbENqQUI0UkdyRG80MDd2NEhKalJGUFd4SEEyX2dpQ0FpRXFHRzV5TE9OVktVM3VHV0tLV3FQcVd0TTVHQmJkLVFDSjF1V1VkVjJhTFl3QlZCMkMzMG91MmFqMHd1di14am1QWE11THZ1SHowazlndFpBbXBmTzlVbmhIUFJPSmRWcFVwanhZMDR6NnJ5bUpLc1Q?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-16T17:32:37.000Z",
+    "source": "The Indian Express",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMivgFBVV95cUxPSERwYjZsYzVPXzFraS1tbHRTVDREeWNJX0t3Y3BPQWdlMTcyTjJSTHVTeGJUYlZZaGNOTk9vQXd5dVo5b2haTFRtZnpQa2V2UkJvSmp1OUpDNUJUQUk0UDdQSmVDMVpzTl9xOVNlekhyQk5EYjI0SVE1Y1pRVUFGVko5a0JTTE9tYUo5S1c0M0luYnphd0dXTVpydmtnTHI1R1lQSUxDTmZrVnlsYnpjeGNNNXdEbEl1YVJsdkVB0gHEAUFVX3lxTE9LSm9XdVVEVEZxOW9HRFFQamt1MEZaNmJOU0pEWkw3TFFubGlmclBqeVJKbENqQUI0UkdyRG80MDd2NEhKalJGUFd4SEEyX2dpQ0FpRXFHRzV5TE9OVktVM3VHV0tLV3FQcVd0TTVHQmJkLVFDSjF1V1VkVjJhTFl3QlZCMkMzMG91MmFqMHd1di14am1QWE11THZ1SHowazlndFpBbXBmTzlVbmhIUFJPSmRWcFVwanhZMDR6NnJ5bUpLc1Q?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNUJZbVU0WjNCaVNGRlFkSEZEVFJDZkF4ampCU2dLTWdhbHBKRE1PUVk=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 40,
+    "translations": {
+      "fr": {
+        "title": "Les cas de paludisme et de chikungunya augmentent ; le dengue et la gastro-entérite enregistrent une baisse : rapport de la BMC."
+      },
+      "pt": {
+        "title": "Casos de malária e chikungunya aumentam; dengue e gastroenterite apresentam queda: relatório da BMC."
+      },
+      "es": {
+        "title": "Aumentan los casos de malaria y chikungunya; dengue y gastro ven un descenso: informe de BMC."
       }
     }
   },
@@ -1322,6 +1522,34 @@
     "country": "WHO",
     "continent": "Global",
     "relevanceScore": 55
+  },
+  {
+    "title": "Interplay of obesity and parasitic infection: current evidence of immunogenesis, tumorigenesis and leptin receptor involvement",
+    "description": "BackgroundParasitic infections possess comparable risk factors to obesity. In addition, obesity impairs innate and adaptive immunity subsequently increasing vulnerability to infectious diseases.AimThe study investigated the leptin/leptin receptors, obesity-parasites mutual relationship and the effect of parasitic infections on immune metabolism, microbiota, and tumorigenesis in the context of obesity.MethodologyTo implement the current review, articles were gathered using the Egyptian Knowledge Bank (EKB), Web of Science, PubMed, and Google Scholar.ConclusionLeptin enhances anti-parasitic immunity. Obesity favors intestinal colonization of Blastocystis sp., Dientamoeba fragilis, Entamoeba coli, and Giardia intestinalis. Adipocytes act as a niche and a food source for Trypanosoma cruzi, Trypanosoma brucei, and Plasmodium. In addition, Toxoplasma gondii relies on the circulatory cholesterol to thrive. Obesity provokes low-grade chronic inflammation and metabolic syndrome. Yet, Nippostrongylus brasiliensis and Fasciola hepatica attempted to alleviate inflammation and metabolic syndrome. Hookworm improves insulin resistance. However, parasites such as Schistosoma mansoni, Trichuris suis, Taenia pisiformis, Entamoeba histolytica, Trypanosoma cruzi, and Trypanosoma brucei, and Toxoplasma aggravated metabolic immune metabolic syndrome. Obesity hampered immunity against Leishmania sp.. and Plasmodium sp. is diabetogenic. Giardia infection and Heligmosoides polygyrus infections induce dysbiosis in obesity. Obesity and parasites like Trichomonas vaginalis, S. haematobium, S. mansoni, Clonorchis sinensis, Opishorchis viverrini showed similar cancer types. Yet, Toxoplasma gondii and Echinococcus granulosus have anti-tumorigenic effects. Obesity/high-fat diet hinders Schistosoma mansoni, Trichuris muris, and Entamoeba histolytica infections. Also, Blastocystis sp., Dientamoeba fragilis, Giardia intestinalis, Trichinella spiralis, and Schistosoma appeared to have ameliorative effects in obesity.",
+    "publishedAt": "2025-09-15",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40954459/",
+    "source": "PMC",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pmid-40954459",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 40
+  },
+  {
+    "title": "It is time to increase Africa’s governmental representation on the governing board of the global fund to fight AIDS, tuberculosis and malaria",
+    "description": "",
+    "publishedAt": "2025-09-15",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40954071/",
+    "source": "PMC",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pmid-40954071",
+    "countryDetection": null,
+    "country": "Africa",
+    "continent": "Africa",
+    "relevanceScore": 35
   },
   {
     "id": "538512d7dd088916355486911e345d71",
