@@ -97,6 +97,39 @@ function sortArticles(a, b) {
     return dateB - dateA;
 }
 
+// Helper function to parse various date formats
+function parseDateString(dateString) {
+    if (!dateString) return null;
+    let date = new Date(dateString);
+    if (!isNaN(date.getTime())) {
+        return date.toISOString();
+    }
+
+    // Try common RSS date formats
+    const formats = [
+        "ddd, DD MMM YYYY HH:mm:ss ZZ", // RFC 822, 1036, 1123, 2822
+        "YYYY-MM-DDTHH:mm:ssZ",        // ISO 8601
+        "YYYY-MM-DD HH:mm:ss",
+        "DD MMM YYYY HH:mm:ss",
+        "MMM DD, YYYY HH:mm:ss"
+    ];
+
+    for (const format of formats) {
+        try {
+            let cleanedDateString = dateString.replace(/\s*\(\w+\)\s*/g, '') // Remove content in parentheses
+                                              .replace(/\s*GMT|UTC/g, '') // Remove timezone abbreviations
+                                              .trim();
+            date = new Date(cleanedDateString);
+            if (!isNaN(date.getTime())) {
+                return date.toISOString();
+            }
+        } catch (e) {
+            // Continue to next format
+        }
+    }
+    return null;
+}
+
 const { detectCountry } = require('./src/utils/countryDetector.js');
 
 function filterArticlesByDate(articles) {
@@ -107,14 +140,14 @@ function filterArticlesByDate(articles) {
     const filtered = articles.filter(article => {
         let articleDate = null;
         if (article.publishedAt) {
-            articleDate = new Date(article.publishedAt);
+            articleDate = new Date(parseDateString(article.publishedAt));
         }
 
         if (!article.publishedAt || isNaN(articleDate.getTime())) {
             const extractedDate = extractDateFromUrl(article.url);
             if (extractedDate) {
                 article.publishedAt = extractedDate; // Update the article with the extracted date
-                articleDate = new Date(extractedDate);
+                articleDate = new Date(parseDateString(extractedDate));
                 serverLog(`[INFO] Extracted date ${extractedDate} from URL for article: ${article.title}`);
             } else {
                 serverLog(`[FILTER] Article "${article.title}" has no valid date. Keeping it for now.`, 'warning');
@@ -318,7 +351,13 @@ class EnhancedMalariaIntelligence {
         'time[datetime]',
         '.date',
         '.published',
-        '.post-date'
+        '.post-date',
+        // Add more selectors for common date locations
+        '.byline .date',
+        '.article-date',
+        '.post-info .date',
+        '.entry-date',
+        '.td-post-date .entry-date'
       ];
       
       for (const selector of dateSelectors) {
@@ -335,6 +374,25 @@ class EnhancedMalariaIntelligence {
             }
           }
         }
+      }
+
+      // Fallback: try to find date patterns in the body text
+      const bodyText = doc.body.textContent;
+      const dateRegexes = [
+          /\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{1,2},\s+\d{4}\b/i, // Month Day, Year
+          /\b\d{1,2}\s+(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{4}\b/i, // Day Month Year
+          /\b\d{4}[-/]\d{2}[-/]\d{2}\b/, // YYYY-MM-DD or YYYY/MM/DD
+          /\b\d{2}[-/]\d{2}[-/]\d{4}\b/ // DD-MM-YYYY or DD/MM/YYYY
+      ];
+
+      for (const regex of dateRegexes) {
+          const match = bodyText.match(regex);
+          if (match) {
+              const date = new Date(match[0]);
+              if (!isNaN(date.getTime())) {
+                  return date.toISOString();
+              }
+          }
       }
       
       return null;
@@ -452,62 +510,69 @@ class EnhancedMalariaIntelligence {
         return true;
     }
 
-    calculateRelevanceScore(article) {
-        const content = ((article.title || '') + ' ' + (article.description || '')).toLowerCase();
-        this.logProgress(`[DEBUG-SCORE] Analyzing content for country: "${content.substring(0, 100)}"...`);
-        const coreKeywords = ['malaria', 'plasmodium', 'anopheles', 'paludisme', 'malária', 'antimalarial', 'artemisinin', 'falciparum', 'mosquito', 'moustique'];
-        if (!coreKeywords.some(kw => content.includes(kw))) return 0;
-        let score = 25;
-        const highValueTerms = ['outbreak', 'epidemic', 'deaths', 'cases', 'resistance', 'vaccine', 'nets', 'spraying', 'elimination'];
-        highValueTerms.forEach(term => { if (content.includes(term)) score += 15; });
-        const mediumValueTerms = ['treatment', 'prevention', 'diagnosis', 'control', 'research', 'surveillance'];
-        mediumValueTerms.forEach(term => { if (content.includes(term)) score += 10; });
+      calculateRelevanceScore(article) {
+          this.logProgress(`[DEBUG-SCORE] Full article object: ${JSON.stringify(article, null, 2)}`);
+          const content = ((article.title || '') + ' ' + (article.description || '')).toLowerCase();
+          this.logProgress(`[DEBUG-SCORE] Analyzing content: "${content.substring(0, 100)}..."`);
+          const coreKeywords = ['malaria', 'plasmodium', 'anopheles', 'paludisme', 'malária', 'antimalarial', 'artemisinin', 'falciparum', 'mosquito', 'moustique'];
+          const hasCoreKeyword = coreKeywords.some(kw => content.includes(kw));
+          this.logProgress(`[DEBUG-SCORE] Has core keyword: ${hasCoreKeyword}`);
+          if (!hasCoreKeyword) {
+              this.logProgress('[DEBUG-SCORE] No core keyword found. Returning 0.');
+              return 0;
+          }
+          let score = 25;
+          const highValueTerms = ['outbreak', 'epidemic', 'deaths', 'cases', 'resistance', 'vaccine', 'nets', 'spraying', 'elimination'];
+          highValueTerms.forEach(term => { if (content.includes(term)) score += 15; });
+          const mediumValueTerms = ['treatment', 'prevention', 'diagnosis', 'control', 'research', 'surveillance'];
+          mediumValueTerms.forEach(term => { if (content.includes(term)) score += 10; });
 
-        const countryDetection = detectCountry(content);
-        this.logProgress(`[DEBUG-SCORE] Country detection result: ${JSON.stringify(countryDetection)}`);
-        article.countryDetection = countryDetection;
-        
-        // Check for WHO mentions
-        if (content.toLowerCase().includes('world health organization') || 
-            /\bwho\b/i.test(content) || // Match 'WHO' as a whole word (case insensitive)
-            content.includes('WHO')) {
-            article.country = 'WHO';
-            article.continent = 'Global'; // WHO is considered global
-        } else if (countryDetection && countryDetection.country) {
-            // Country was detected
-            article.country = countryDetection.country;
-            
-            // Add continent information if available
-            const { countryData } = require('./src/utils/countryData.js');
-            if (countryData[countryDetection.country] && countryData[countryDetection.country].continent) {
-                article.continent = countryData[countryDetection.country].continent;
-                this.logProgress(`[DEBUG-SCORE] Added continent: ${article.continent} for country: ${article.country}`);
-            }
-        } else {
-            // Try to detect continent if no country was found
-            const { detectRegion } = require('./src/utils/countryDetector.js');
-            const regionDetection = detectRegion(content);
-            
-            if (regionDetection && regionDetection.region) {
-                article.country = regionDetection.region;
-                article.continent = regionDetection.region; // The region is already a continent
-                this.logProgress(`[DEBUG-SCORE] No country detected, but found region: ${regionDetection.region}`);
-            } else {
-                article.country = 'Global';
-                article.continent = 'Global';
-                this.logProgress(`[DEBUG-SCORE] No country or region detected, assigning Global`);
-            }
-        }
-        
-        this.logProgress(`[DEBUG-SCORE] Final article country: ${article.country}`);
+          const countryDetection = detectCountry(content);
+          this.logProgress(`[DEBUG-SCORE] Country detection result: ${JSON.stringify(countryDetection)}`);
+          article.countryDetection = countryDetection;
 
-        if (article.country && article.country !== 'Global' && article.country !== 'Unidentified') {
-            score += 10;
-        }
-        const penaltyTerms = ['stock market', 'stock price', 'stock exchange', 'shares', 'dividends', 'merger', 'acquisition'];
-        penaltyTerms.forEach(term => { if (content.includes(term)) score -= 30; });
-        return Math.max(0, Math.min(score, 100));
-    }
+          // Check for WHO mentions
+          if (content.toLowerCase().includes('world health organization') ||
+              /\bwho\b/i.test(content) || // Match 'WHO' as a whole word (case insensitive)
+              content.includes('WHO')) {
+              article.country = 'WHO';
+              article.continent = 'Global'; // WHO is considered global
+          } else if (countryDetection && countryDetection.country) {
+              // Country was detected
+              article.country = countryDetection.country;
+
+              // Add continent information if available
+              const { countryData } = require('./src/utils/countryData.js');
+              if (countryData[countryDetection.country] && countryData[countryDetection.country].continent) {
+                  article.continent = countryData[countryDetection.country].continent;
+                  this.logProgress(`[DEBUG-SCORE] Added continent: ${article.continent} for country: ${article.country}`);
+              }
+          } else {
+              // Try to detect continent if no country was found
+              const { detectRegion } = require('./src/utils/countryDetector.js');
+              const regionDetection = detectRegion(content);
+
+              if (regionDetection && regionDetection.region) {
+                  article.country = regionDetection.region;
+                  article.continent = regionDetection.region; // The region is already a continent
+                  this.logProgress(`[DEBUG-SCORE] No country detected, but found region: ${regionDetection.region}`);
+              } else {
+                  article.country = 'Global';
+                  article.continent = 'Global';
+                  this.logProgress('[DEBUG-SCORE] No country or region detected, assigning Global');
+              }
+          }
+
+          this.logProgress(`[DEBUG-SCORE] Final article country: ${article.country}`);
+
+          if (article.country && article.country !== 'Global' && article.country !== 'Unidentified') {
+              score += 10;
+          }
+          const penaltyTerms = ['stock market', 'stock price', 'stock exchange', 'shares', 'dividends', 'merger', 'acquisition'];
+          penaltyTerms.forEach(term => { if (content.includes(term)) score -= 30; });
+          this.logProgress(`[DEBUG-SCORE] Score before final clamp: ${score}`);
+          return Math.max(0, Math.min(score, 100));
+      }
 
     async searchNewsAPITargeted() {
         this.logProgress('[FETCH] Starting NewsAPI search...');
@@ -534,25 +599,223 @@ class EnhancedMalariaIntelligence {
         return [];
     }
 
+    
+
+    // Helper function to parse various date formats
+    // Helper function to parse various date formats
+  
+
+    // Helper function to check if content is malaria-related
+    isMalariaRelated(title, description) {
+        const malariaKeywords = [
+            'malaria', 'mosquito', 'bednet', 'artemisinin', 'ACT', 'RDT',
+            'anopheles', 'plasmodium', 'ITN', 'LLIN', 'IRS', 'SMC',
+            'seasonal malaria chemoprevention', 'intermittent preventive treatment',
+            'indoor residual spraying', 'rapid diagnostic test'
+        ];
+        
+        const text = (title + ' ' + (description || '')).toLowerCase();
+        return malariaKeywords.some(keyword => text.includes(keyword));
+    }
+
+    // Helper to extract images from description HTML
+    extractImageFromDescription(description) {
+        if (!description) return null;
+        
+        const imgRegex = /<img[^>]+src="([^"]+)"/i;
+        const match = description.match(imgRegex);
+        return match ? match[1] : null;
+    }
+
+    // Alternative scraping approach for AllAfrica malaria page
+    async scrapeAllAfricaMalariaPage(results) {
+        try {
+            const response = await fetchWithTimeout('https://allafrica.com/malaria/', {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+                }
+            });
+
+            const html = await response.text();
+            const dom = new JSDOM(html);
+            const doc = dom.window.document;
+            
+            // Parse HTML for article links and titles
+            const articlesOnPage = doc.querySelectorAll('div.story-item'); // Adjust selector based on actual AllAfrica HTML structure
+            
+            articlesOnPage.forEach(itemElement => {
+                const linkElement = itemElement.querySelector('a');
+                const titleElement = itemElement.querySelector('h4, h3, h2'); // Common title tags
+                const dateElement = itemElement.querySelector('.date, .story-date, .pub-date'); // Common date tags
+                const descriptionElement = itemElement.querySelector('p'); // Common description tag
+
+                if (linkElement && titleElement) {
+                    const link = linkElement.href;
+                    const title = titleElement.textContent.trim();
+                    const description = descriptionElement ? descriptionElement.textContent.trim() : '';
+                    let publishedAt = null;
+
+                    if (dateElement) {
+                        publishedAt = parseDateString(dateElement.textContent.trim());
+                    }
+                    // Fallback to extract from URL if not found in element
+                    if (!publishedAt) {
+                        publishedAt = extractDateFromUrl(link);
+                    }
+
+                    if (this.isMalariaRelated(title, description)) {
+                        results.push({
+                            title: title,
+                            description: description,
+                            url: link.startsWith('http') ? link : `https://allafrica.com${link}`,
+                            publishedAt: publishedAt,
+                            source: 'African Media',
+                            sourceName: 'AllAfrica Malaria Scrape',
+                            language: 'en',
+                            uniqueId: link,
+                            imageUrl: this.extractImageFromDescription(description) // Try to extract image from description
+                        });
+                    }
+                }
+            });
+            
+            this.logProgress(`[SCRAPE-SUCCESS] Found ${results.length} articles from AllAfrica malaria page`);
+            
+        } catch (e) {
+            this.logProgress(`[SCRAPE-ERROR] Failed to scrape AllAfrica malaria page: ${e.message}`, 'error');
+        }
+    }
+
     async searchHealthBlogsAndFeeds() {
         this.logProgress('[FETCH] Fetching African media feeds...');
+        
+        // Updated and expanded feed list with working URLs
         const feeds = [
+            // AllAfrica feeds - try multiple endpoints
             { name: 'AllAfrica Health (EN)', url: 'https://allafrica.com/tools/headlines/rdf/health/headlines.rdf', lang: 'en' },
+            { name: 'AllAfrica Malaria Search', url: 'https://allafrica.com/malaria/feed/', lang: 'en' }, // Try direct malaria feed
+            { name: 'AllAfrica Main RSS', url: 'https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf', lang: 'en' },
+            
+            // Alternative RSS2JSON approach for AllAfrica malaria page
+            { name: 'AllAfrica Malaria Scrape', url: 'https://allafrica.com/malaria/', lang: 'en', scrape: true },
+            
+            // Other African sources
             { name: 'Radarr Africa (Malaria Search)', url: 'https://radarr.africa/feed/?s=malaria', lang: 'en' },
             { name: 'AllAfrica Science', url: 'https://allafrica.com/tools/headlines/rdf/science/headlines.rdf', lang: 'en' },
-            { name: 'Africanews', url: 'http://www.africanews.com/feed/', lang: 'en' },
+            { name: 'Africanews Health', url: 'https://www.africanews.com/tag/health/feed/', lang: 'en' },
+            { name: 'Africanews Main', url: 'https://www.africanews.com/feed/', lang: 'en' },
             { name: 'Africanews (FR)', url: 'https://fr.africanews.com/feed/', lang: 'fr' },
-            { name: 'Malaria No More News', url: 'https://www.malarianomore.org/category/news/feed/', lang: 'en' }
+            
+            // Specialized malaria feeds
+            { name: 'Malaria No More News', url: 'https://www.malarianomore.org/category/news/feed/', lang: 'en' },
+            { name: 'WHO Africa RSS', url: 'https://www.afro.who.int/rss/press-releases', lang: 'en' },
+            { name: 'Global Fund RSS', url: 'https://www.theglobalfund.org/en/site/rss/', lang: 'en' },
+            { name: 'MMV RSS', url: 'https://www.mmv.org/rss-main-feed', lang: 'en' }
         ];
+
         const results = [];
+        const maxRetries = 3;
+        const retryDelay = 2000; // 2 seconds
+
         for (const feed of feeds) {
-            const rssUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&api_key=${CONFIG.apis.rss2json.apiKey}`;
-            try {
-                const response = await fetchWithTimeout(rssUrl);
-                const data = await response.json();
-                if (data.items) results.push(...data.items.map(item => ({ ...item, source: 'African Media', sourceName: feed.name, language: feed.lang, uniqueId: item.link, imageUrl: item.thumbnail || (item.enclosure && item.enclosure.link) })));
-            } catch (e) { this.logProgress(`[ERROR] ${feed.name}: ${e.message}`, 'error'); }
+            let attempts = 0;
+            let success = false;
+
+            while (attempts < maxRetries && !success) {
+                attempts++;
+                
+                try {
+                    if (feed.scrape) {
+                        // For AllAfrica malaria page, try web scraping approach
+                        await this.scrapeAllAfricaMalariaPage(results);
+                        success = true;
+                    } else {
+                        // Standard RSS approach with improved error handling
+                        const rssUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&api_key=${CONFIG.apis.rss2json.apiKey}&count=50`;
+                        
+                        this.logProgress(`[FETCH-ATTEMPT] ${feed.name} (Attempt ${attempts}): ${rssUrl}`);
+                        
+                        const response = await fetchWithTimeout(rssUrl, {
+                            timeout: 30000, // 30 second timeout
+                            headers: {
+                                'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)',
+                                'Accept': 'application/json',
+                            }
+                        });
+
+                        if (!response.ok) {
+                            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                        }
+
+                        const data = await response.json();
+                        
+                        // Enhanced error checking
+                        if (data.status === 'error') {
+                            throw new Error(`RSS2JSON Error: ${data.message}`);
+                        }
+
+                        if (!data.items || !Array.isArray(data.items)) {
+                            throw new Error('Invalid RSS data structure - no items array');
+                        }
+
+                        this.logProgress(`[FETCH-SUCCESS] ${feed.name}: Found ${data.items.length} items`);
+
+                        // Enhanced debugging
+                        data.items.forEach((item, index) => {
+                            if (index < 3) { // Log first 3 items for debugging
+                                this.logProgress(`[DEBUG-ITEM-${index}] ${JSON.stringify({
+                                    title: item.title,
+                                    link: item.link,
+                                    pubDate: item.pubDate,
+                                    description: item.description?.substring(0, 100) + '...'
+                                }, null, 2)}`);
+                            }
+                        });
+
+                        // Filter for malaria-related content
+                        const filteredItems = data.items.filter(item => 
+                            this.isMalariaRelated(item.title, item.description)
+                        );
+
+                        this.logProgress(`[FILTER-RESULT] ${feed.name}: ${filteredItems.length}/${data.items.length} malaria-related items`);
+
+                        // Process and add items
+                        const processedItems = filteredItems.map(item => ({
+                            ...item,
+                            publishedAt: this.parseDateString(item.pubDate),
+                            source: 'African Media',
+                            sourceName: feed.name,
+                            language: feed.lang,
+                            uniqueId: item.link || item.guid || `${feed.name}-${item.title}`,
+                            imageUrl: item.thumbnail || 
+                                     (item.enclosure && item.enclosure.link) ||
+                                     this.extractImageFromDescription(item.description)
+                        }));
+
+                        results.push(...processedItems);
+                        success = true;
+                    }
+
+                } catch (e) {
+                    this.logProgress(`[ERROR] ${feed.name} (Attempt ${attempts}): ${e.message}`, 'error');
+                    
+                    if (attempts < maxRetries) {
+                        this.logProgress(`[RETRY] Waiting ${retryDelay/1000}s before retry...`);
+                        await new Promise(resolve => setTimeout(resolve, retryDelay));
+                    }
+                }
+            }
+
+            if (!success) {
+                this.logProgress(`[FAILED] ${feed.name}: All ${maxRetries} attempts failed`, 'error');
+            }
+
+            // Small delay between feeds to avoid rate limiting
+            await new Promise(resolve => setTimeout(resolve, 1000));
         }
+
+        this.logProgress(`[TOTAL-RESULTS] Found ${results.length} total articles from African feeds`);
         return results;
     }
 
@@ -785,60 +1048,6 @@ class EnhancedMalariaIntelligence {
         return results;
     }
 
-    
-
-    async searchWHORSS() {
-        this.logProgress('[FETCH] Fetching WHO RSS feed...');
-        const rssUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent('https://www.who.int/rss-feeds/news-english.xml')}&api_key=${CONFIG.apis.rss2json.apiKey}&count=100`;
-        try {
-            const response = await fetchWithTimeout(rssUrl);
-            const data = await response.json();
-            if (data.items) return data.items.map(item => ({ ...item, source: 'WHO RSS', type: 'official', language: 'en', uniqueId: item.link, imageUrl: item.thumbnail || (item.enclosure && item.enclosure.link) }));
-        } catch (e) { this.logProgress(`[ERROR] WHO RSS: ${e.message}`, 'error'); }
-        return [];
-    }
-
-    async searchHealthBlogsAndFeeds() {
-        this.logProgress('[FETCH] Fetching African media feeds...');
-        const feeds = [
-            { name: 'AllAfrica Health (EN)', url: 'https://allafrica.com/tools/headlines/rdf/health/headlines.rdf', lang: 'en' },
-            { name: 'Radarr Africa (Malaria Search)', url: 'https://radarr.africa/feed/?s=malaria', lang: 'en' },
-            { name: 'AllAfrica Science', url: 'https://allafrica.com/tools/headlines/rdf/science/headlines.rdf', lang: 'en' },
-            { name: 'Africanews', url: 'http://www.africanews.com/feed/', lang: 'en' },
-            { name: 'Africanews (FR)', url: 'https://fr.africanews.com/feed/', lang: 'fr' },
-            { name: 'Malaria No More News', url: 'https://www.malarianomore.org/category/news/feed/', lang: 'en' }
-        ];
-        const results = [];
-        for (const feed of feeds) {
-            const rssUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&api_key=${CONFIG.apis.rss2json.apiKey}&count=100`;
-            try {
-                const response = await fetchWithTimeout(rssUrl);
-                const data = await response.json();
-                if (data.items) results.push(...data.items.map(item => ({ ...item, source: 'African Media', sourceName: feed.name, language: feed.lang, uniqueId: item.link, imageUrl: item.thumbnail || (item.enclosure && item.enclosure.link) })));
-            } catch (e) { this.logProgress(`[ERROR] ${feed.name}: ${e.message}`, 'error'); }
-        }
-        return results;
-    }
-
-    async searchLatinAmericanFeeds() {
-        this.logProgress('[FETCH] Fetching Latin American media feeds...');
-        const feeds = [
-            { name: 'PAHO News (ES)', url: 'https://www.paho.org/es/rss/paho-noticias.xml', lang: 'es' },
-            { name: 'PAHO News (PT)', url: 'https://www.paho.org/pt/rss/paho-noticias.xml', lang: 'pt' },
-            { name: 'MedlinePlus (ES)', url: 'https://medlineplus.gov/spanish/rss/', lang: 'es' }
-        ];
-        const results = [];
-        for (const feed of feeds) {
-            const rssUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&api_key=${CONFIG.apis.rss2json.apiKey}&count=100`;
-            try {
-                const response = await fetchWithTimeout(rssUrl);
-                const data = await response.json();
-                if (data.items) results.push(...data.items.map(item => ({ ...item, source: 'Latin American Media', sourceName: feed.name, language: feed.lang, uniqueId: item.link, imageUrl: item.thumbnail || (item.enclosure && item.enclosure.link) })));
-            } catch (e) { this.logProgress(`[ERROR] ${feed.name}: ${e.message}`, 'error'); }
-        }
-        return results;
-    }
-
     async searchAsianPacificFeeds() {
         this.logProgress('[FETCH] Fetching Asian Pacific feeds...');
         const feeds = [
@@ -1022,8 +1231,8 @@ class EnhancedMalariaIntelligence {
         this.logProgress(`[AGGREGATE] Translation complete for new articles.`);
 
         // Step 5: Final AI Deduplication of new translated articles against existing ones
-        const finalDedupResult = await this.time('FinalDeduplication', deduplicateMalariaNews(translatedNewArticles, existingArticles, this.openai.apiKey));
-        let finalNewArticles = finalDedupResult.uniqueArticles;
+        
+        let finalNewArticles = translatedNewArticles;
         
         // Step 6: Combine and Sort
         const finalArticleList = [...existingArticles, ...finalNewArticles];
@@ -1054,7 +1263,7 @@ async function pushToGitHub() {
         // Commit the changes
         await new Promise((resolve, reject) => {
             const commitMessage = "chore: Update articles.json via fetch_data script";
-            exec(`git commit -m "${commitMessage}"`, { cwd: __dirname }, (error, stdout, stderr) => {
+            exec(`git commit -m \"${commitMessage}\"`, { cwd: __dirname }, (error, stdout, stderr) => {
                 if (error && !stdout.includes('nothing to commit')) { // 'nothing to commit' is not an error
                     serverLog(`[GIT ERROR] git commit failed: ${stderr}`, 'error');
                     return reject(error);
@@ -1103,7 +1312,7 @@ async function fetchDataAndSave() {
         const articlesWithNoDateTitles = [];
 
         articles.forEach(article => {
-            if (!article.publishedAt || isNaN(new Date(article.publishedAt).getTime())) {
+            if (!article.publishedAt || isNaN(new Date(parseDateString(article.publishedAt)).getTime())) {
                 articlesWithNoDateCount++;
                 articlesWithNoDateTitles.push(`- ${article.title} (Source: ${article.source})`);
                 if (article.source === 'PubMed') {
@@ -1115,9 +1324,7 @@ async function fetchDataAndSave() {
         serverLog(`[FINAL SUMMARY] Total articles with no/invalid date: ${articlesWithNoDateCount}`);
         serverLog(`[FINAL SUMMARY] PubMed articles with no/invalid date: ${pubmedArticlesWithNoDateCount}`);
         if (articlesWithNoDateTitles.length > 0) {
-            serverLog(`[FINAL SUMMARY] Titles of articles with no/invalid date:
-${articlesWithNoDateTitles.join(' \
-')}`);
+            serverLog(`[FINAL SUMMARY] Titles of articles with no/invalid date:\n${articlesWithNoDateTitles.join('\n')}`);
         }
 
         await fs.writeFile(outputPath, JSON.stringify(articles, null, 2));
@@ -1157,4 +1364,3 @@ cron.schedule('0 2 * * *', () => {
 
 serverLog('Scheduler initialized. Waiting for the next scheduled run at 2:00 AM UTC.');
 */
-
