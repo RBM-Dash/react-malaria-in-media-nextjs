@@ -328,6 +328,54 @@
     "continent": "Global"
   },
   {
+    "title": "Rwanda: Inside Govt Plan to Curb Rising Malaria Cases",
+    "pubDate": "2025-09-17 08:38:23",
+    "link": "https://allafrica.com/stories/202509170132.html",
+    "guid": "https://allafrica.com/stories/202509170132.html",
+    "author": "",
+    "thumbnail": "",
+    "description": "[New Times] Rwanda has recorded a resurgence of malaria after nearly six years of steady progress in reducing the disease. Between 2017 and 2023, cases had dropped by 90 percent, but infections have been climbing again since January 2024.",
+    "content": "[New Times] Rwanda has recorded a resurgence of malaria after nearly six years of steady progress in reducing the disease. Between 2017 and 2023, cases had dropped by 90 percent, but infections have been climbing again since January 2024.",
+    "enclosure": {},
+    "categories": [
+      "Central Africa",
+      "East Africa",
+      "Health and Medicine",
+      "Malaria",
+      "Rwanda"
+    ],
+    "publishedAt": "2025-09-17 08:38:23",
+    "source": "African Media",
+    "sourceName": "AllAfrica Health (EN)",
+    "language": "en",
+    "uniqueId": "https://allafrica.com/stories/202509170132.html",
+    "countryDetection": {
+      "country": "Rwanda",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "rwanda",
+      "region": "Africa"
+    },
+    "country": "Rwanda",
+    "continent": "Africa",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Rwanda : À l'intérieur du plan du gouvernement pour freiner l'augmentation des cas de paludisme",
+        "description": "[New Times] Le Rwanda a enregistré une résurgence du paludisme après près de six ans de progrès constant dans la réduction de la maladie. Entre 2017 et 2023, les cas avaient diminué de 90 %, mais les infections ont de nouveau augmenté depuis janvier 2024."
+      },
+      "pt": {
+        "title": "Ruanda: Dentro do Plano do Governo para Combater o Aumento dos Casos de Malária",
+        "description": "[Novos Tempos] Ruanda registrou um ressurgimento da malária após quase seis anos de progresso constante na redução da doença. Entre 2017 e 2023, os casos haviam caído 90%, mas as infecções começaram a aumentar novamente desde janeiro de 2024."
+      },
+      "es": {
+        "title": "Ruanda: Dentro del plan del gobierno para frenar el aumento de casos de malaria.",
+        "description": "[Nuevos Tiempos] Ruanda ha registrado un resurgimiento de la malaria después de casi seis años de progreso constante en la reducción de la enfermedad. Entre 2017 y 2023, los casos habían disminuido en un 90 por ciento, pero las infecciones han vuelto a aumentar desde enero de 2024."
+      }
+    }
+  },
+  {
     "title": "$2.5m NIH grant for malaria vaccine research",
     "description": "",
     "url": "https://news.google.com/read/CBMijAFBVV95cUxNTElvOXRLMS13cHMyT1JGVGM0c1hpVEV0aE12ZkZlR2Q1Y0Jxa3dXR2NDWWIwV2Q2SE9OdXFNdldTaFhheVZCN1pSR2xDMHRpdGZrdHFCN3RLQXFsX0JNY2ZuYkRyR3NJYjZSOTJ1YmZLRlI1TnBqR19fMzV0VjBkVkRBdkpyZmR6VVZQLQ?hl=en-US&gl=US&ceid=US%3Aen",
@@ -355,6 +403,40 @@
     }
   },
   {
+    "title": "Malaria, chikungunya cases rise compared to 2024 data; civic body steps up drives amid intermittent rains | Mumbai news",
+    "description": "",
+    "url": "https://news.google.com/read/CBMihAJBVV95cUxOWDJ1SXBnVWZvUEFOcWtUM2d6d3dsT0lVRHl2bE1QaHpIdkVYT1FzTXU1Q0N6SU1fYWZwa2p0bUFYTHFfY2Y1YkctUlJMR1d4MGJLOGdmZ2M3YW9jaHNsci0tTFc3cV94c3hCMEpoalpoQ0ZzNjR6alc2a0dQalRHVWFnSzZDckh5V0ZscUxYN1BvRnZLeUctXzRXaHJTNFRmdXUyR19ZV0ZMb3hHcVdKU2R6eTNfcXI0Q2RUaG44TWY2NFpnYXBfUnA5ZlRBT2xDZWFyRHhXU2JaVTdrc0x2Ni1QaUx0Zm1GQUEtVE9PaXdqRVA5clRDc0o0d25HTm5fSWxWRdIBigJBVV95cUxOZXVRbG5MeS1zSnJuMUViTDRZTnJVWkU3bHVyNzM4YnBGc1dQdzFNS1pfaTMyZ01TLU5vVDZqNTJMSTFuWjFXU2c1SmFXWmdsOTE5Tk9kRFNiczYwM2VzUnhZOFMzTWhtajZoU3ZWZERQZWhKOVIyRDFURnU2R05PWTRiUktwVGtMMkk0SXdHT1JPVFBEVVp0ak9QZm5kRzhOSFl3Y2d6SFdrbmR6MEFTNlJhVGxwbzBaNkk3QjZLWkVpLWhJU2VuOVo1M3dqM0FfSVBPR3F2V2xzTmNvbGV0V29LRDFSb2lEemNHX29FSW05Y3dLNzdXdU1NQ3B0ZFpFd1FzUjVfZ195UQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-17T02:24:09.000Z",
+    "source": "Hindustan Times",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMihAJBVV95cUxOWDJ1SXBnVWZvUEFOcWtUM2d6d3dsT0lVRHl2bE1QaHpIdkVYT1FzTXU1Q0N6SU1fYWZwa2p0bUFYTHFfY2Y1YkctUlJMR1d4MGJLOGdmZ2M3YW9jaHNsci0tTFc3cV94c3hCMEpoalpoQ0ZzNjR6alc2a0dQalRHVWFnSzZDckh5V0ZscUxYN1BvRnZLeUctXzRXaHJTNFRmdXUyR19ZV0ZMb3hHcVdKU2R6eTNfcXI0Q2RUaG44TWY2NFpnYXBfUnA5ZlRBT2xDZWFyRHhXU2JaVTdrc0x2Ni1QaUx0Zm1GQUEtVE9PaXdqRVA5clRDc0o0d25HTm5fSWxWRdIBigJBVV95cUxOZXVRbG5MeS1zSnJuMUViTDRZTnJVWkU3bHVyNzM4YnBGc1dQdzFNS1pfaTMyZ01TLU5vVDZqNTJMSTFuWjFXU2c1SmFXWmdsOTE5Tk9kRFNiczYwM2VzUnhZOFMzTWhtajZoU3ZWZERQZWhKOVIyRDFURnU2R05PWTRiUktwVGtMMkk0SXdHT1JPVFBEVVp0ak9QZm5kRzhOSFl3Y2d6SFdrbmR6MEFTNlJhVGxwbzBaNkk3QjZLWkVpLWhJU2VuOVo1M3dqM0FfSVBPR3F2V2xzTmNvbGV0V29LRDFSb2lEemNHX29FSW05Y3dLNzdXdU1NQ3B0ZFpFd1FzUjVfZ195UQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iL0NnNVBRa1p1TnpSTGNuRTFOVE41VFJDZkF4ampCU2dLTWdrQkVZekpQQ1hnSWdN=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": {
+      "country": "India",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "city",
+      "term": "mumbai",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Les cas de paludisme et de chikungunya augmentent par rapport aux données de 2024 ; le corps civique intensifie ses campagnes en raison des pluies intermittentes | Actualités de Mumbai"
+      },
+      "pt": {
+        "title": "Casos de malária e chikungunya aumentam em comparação com os dados de 2024; órgão municipal intensifica campanhas em meio a chuvas intermitentes | Notícias de Mumbai"
+      },
+      "es": {
+        "title": "Los casos de malaria y chikungunya aumentan en comparación con los datos de 2024; el organismo cívico intensifica las campañas en medio de lluvias intermitentes | Noticias de Mumbai"
+      }
+    }
+  },
+  {
     "title": "Highest Malaria spike in 8 years; Health dept steps up vigil",
     "description": "",
     "url": "https://news.google.com/read/CBMi0AFBVV95cUxPdkh4bDg3bE5sUVFoak5OMjI2VXhYVlRiS1Q0LS1uemxKYUZLNVZoWnVzV0JUXzhacGl3OWJVQVotMm5mVkh2TEo1SWVGMDRwQ3RuanF3MDI0TWF3VTlCTmNHQzdnaDhEYVJQZXk0dHZmTlBSRWw4VWJHRWVmTVVuRkhJd1JSdE4tOE9VZThCdkVnZUthbHFKNTg1b0pPS1ZENUVtQl85Mk1HLWV5dDdSNzZJZC1MOV8xQXY0bnVaeXJHS1A1WUF5Q05lZzRiR1V00gHWAUFVX3lxTFBxUHZIZFhic0cxUXZWR3dHN0lCRnppNzZJeWR5UWlnUTA2ZXhROHJBWUFUM1lQdTJ2S3NlOW0zMFlvNG11bnRCRm1odXRYQlVoSEJuWlVVTExEUkJ5eG5WcUxDakhsTEgxa2dIMEwwSTl5V3M4Sm9ySzV1LUh2WklYdkVvWnZjc1NJMGZlY0IzZWpSdjlibFczU0MxaFVpSFRKZ1JNSXcxWk11YXpkbjRiWko4MlhnZzlxTnJuMDZzZ09WMmFyZXB4SFZKUlo2LVFjWDBMcEE?hl=en-US&gl=US&ceid=US%3Aen",
@@ -378,6 +460,77 @@
       },
       "es": {
         "title": "El mayor aumento de malaria en 8 años; el departamento de salud intensifica la vigilancia."
+      }
+    }
+  },
+  {
+    "title": "Korea's visa-free policy for Chinese tour groups incites public anger",
+    "description": "Korea’s visa-free entry program for Chinese tour groups is drawing public backlash, with more than 52,000 citizens signing a petition for its cancellation just two weeks before it is set to begin. The public backlash, amid an undercurrent of rising anti-China sentiment, is being fueled by a mix of historical grievances, economic competition and a nationalist reaction to what's perceived by many Koreans as Beijing's assertive cultural and political influence in the region. Scheduled to run from Sept. 29 through next June, the visa-free initiative has drawn criticism amid growing concerns over safety and potential abuse. Petitioners cite a mosquito-borne viral outbreak in China’s Guangdong Province, which has recorded more than 10,000 cases, warning that increased travel could threaten public health. They note that infected mosquitoes can be carried by airplanes — a phenomenon known as “airport malaria,” or more broadly, “airport-borne vector transmission,” a recognized public health risk. “The government, which is responsible for the health of its people, should immediate",
+    "url": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20250917/koreas-visa-free-policy-for-chinese-tour-groups-incites-public-anger",
+    "publishedAt": "2025-09-16 22:17:02",
+    "source": "NewsData.io",
+    "language": "english",
+    "uniqueId": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20250917/koreas-visa-free-policy-for-chinese-tour-groups-incites-public-anger",
+    "imageUrl": "https://newsimg.koreatimes.co.kr/2025/09/16/ec318cc5-9949-484e-ad70-c39fb59a5599.jpeg",
+    "countryDetection": {
+      "country": "China",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "china",
+      "region": "Asia"
+    },
+    "country": "China",
+    "continent": "Asia",
+    "relevanceScore": 65,
+    "translations": {
+      "en": {
+        "title": "Korea's visa-free policy for Chinese tour groups incites public anger",
+        "description": "ly reconsider the visa-free entry program,” said one petitioner. “We cannot ignore the potential health risks that come with allowing large groups of tourists from regions experiencing viral outbreaks.” The visa-free policy was initially aimed at boosting tourism and economic ties with China, but the public sentiment has shifted dramatically as safety concerns take precedence. Many citizens are calling for stricter health and safety protocols to be implemented for any incoming tourists, regardless of nationality, to protect the well-being of the local population. As the start date approaches, the government is faced with the challenge of addressing these concerns while trying to maintain economic relations with China."
+      },
+      "fr": {
+        "title": "La politique de visa sans frais de la Corée pour les groupes de tourisme chinois suscite la colère du public.",
+        "description": "Le programme d'entrée sans visa de la Corée pour les groupes de touristes chinois suscite une réaction négative du public, avec plus de 52 000 citoyens signant une pétition pour son annulation juste deux semaines avant son lancement prévu. Cette réaction est alimentée par un mélange de griefs historiques, de concurrence économique et d'une réaction nationaliste face à ce que beaucoup de Coréens perçoivent comme l'influence culturelle et politique assertive de Pékin dans la région, dans un contexte de sentiment anti-chinois croissant. Prévu pour se dérouler du 29 septembre jusqu'en juin prochain, l'initiative sans visa a attiré des critiques au milieu de préoccupations grandissantes concernant la sécurité et les abus potentiels. Les pétitionnaires évoquent une épidémie virale transmise par les moustiques dans la province du Guangdong en Chine, qui a enregistré plus de 10 000 cas, avertissant que l'augmentation des voyages pourrait menacer la santé publique. Ils notent que des moustiques infectés peuvent être transportés par des avions — un phénomène connu sous le nom de « malaria aéroportuaire », ou plus largement, de « transmission vectorielle aéroportuaire », un risque reconnu pour la santé publique. « Le gouvernement, qui est responsable de la santé de son peuple, devrait immédiatement... »"
+      },
+      "pt": {
+        "title": "A política de isenção de visto da Coreia para grupos de turistas chineses provoca raiva pública.",
+        "description": "O programa de entrada sem visto da Coreia para grupos de turistas chineses está gerando uma reação pública negativa, com mais de 52.000 cidadãos assinando uma petição pela sua cancelamento apenas duas semanas antes de sua implementação. A reação negativa do público, em meio a um subtexto de crescente sentimento anti-China, é alimentada por uma mistura de queixas históricas, competição econômica e uma reação nacionalista ao que muitos coreanos percebem como a influência cultural e política assertiva de Pequim na região. Programada para ocorrer de 29 de setembro até o próximo junho, a iniciativa sem visto tem recebido críticas em meio a crescentes preocupações com a segurança e o potencial abuso. Os peticionários citam um surto viral transmitido por mosquitos na província de Guangdong, na China, que registrou mais de 10.000 casos, alertando que o aumento das viagens poderia ameaçar a saúde pública. Eles observam que mosquitos infectados podem ser transportados por aviões — um fenômeno conhecido como “malária de aeroporto”, ou mais amplamente, “transmissão de vetores de aeroporto”, um risco reconhecido à saúde pública. “O governo, que é responsável pela saúde de seu povo, deve imediatamente..."
+      },
+      "es": {
+        "title": "La política de exención de visa de Corea para grupos de turistas chinos genera ira pública.",
+        "description": "El programa de entrada sin visa de Corea para grupos turísticos chinos está generando reacciones negativas en la opinión pública, con más de 52,000 ciudadanos firmando una petición para su cancelación justo dos semanas antes de que comience. La reacción pública, en medio de un trasfondo de creciente sentimiento anti-China, se ve alimentada por una mezcla de agravios históricos, competencia económica y una reacción nacionalista ante lo que muchos coreanos perciben como la asertiva influencia cultural y política de Beijing en la región. Programada para llevarse a cabo desde el 29 de septiembre hasta el próximo junio, la iniciativa de entrada sin visa ha sido objeto de críticas en medio de crecientes preocupaciones sobre la seguridad y el posible abuso. Los peticionarios citan un brote viral transmitido por mosquitos en la provincia china de Guangdong, que ha registrado más de 10,000 casos, advirtiendo que un aumento en los viajes podría amenazar la salud pública. Señalan que los mosquitos infectados pueden ser transportados por aviones —un fenómeno conocido como “malaria aeroportuaria”, o más ampliamente, “transmisión de vectores aeroportuarios”, un riesgo reconocido para la salud pública. “El gobierno, que es responsable de la salud de su pueblo, debería actuar de inmediato."
+      }
+    }
+  },
+  {
+    "title": "Sirsa launches drive against mosquito-borne diseases",
+    "description": "A District Malaria Control Committee meeting reviewed plans to combat dengue and malaria. A special campaign starts September 25th, with fines for mosquito larvae. Departments must clean water containers weekly. Schools should educate children, who will share information with families. Anganwadi workers will provide door-to-door education.",
+    "url": "https://www.tribuneindia.com/news/haryana/sirsa-launches-drive-against-mosquito-borne-diseasessirsa-september-16-a-meeting-of-the-district-malaria-control-committee-led-by-additional-deputy-commissioner-adc-virendra-sahrawat-was-held-her",
+    "publishedAt": "2025-09-16 22:02:12",
+    "source": "NewsData.io",
+    "language": "english",
+    "uniqueId": "https://www.tribuneindia.com/news/haryana/sirsa-launches-drive-against-mosquito-borne-diseasessirsa-september-16-a-meeting-of-the-district-malaria-control-committee-led-by-additional-deputy-commissioner-adc-virendra-sahrawat-was-held-her",
+    "imageUrl": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/webp/medium/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWNkODYzYjIwLTkzNDgtMTFmMC04ZWJlLWYzMjRlZjRkM2RjZS5qcGc%3D",
+    "countryDetection": null,
+    "country": "WHO",
+    "continent": "Global",
+    "relevanceScore": 45,
+    "translations": {
+      "en": {
+        "title": "Sirsa launches campaign against mosquito-borne diseases.",
+        "description": "A District Malaria Control Committee meeting reviewed plans to combat dengue and malaria. A special campaign starts on September 25th, with fines for mosquito larvae. Departments must clean water containers weekly. Schools should educate children, who will share information with families. Anganwadi workers will provide door-to-door education."
+      },
+      "fr": {
+        "title": "Sirsa lance une campagne contre les maladies transmises par les moustiques.",
+        "description": "Une réunion du Comité de Contrôle du Paludisme de District a examiné les plans pour lutter contre la dengue et le paludisme. Une campagne spéciale commence le 25 septembre, avec des amendes pour les larves de moustiques. Les départements doivent nettoyer les réservoirs d'eau chaque semaine. Les écoles devraient éduquer les enfants, qui partageront les informations avec leurs familles. Les travailleurs Anganwadi fourniront une éducation porte-à-porte."
+      },
+      "pt": {
+        "title": "Sirsa inicia campanha contra doenças transmitidas por mosquitos.",
+        "description": "Uma reunião do Comitê de Controle da Malária do Distrito revisou os planos para combater a dengue e a malária. Uma campanha especial começa no dia 25 de setembro, com multas para larvas de mosquito. Os departamentos devem limpar os recipientes de água semanalmente. As escolas devem educar as crianças, que compartilharão informações com as famílias. Os trabalhadores do Anganwadi fornecerão educação de porta em porta."
+      },
+      "es": {
+        "title": "Sirsa lanza campaña contra enfermedades transmitidas por mosquitos.",
+        "description": "Una reunión del Comité de Control de la Malaria del Distrito revisó los planes para combatir el dengue y la malaria. Una campaña especial comienza el 25 de septiembre, con multas por larvas de mosquito. Los departamentos deben limpiar los recipientes de agua semanalmente. Las escuelas deben educar a los niños, quienes compartirán información con sus familias. Los trabajadores de Anganwadi proporcionarán educación de puerta a puerta."
       }
     }
   },
@@ -417,6 +570,148 @@
       "es": {
         "title": "Camerún podría estar convirtiendo residuos en energía: Un estudio descubre por qué no lo está haciendo y propone soluciones.",
         "description": "Muchas ciudades africanas todavía luchan con la basura y los desechos que no se eliminan adecuadamente. Esto representa graves riesgos para la salud pública. Atrae vectores de enfermedades como mosquitos y moscas, y puede provocar brotes de cólera y malaria."
+      }
+    }
+  },
+  {
+    "id": "1367b67adfcf7ff4bb94976430a5fdfc",
+    "title": "DNA from our ancient Denisovan ancestors may protect us from some tropical diseases",
+    "description": "Malaria is one of the world's most widespread and deadliest parasitic diseases. But some people may have natural protection thanks to DNA inherited from an extinct group of archaic humans known as the Denisovans. New research has looked at specific Denisovan-derived genes that may protect against this and other tropical diseases.",
+    "content": "Malaria is one of the world's most widespread and deadliest parasitic diseases. But some people may have natural protection thanks to DNA inherited from an extinct group of archaic humans known as the Denisovans. New research has looked at specific D... [2835 chars]",
+    "url": "https://phys.org/news/2025-09-dna-ancient-denisovan-ancestors-tropical.html",
+    "image": "https://scx2.b-cdn.net/gfx/news/hires/2025/dna-from-our-ancient-d.jpg",
+    "publishedAt": "2025-09-16T17:00:01Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://phys.org/news/2025-09-dna-ancient-denisovan-ancestors-tropical.html",
+    "imageUrl": "https://scx2.b-cdn.net/gfx/news/hires/2025/dna-from-our-ancient-d.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "L'ADN de nos anciens ancêtres Denisoviens pourrait nous protéger de certaines maladies tropicales.",
+        "description": "Le paludisme est l'une des maladies parasitaires les plus répandues et les plus meurtrières au monde. Mais certaines personnes peuvent bénéficier d'une protection naturelle grâce à l'ADN hérité d'un groupe éteint d'humains archaïques connu sous le nom de Denisoviens. De nouvelles recherches se sont intéressées à des gènes spécifiques dérivés des Denisoviens qui pourraient protéger contre cette maladie et d'autres maladies tropicales."
+      },
+      "pt": {
+        "title": "O DNA de nossos antigos ancestrais denisovanos pode nos proteger de algumas doenças tropicais.",
+        "description": "A malária é uma das doenças parasitárias mais disseminadas e mortais do mundo. No entanto, algumas pessoas podem ter proteção natural graças ao DNA herdado de um grupo extinto de humanos arcaicos conhecidos como Denisovanos. Novas pesquisas analisaram genes específicos derivados dos Denisovanos que podem oferecer proteção contra essa e outras doenças tropicais."
+      },
+      "es": {
+        "title": "El ADN de nuestros antiguos ancestros denisovanos puede protegernos de algunas enfermedades tropicales.",
+        "description": "La malaria es una de las enfermedades parasitarias más extendidas y mortales del mundo. Sin embargo, algunas personas pueden tener protección natural gracias a un ADN heredado de un grupo extinto de humanos arcaicos conocido como los Denisovanos. Nueva investigación ha examinado genes específicos derivados de los Denisovanos que pueden proteger contra esta y otras enfermedades tropicales."
+      }
+    }
+  },
+  {
+    "id": "3314cf79e347cd546040a83120746313",
+    "title": "Mumbai News: 'City Records 38 Malaria And 28 Dengue Cases Daily In Last Fortnight,' Says BMC",
+    "description": "The city has been witnessing a sharp surge in vector-borne diseases over the past fortnight, with an average of 38 malaria and 28 dengue cases reported daily. The rise comes amid increasing incidences of malaria, dengue, chikungunya, and leptospirosis since mid-August.",
+    "content": "Mumbai: The city has been witnessing a sharp surge in vector-borne diseases over the past fortnight, with an average of 38 malaria and 28 dengue cases reported daily. The rise comes amid increasing incidences of malaria, dengue, chikungunya, and lept... [1921 chars]",
+    "url": "https://www.freepressjournal.in/mumbai/mumbai-news-city-records-38-malaria-and-28-dengue-cases-daily-in-last-fortnight-says-bmc",
+    "image": "https://media.assettype.com/freepressjournal/2025-08-07/1yy0r9bv/mosquito-1332382_1280.jpg",
+    "publishedAt": "2025-09-16T16:34:48Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://www.freepressjournal.in/mumbai/mumbai-news-city-records-38-malaria-and-28-dengue-cases-daily-in-last-fortnight-says-bmc",
+    "imageUrl": "https://media.assettype.com/freepressjournal/2025-08-07/1yy0r9bv/mosquito-1332382_1280.jpg",
+    "countryDetection": {
+      "country": "India",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "city",
+      "term": "mumbai",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Actualités de Mumbai : « La ville enregistre 38 cas de paludisme et 28 cas de dengue par jour au cours des deux dernières semaines », déclare la BMC.",
+        "description": "La ville a connu une forte augmentation des maladies vectorielles au cours des deux dernières semaines, avec une moyenne de 38 cas de paludisme et 28 cas de dengue signalés chaque jour. Cette hausse survient dans un contexte d'augmentation des cas de paludisme, de dengue, de chikungunya et de leptospirose depuis la mi-août."
+      },
+      "pt": {
+        "title": "Notícias de Mumbai: 'Cidade Registra 38 Casos de Malária e 28 Casos de Dengue Diários na Última Quinzena,' Diz BMC",
+        "description": "A cidade tem testemunhado um aumento acentuado em doenças transmitidas por vetores nas últimas duas semanas, com uma média de 38 casos de malária e 28 casos de dengue reportados diariamente. O aumento ocorre em meio ao crescimento das incidências de malária, dengue, chikungunya e leptospirose desde meados de agosto."
+      },
+      "es": {
+        "title": "Noticias de Mumbai: 'La ciudad registra 38 casos de malaria y 28 casos de dengue diarios en la última quincena', dice la BMC.",
+        "description": "La ciudad ha estado presenciando un aumento brusco en las enfermedades transmitidas por vectores en las últimas dos semanas, con un promedio de 38 casos de malaria y 28 casos de dengue reportados diariamente. Este aumento se produce en medio de un incremento en las incidencias de malaria, dengue, chikungunya y leptospirosis desde mediados de agosto."
+      }
+    }
+  },
+  {
+    "title": "Malaria, Chikungunya, Hepatitis Cases Rise In Mumbai In Jan-Sep 2025: BMC Report",
+    "description": "Mumbai reported 6,277 cases of malaria from January till September 15 as compared to 5,182 in the same period previous year, 913 cases of hepatitis against 791 in 2024 and 542 cases of chikungunya from 366 last year",
+    "url": "https://www.ndtvprofit.com/nation/malaria-chikungunya-hepatitis-cases-rise-in-mumbai-in-jan-sep-2025-bmc-report",
+    "publishedAt": "2025-09-16 17:50:52",
+    "source": "NewsData.io",
+    "language": "english",
+    "uniqueId": "https://www.ndtvprofit.com/nation/malaria-chikungunya-hepatitis-cases-rise-in-mumbai-in-jan-sep-2025-bmc-report",
+    "imageUrl": "https://media.assettype.com/bloombergquint/2019-08/a1921b3a-0d6b-4c92-b0e0-5d24db308a49/07081_pti8_7_2019_000160b.jpg?auto=format%2Ccompress&enlarge=true&fit=max&h=675&w=1200",
+    "countryDetection": {
+      "country": "India",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "city",
+      "term": "mumbai",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 50,
+    "translations": {
+      "en": {
+        "title": "Malaria, Chikungunya, and Hepatitis Cases Rise In Mumbai From January to September 2025: BMC Report",
+        "description": "Mumbai reported 6,277 cases of malaria from January to September 15, compared to 5,182 in the same period last year, 913 cases of hepatitis compared to 791 in 2024, and 542 cases of chikungunya, up from 366 last year."
+      },
+      "fr": {
+        "title": "Malaria, Chikungunya, et les cas d'hépatite augmentent à Mumbai de janvier à septembre 2025 : rapport de la BMC.",
+        "description": "Mumbai a enregistré 6 277 cas de paludisme de janvier jusqu'au 15 septembre, contre 5 182 au cours de la même période l'année précédente, 913 cas d'hépatite contre 791 en 2024 et 542 cas de chikungunya contre 366 l'année dernière."
+      },
+      "pt": {
+        "title": "Casos de malária, chikungunya e hepatite aumentam em Mumbai de janeiro a setembro de 2025: relatório da BMC.",
+        "description": "Mumbai registrou 6.277 casos de malária de janeiro até 15 de setembro, em comparação com 5.182 no mesmo período do ano anterior, 913 casos de hepatite contra 791 em 2024 e 542 casos de chikungunya, em comparação a 366 do ano passado."
+      },
+      "es": {
+        "title": "Aumento de casos de malaria, chikungunya y hepatitis en Mumbai de enero a septiembre de 2025: informe de la BMC.",
+        "description": "Mumbai reportó 6,277 casos de malaria desde enero hasta el 15 de septiembre, en comparación con 5,182 en el mismo período del año anterior, 913 casos de hepatitis frente a 791 en 2024 y 542 casos de chikungunya, en comparación con 366 el año pasado."
+      }
+    }
+  },
+  {
+    "title": "Malaria, chikungunya cases rise; dengue, gastro see dip: BMC report",
+    "description": "Public health advisories emphasised removing stagnant water and ensuring hygiene to curb further infections during the remainder of the monsoon",
+    "url": "https://indianexpress.com/article/cities/mumbai/malaria-chikungunya-cases-rise-dengue-gastro-see-dip-bmc-report-10254007/",
+    "publishedAt": "2025-09-16 17:32:30",
+    "source": "NewsData.io",
+    "language": "english",
+    "uniqueId": "https://indianexpress.com/article/cities/mumbai/malaria-chikungunya-cases-rise-dengue-gastro-see-dip-bmc-report-10254007/",
+    "imageUrl": "https://images.indianexpress.com/2025/09/mumbai-malaria.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 40,
+    "translations": {
+      "en": {
+        "title": "Malaria and chikungunya cases are increasing, while dengue and gastroenteritis cases have decreased, according to a BMC report.",
+        "description": "Public health advisories emphasized removing stagnant water and ensuring hygiene to curb further infections during the remainder of the monsoon."
+      },
+      "fr": {
+        "title": "Les cas de paludisme et de chikungunya augmentent ; le dengue et la gastro-entérite enregistrent une baisse : rapport de la BMC.",
+        "description": "Les avis de santé publique ont souligné l'importance d'éliminer l'eau stagnante et de garantir l'hygiène pour limiter d'autres infections pendant le reste de la mousson."
+      },
+      "pt": {
+        "title": "Casos de malária e chikungunya aumentam; dengue e gastroenterite apresentam queda: relatório da BMC.",
+        "description": "Os avisos de saúde pública enfatizaram a remoção de água parada e a garantia de higiene para conter novas infecções durante o restante da monção."
+      },
+      "es": {
+        "title": "Aumentan los casos de malaria y chikungunya; dengue y gastro ven un descenso: informe de BMC.",
+        "description": "Las advertencias de salud pública enfatizaron la eliminación de agua estancada y la garantía de higiene para frenar futuras infecciones durante el resto del monzón."
       }
     }
   },
@@ -492,6 +787,111 @@
     }
   },
   {
+    "title": "Rwanda reconsiders malaria vaccines amid surprise surge",
+    "description": "",
+    "url": "https://news.google.com/read/CBMijgFBVV95cUxPd1JMYXJ0Vnh1X2tnTDJyMHN1QXZuZGl5Y0FJdkhabXVpYk9CRWEzOFpuMExHOVNwcXpLRGo5V01nc1ZjOVdqSldiYUMtbWJvaFMyc0Y3MkdUQTZHbHJkdzFRMWtJd3lOYVVxMENlUnprR3c2QW9yNEtKaEI0TVJ3REQxRHR4ZEZzWnhGQTVB?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-16T13:43:31.000Z",
+    "source": "Medical Xpress",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMijgFBVV95cUxPd1JMYXJ0Vnh1X2tnTDJyMHN1QXZuZGl5Y0FJdkhabXVpYk9CRWEzOFpuMExHOVNwcXpLRGo5V01nc1ZjOVdqSldiYUMtbWJvaFMyc0Y3MkdUQTZHbHJkdzFRMWtJd3lOYVVxMENlUnprR3c2QW9yNEtKaEI0TVJ3REQxRHR4ZEZzWnhGQTVB?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iL0NnNVNhVTVXZGxSUVExOTVhbVZrVFJDcUJCaXFCQ2dLTWdrSkFvZ3Z0YVNKN2dF=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": {
+      "country": "Rwanda",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "rwanda",
+      "region": "Africa"
+    },
+    "country": "Rwanda",
+    "continent": "Africa",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Le Rwanda reconsidère les vaccins contre le paludisme au milieu d'une augmentation surprise."
+      },
+      "pt": {
+        "title": "Ruanda reavalia vacinas contra a malária em meio a um aumento inesperado."
+      },
+      "es": {
+        "title": "Ruanda reconsidera las vacunas contra la malaria en medio de un sorpresivo aumento."
+      }
+    }
+  },
+  {
+    "id": "29e935ef07bf2d1ceb444a0570df4876",
+    "title": "Mumbai Battles Monsoon Maladies: BMC's Efforts to Curb Disease Surge",
+    "description": "Mumbai has seen a rise in malaria, chikungunya, and hepatitis cases from January to September 15, compared with the same period last year. However, dengue, leptospirosis, and gastro cases have decreased. BMC has conducted awareness initiatives to combat the spread, including cleanliness drives and blood sample collection.",
+    "content": "Mumbai is witnessing a worrying surge in malaria, chikungunya, and hepatitis cases this year, with figures rising from January to mid-September compared to last year, according to the Brihanmumbai Municipal Corporation (BMC). However, the city sees a... [656 chars]",
+    "url": "https://www.devdiscourse.com/article/health/3629957-mumbai-battles-monsoon-maladies-bmcs-efforts-to-curb-disease-surge",
+    "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/aiimagegallery/16_09_2025_13_01_51_9400015.png?width=920&format=jpeg",
+    "publishedAt": "2025-09-16T13:11:48Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://www.devdiscourse.com/article/health/3629957-mumbai-battles-monsoon-maladies-bmcs-efforts-to-curb-disease-surge",
+    "imageUrl": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/aiimagegallery/16_09_2025_13_01_51_9400015.png?width=920&format=jpeg",
+    "countryDetection": {
+      "country": "India",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "city",
+      "term": "mumbai",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Mumbai lutte contre les maladies de la mousson : les efforts de la BMC pour freiner la hausse des maladies",
+        "description": "Mumbai a connu une augmentation des cas de paludisme, de chikungunya et d'hépatite de janvier au 15 septembre, par rapport à la même période l'année dernière. Cependant, les cas de dengue, de leptospirose et de gastro-entérite ont diminué. La BMC a mené des initiatives de sensibilisation pour lutter contre la propagation, notamment des campagnes de propreté et des collectes d'échantillons de sang."
+      },
+      "pt": {
+        "title": "Mumbai Enfrenta Doenças Durante o Monção: Esforços da BMC para Controlar o Aumento de Doenças",
+        "description": "Mumbai viu um aumento nos casos de malária, chikungunya e hepatite de janeiro até 15 de setembro, em comparação com o mesmo período do ano passado. No entanto, os casos de dengue, leptospirose e gastro diminuíram. A BMC realizou iniciativas de conscientização para combater a propagação, incluindo campanhas de limpeza e coleta de amostras de sangue."
+      },
+      "es": {
+        "title": "Mumbai Lucha contra las Enfermedades del Monzón: Esfuerzos de la BMC para Frenar el Aumento de Enfermedades",
+        "description": "Mumbai ha visto un aumento en los casos de malaria, chikungunya y hepatitis desde enero hasta el 15 de septiembre, en comparación con el mismo período del año pasado. Sin embargo, los casos de dengue, leptospirosis y gastro han disminuido. La BMC ha llevado a cabo iniciativas de concienciación para combatir la propagación, incluyendo campañas de limpieza y recolección de muestras de sangre."
+      }
+    }
+  },
+  {
+    "id": "6b9afc798d4cdd144178e0187387cbf7",
+    "title": "Fogging In Jammu As Threat Of Dengue, Malaria Looms",
+    "description": "JAMMU, Sept 16: While the cleanliness and sanitation drive post-floods is in full swing, fogging has also been intensified in all municipal and non-municipal areas as threat of dengue and malaria loom in the affected areas of Jammu. The Jammu Municipal Corporation and State Malarialogist Office of Jammu Health Department have jointly initiated the exercise of fogging and spraying in the flood-affected areas to control the rise in the water-borne and vector-borne diseases. Dhruv Ji Raina, Malariologist, Jammu Health department […]",
+    "content": "JAMMU, Sept 16: While the cleanliness and sanitation drive post-floods is in full swing, fogging has also been intensified in all municipal and non-municipal areas as threat of dengue and malaria loom in the affected areas of Jammu.\nThe Jammu Municip... [3634 chars]",
+    "url": "https://www.dailyexcelsior.com/fogging-in-jammu-as-threat-of-dengue-malaria-looms/",
+    "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2019/09/39409-dengue_virus.jpg",
+    "publishedAt": "2025-09-16T10:39:23Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://www.dailyexcelsior.com/fogging-in-jammu-as-threat-of-dengue-malaria-looms/",
+    "imageUrl": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2019/09/39409-dengue_virus.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Brouillard à Jammu alors que la menace de la dengue et du paludisme plane.",
+        "description": "JAMMU, 16 sept : Alors que la campagne de propreté et d'assainissement après les inondations est en plein essor, la lutte contre les moustiques a également été intensifiée dans toutes les zones municipales et non municipales en raison de la menace de dengue et de paludisme qui plane sur les zones touchées de Jammu. La Municipalité de Jammu et le Bureau des Malarialogistes du Département de la Santé de Jammu ont conjointement lancé l'opération de lutte anti-moustiques et de pulvérisation dans les zones touchées par les inondations pour contrôler l'augmentation des maladies d'origine hydrique et transmises par des vecteurs. Dhruv Ji Raina, Malarialogiste, Département de la Santé de Jammu [...]"
+      },
+      "pt": {
+        "title": "Fumos em Jammu À Medida Que A Ameaça de Dengue e Malária Se Aproxima",
+        "description": "JAMMU, 16 de setembro: Enquanto a campanha de limpeza e saneamento após as enchentes está a todo vapor, a nebulização também foi intensificada em todas as áreas municipais e não municipais, já que a ameaça de dengue e malária paira nas áreas afetadas de Jammu. A Corporação Municipal de Jammu e o Escritório de Malarilogista do Departamento de Saúde de Jammu iniciaram em conjunto o exercício de nebulização e pulverização nas áreas afetadas pelas enchentes para controlar o aumento das doenças transmitidas por água e vetores. Dhruv Ji Raina, Malarilogista, Departamento de Saúde de Jammu […]"
+      },
+      "es": {
+        "title": "Nebulización en Jammu ante la amenaza de dengue y malaria.",
+        "description": "JAMMU, 16 de septiembre: Mientras la campaña de limpieza y saneamiento tras las inundaciones está en pleno apogeo, la fumigación también se ha intensificado en todas las áreas municipales y no municipales, ya que la amenaza de dengue y malaria se cierne sobre las áreas afectadas de Jammu. La Corporación Municipal de Jammu y la Oficina del Malariólogo Estatal del Departamento de Salud de Jammu han iniciado conjuntamente el ejercicio de fumigación y rociado en las áreas afectadas por las inundaciones para controlar el aumento de enfermedades transmitidas por el agua y por vectores. Dhruv Ji Raina, Malariólogo, Departamento de Salud de Jammu […]"
+      }
+    }
+  },
+  {
     "title": "The Bill and Melinda Gates Foundation's fight against Malaria",
     "description": "",
     "url": "https://news.google.com/read/CBMingFBVV95cUxPU0hITlBYTkVmQmdORTE5UlRqQW8wZHpBZVFRcEV2SzJZSC1fT29oOEx4SmpLTFNWaUl6R05EM2dzYmdHQzJDMGZqdzRybHl0UGZCc09NcUdEVUJEUHpGckxNMk1zMS1jSlBObllfVjlBSnFnZHJSUWhpbWhwUkM2M0RUcDhJQmptSFZLNVVHT2FOM2ZKb1Q2cUh6aXFsUQ?hl=en-US&gl=US&ceid=US%3Aen",
@@ -519,6 +919,77 @@
     }
   },
   {
+    "id": "be1a2bd350e5451c86ce43567a52e6bf",
+    "title": "PCMC intensifies drive to curb dengue, malaria; ₹40.58 lakh collected in fines",
+    "description": "PCMC intensifies efforts against dengue and malaria with inspections, fumigation, and public awareness, serving notices at over 4,100 locations since June.",
+    "content": "As per the officials, since June 1, PCMC has served notices to 4,137 locations and taken direct punitive action against 1,142 individuals and establishments, recovering ₹40.58 lakh in penalties. PCMC this year has recorded 2,281 suspected and 62 conf... [1333 chars]",
+    "url": "https://www.hindustantimes.com/cities/pune-news/pcmc-intensifies-drive-to-curb-dengue-malaria-40-58-lakh-collected-in-fines-101757964649048.html",
+    "image": "https://www.hindustantimes.com/ht-img/img/2025/09/15/1600x900/The-health-department-has-intensified-inspections-_1757964643752.jpg",
+    "publishedAt": "2025-09-16T01:36:05Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://www.hindustantimes.com/cities/pune-news/pcmc-intensifies-drive-to-curb-dengue-malaria-40-58-lakh-collected-in-fines-101757964649048.html",
+    "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/09/15/1600x900/The-health-department-has-intensified-inspections-_1757964643752.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "La PCMC intensifie sa lutte contre la dengue et le paludisme ; 40,58 lakh ₹ collectés en amendes.",
+        "description": "La PCMC intensifie ses efforts contre la dengue et le paludisme avec des inspections, des fumigations et de la sensibilisation du public, en délivrant des avis à plus de 4 100 endroits depuis juin."
+      },
+      "pt": {
+        "title": "PCMC intensifica esforços para combater dengue e malária; ₹40,58 lakh coletados em multas.",
+        "description": "A PCMC intensifica os esforços contra a dengue e a malária com inspeções, fumigações e conscientização pública, emitindo notificações em mais de 4.100 locais desde junho."
+      },
+      "es": {
+        "title": "PCMC intensifica su campaña para combatir el dengue y la malaria; se han recaudado ₹40.58 lakh en multas.",
+        "description": "PCMC intensifica sus esfuerzos contra el dengue y la malaria con inspecciones, fumigaciones y concienciación pública, sirviendo notificaciones en más de 4,100 lugares desde junio."
+      }
+    }
+  },
+  {
+    "id": "1dbc15c0b5bf3da1149ecc37345e10da",
+    "title": "Malaria, Chikungunya cases recorded in Delhi till mid-September hit highest in 5 years",
+    "description": "The post-rainfall period typically sees a spike in VBD (Vector-Borne Diseases) transmission, officials noted",
+    "content": "As per MCD officials, 9 Malaria patients remain untraceable, while 19 cases were recorded with incomplete or incorrect addresses.\nAccording to officials, disinfectant spraying via drones will begin in flood-affected regions within a day or two. “Afte... [707 chars]",
+    "url": "https://indianexpress.com/article/cities/delhi/malaria-chikungunya-cases-recorded-in-delhi-till-mid-september-hit-highest-in-5-years-10252318/",
+    "image": "https://images.indianexpress.com/2025/09/delhi-malaria-1.jpg",
+    "publishedAt": "2025-09-16T00:15:42Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://indianexpress.com/article/cities/delhi/malaria-chikungunya-cases-recorded-in-delhi-till-mid-september-hit-highest-in-5-years-10252318/",
+    "imageUrl": "https://images.indianexpress.com/2025/09/delhi-malaria-1.jpg",
+    "countryDetection": {
+      "country": "India",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "city",
+      "term": "delhi",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Des cas de paludisme et de chikungunya enregistrés à Delhi jusqu'à mi-septembre atteignent le plus haut niveau en 5 ans.",
+        "description": "La période post-précipitations connaît généralement une augmentation de la transmission des MCV (Maladies à Transmission Vectorielle), ont noté les responsables."
+      },
+      "pt": {
+        "title": "Casos de malária e chikungunya registrados em Delhi até meados de setembro atingem o maior nível em 5 anos.",
+        "description": "O período pós-chuva geralmente vê um aumento na transmissão de DTV (Doenças Transmitidas por Vetores), observaram os oficiais."
+      },
+      "es": {
+        "title": "Los casos de malaria y chikungunya registrados en Delhi hasta mediados de septiembre alcanzan el nivel más alto en 5 años.",
+        "description": "El período posterior a la lluvia suele experimentar un aumento en la transmisión de enfermedades transmitidas por vectores (ETV), señalaron los funcionarios."
+      }
+    }
+  },
+  {
     "title": "33 malaria, four chikungunya cases in city last week, MCD ramps up action",
     "description": "",
     "url": "https://news.google.com/read/CBMi3AFBVV95cUxNN09VUGtSS3c4TTZWS2lZY2tlUDJMNFFXZ1VwWFBsV0lib1lYYllSMHRBMU1WWDJ1MExIV0VBS2VmM3Fud1BzajhhQWpodTFVa0liWEVwTEdJNHFfanRrNW0yWm9GcTRVYm9hMWJQcENoQXZIaWFFYnBFTm5Wc2o1RDBzS1NxR19Wd1lLRFdLU2poUGZTeXh1THI5Z2c0NFVHdHB6S3BiSk40NzFxMnJEN0JFTFhyTDZrU2lMZ0hRR0Qyc1JaRDJsNnZNckg4UzEyV1hXSkI0ZWRSUmZF0gHiAUFVX3lxTE95LWxlSHBZVE91bGRjUGtZQ2tnS3hYQkUxS0V0dE82Q1dEZWRKZk00aWNtZ01oLVdmS3l1bWNTRldlb213c19FS1hxNzRXSHNTT0pKdW1qbmRhNmRkd0pDTnNfSlJFYUxiSE10TEZTQVlLZ19OYVRqek9iUmJjMVotckVncWN6NGFXYlRYaEdJdG4wRnNJbVJMX3JndjlBeXJiRTZxU0JwNkRDdDVnLWJpQ2Izck1xTkF0SExQMi02VF9jZjhBOWdlLWNyVnJKaUJmQjJVYjdHQVFHTl83R3dueGc?hl=en-US&gl=US&ceid=US%3Aen",
@@ -542,6 +1013,84 @@
       },
       "es": {
         "title": "33 casos de malaria y cuatro casos de chikungunya en la ciudad la semana pasada, MCD intensifica acciones."
+      }
+    }
+  },
+  {
+    "id": "6927d45286197eda176576c8fe3b7838",
+    "title": "33 malaria, four chikungunya cases in city last week, MCD ramps up action",
+    "description": "New Delhi: The vector-borne disease count continues to rise in the city, with 33 more malaria and four chikungunya cases reported last week. Union hea.",
+    "content": "New Delhi: The vector-borne disease count continues to rise in the city, with 33 more malaria and four chikungunya cases reported last week. Union health minister JP Nadda on Monday urged the NCR states to reassess their preparedness to tackle such c... [1951 chars]",
+    "url": "https://timesofindia.indiatimes.com/city/delhi/33-malaria-four-chikungunya-cases-in-city-last-week-mcd-ramps-up-action/articleshow/123907449.cms",
+    "image": "https://static.toiimg.com/thumb/msid-123907448,width-1070,height-580,imgsize-36114,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+    "publishedAt": "2025-09-15T22:01:00Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://timesofindia.indiatimes.com/city/delhi/33-malaria-four-chikungunya-cases-in-city-last-week-mcd-ramps-up-action/articleshow/123907449.cms",
+    "imageUrl": "https://static.toiimg.com/thumb/msid-123907448,width-1070,height-580,imgsize-36114,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+    "countryDetection": {
+      "country": "India",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "city",
+      "term": "delhi",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "33 cas de paludisme, quatre cas de chikungunya dans la ville la semaine dernière, la MCD intensifie ses actions.",
+        "description": "Nouvelle Delhi : Le nombre de maladies transmises par les vecteurs continue d'augmenter dans la ville, avec 33 nouveaux cas de paludisme et quatre cas de chikungunya signalés la semaine dernière. Le ministre de l'Union."
+      },
+      "pt": {
+        "title": "33 casos de malária e quatro casos de chikungunya na cidade na última semana, MCD intensifica ações.",
+        "description": "Nova Délhi: O número de doenças transmitidas por vetores continua a aumentar na cidade, com 33 novos casos de malária e quatro casos de chikungunya relatados na semana passada. Chefe da União."
+      },
+      "es": {
+        "title": "33 casos de malaria y cuatro casos de chikungunya en la ciudad la semana pasada, MCD intensifica acciones.",
+        "description": "Nueva Delhi: El conteo de enfermedades transmitidas por vectores continúa aumentando en la ciudad, con 33 casos más de malaria y cuatro casos de chikungunya reportados la semana pasada."
+      }
+    }
+  },
+  {
+    "id": "75e5d1733429155e2b7aa89d59da753b",
+    "title": "Malaria cases at a five-year high of 297",
+    "description": "Vector-borne diseases on the rise in Delhi, with 297 malaria cases and 120 dengue cases reported this year.",
+    "content": "Vector-borne diseases are spreading rapidly in the Capital, with 62 cases of malaria recorded in the first two weeks of September, and 32 of them reported in the past week, according to Municipal Corporation of Delhi. So far this year, a total of 297... [911 chars]",
+    "url": "https://www.thehindu.com/news/cities/Delhi/malaria-cases-at-a-five-year-high-of-297/article70054322.ece",
+    "image": "https://th-i.thgim.com/public/incoming/xf7a1e/article70054405.ece/alternates/LANDSCAPE_1200/PTI09_05_2025_000146A.jpg",
+    "publishedAt": "2025-09-15T20:08:11Z",
+    "lang": "en",
+    "source": "Google News",
+    "language": "en",
+    "uniqueId": "https://www.thehindu.com/news/cities/Delhi/malaria-cases-at-a-five-year-high-of-297/article70054322.ece",
+    "imageUrl": "https://th-i.thgim.com/public/incoming/xf7a1e/article70054405.ece/alternates/LANDSCAPE_1200/PTI09_05_2025_000146A.jpg",
+    "countryDetection": {
+      "country": "India",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "city",
+      "term": "delhi",
+      "region": "Asia"
+    },
+    "country": "India",
+    "continent": "Asia",
+    "relevanceScore": 50,
+    "translations": {
+      "fr": {
+        "title": "Les cas de paludisme atteignent un pic de cinq ans avec 297 cas.",
+        "description": "Les maladies à transmission vectorielle en augmentation à Delhi, avec 297 cas de paludisme et 120 cas de dengue signalés cette année."
+      },
+      "pt": {
+        "title": "Casos de malária atingem o nível mais alto em cinco anos, com 297 registros.",
+        "description": "As doenças transmitidas por vetores estão aumentando em Delhi, com 297 casos de malária e 120 casos de dengue registrados este ano."
+      },
+      "es": {
+        "title": "Los casos de malaria alcanzan un máximo de cinco años de 297.",
+        "description": "Las enfermedades transmitidas por vectores están en aumento en Delhi, con 297 casos de malaria y 120 casos de dengue reportados este año."
       }
     }
   },
@@ -903,6 +1452,17 @@
     }
   },
   {
+    "title": "Targeting Plasmodium falciparum Single-Stranded DNA-Binding Protein: Discovery of New Scaffold Compounds Effective against Drug-Sensitive and Artemisinin-Resistant Strains.",
+    "publishedAt": "2025-09-14",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40946223",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
+  },
+  {
     "source": "NewsAPI",
     "author": "Mohamad Ridwan, Raka Adji",
     "title": "Parigi Moutong extends malaria outbreak alert status until Feb",
@@ -1135,6 +1695,38 @@
     }
   },
   {
+    "id": "c1ba4f5c964c26bfa016f8770d206599",
+    "title": "Floresta preservada por indígenas ajuda a prevenir de malária a pneumonia na Amazônia",
+    "description": "Estudo mapeou correlação entre extensão de terras de povos tradicionais com incidência de doenças em todos os países que abrigam o bioma",
+    "content": "O trabalho, liderado pela ecóloga Júlia Rodrigues Barreto, da Universidade de São Paulo (USP), conseguiu estabelecer uma correlação entre a presença de terras indígenas (TIs) em todos os países que abrigam a Amazônia e os casos das enfermidades anali... [4110 chars]",
+    "url": "https://oglobo.globo.com/saude/ciencia/noticia/2025/09/12/floresta-preservada-por-indigenas-ajuda-a-prevenir-de-malaria-a-pneumonia-na-amazonia.ghtml",
+    "image": "https://s2-oglobo.glbimg.com/4KfpmDUQd-Og6I-xkq8LphgqwzM=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/A/a/numyWbQyOY56BMgY0m9w/parque-chandless-acre-1000x600-2-.jpg",
+    "publishedAt": "2025-09-12T06:00:33Z",
+    "lang": "pt",
+    "source": "Google News",
+    "language": "pt",
+    "uniqueId": "https://oglobo.globo.com/saude/ciencia/noticia/2025/09/12/floresta-preservada-por-indigenas-ajuda-a-prevenir-de-malaria-a-pneumonia-na-amazonia.ghtml",
+    "imageUrl": "https://s2-oglobo.glbimg.com/4KfpmDUQd-Og6I-xkq8LphgqwzM=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/A/a/numyWbQyOY56BMgY0m9w/parque-chandless-acre-1000x600-2-.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "Forest preserved by indigenous people helps prevent malaria and pneumonia in the Amazon.",
+        "description": "A study mapped the correlation between the land extension of traditional peoples and the incidence of diseases in all countries that house the biome."
+      },
+      "fr": {
+        "title": "Floresta préservée par les indigènes aide à prévenir le paludisme et la pneumonie en Amazonie.",
+        "description": "Une étude a cartographié la corrélation entre l'extension des terres des peuples traditionnels et l'incidence des maladies dans tous les pays abritant le biome."
+      },
+      "es": {
+        "title": "Floresta preservada por indígenas ayuda a prevenir la malaria y la neumonía en la Amazonía.",
+        "description": "Un estudio mapeó la correlación entre la extensión de tierras de pueblos tradicionales y la incidencia de enfermedades en todos los países que albergan el bioma."
+      }
+    }
+  },
+  {
     "title": "Packers someten a Jayden Daniels y derrotan a Commanders en el inicio de la Semana 2 de la NFL",
     "description": "Los Green Bay Packers alzan la mano como contendientes de la NFL. Jordan Love lanzó para dos touchdowns y Josh Jacobs corrió para 84 yardas y anotó una vez en la victoria 27-18 de los Cheeseheads sobre Washington Commanders, un duelo en el que la ofensiva visitante se vio bastante limitada durante los tres primeros cuartos.Love completó 19 de 31 pases para 292 yardas y tuvo un rating de 113.9; Tucker Kraft atrapó seis balones para 124 yardas, incluida una recepción de 57 yardas y también un touchdown; en tanto Edgerrin Cooper tuvo diez tacleadas y una captura en conjunto con Micah Parsons, clave para tener presionado a Daniels, que se fue con 24 pases completos en 42 intentos, 200 yardas y dos pases de anotación, pero sufrió cuatro sacks en el proceso.El marcador no refleja el dominioAunque terminaron con nueve puntos de diferencia, 15 de esas unidades las consiguió Washington en el último cuarto y ocho de ellas cuando Green Bay había establecido la ventaja definitiva. Los Packers inauguraron el marcador en el primer cuarto con un pase de Love con Romeo Doubs, mientras que ampliaron la ventaja a la mitad del segundo periodo cuando Josh Jacobs acarreó dos yardas hasta la zona prometida.2-0 at Lambeau to start the season ????@jordan3love | @packers pic.twitter.com/V2gkOz6vUE— NFL (@NFL) September 12, 2025Después de tres posesiones improductivas, incluidas las tres primeras de ‘tres y fuera’, los Commanders llegaron hasta la yarda 33 y Matt Gay anotó un gol de campo de 37 yardas, pero falló un par más de 58 y 52 yardas, respectivamente.Green Bay, que había fallado un gol de campo antes del descanso, se metió a zona roja y la defensiva de Washington los frenó, con lo que se conformaron con un gol de campo de 22 yardas de Brandon McManus para el 17-3. La malaria se rompió hasta el último cuarto, cuando Daniels completó el envío de 20 yardas con Zach Ertz para ponerse a una posesión.Pero Love volvió a encontrar el ritmo y una jugada de engaño finalizó con el pase de ocho yardas con Tucker Kraft para aumentar la diferencia a 14 puntos (24-10). Dan Quinn tuvo que jugar en cuarto down, pero la ofensiva aérea no conectó y entregaron el balón a medio campo y McManus acertó un gol de campo de 56 yardas.FINAL: The @packers are 2-0! ???? pic.twitter.com/YVMnKHRrkS— NFL (@NFL) September 12, 2025Washington apenas llegó a zona roja por segunda ocasión y le costó trabajo, hasta que Deebo Samuel cruzó la zona prometida tras una recepción de diez yardas y una conversión de dos puntos. Todavía tuvieron el balón pasada la pausa de los dos minutos, pero Daniels no pudo convertir el cuarto down y Green Bay se puso 2-0 en la temporada.​​RGS",
     "url": "https://www.milenio.com/deportes/americano/commanders-vs-packers-resumen-del-juego-de-la-semana-2-nfl-2025",
@@ -1248,6 +1840,27 @@
     "relevanceScore": 100
   },
   {
+    "title": "Dissecting the dynamics of virus-derived DNA of dengue virus 2 (DENV-2) in Aedes mosquitoes",
+    "description": "Dengue is one of the neglected tropical diseases (NTDs) transmitted by Aedes mosquitoes and continues to spread globally. When mosquitoes are infected with dengue virus (DENV), virus-derived DNA (vDNA) is generated in mosquitoes, which subsequently contributes to their immune response. We traced the generation and presence of dengue virus type 2 (DENV-2) vDNA in experimentally infected cultured mosquito cells and Aedes mosquitoes, and notably, in wild mosquitoes collected in Burkina Faso. Detection of vDNA was achieved using a method incorporating loop-mediated isothermal amplification (LAMP), specifically, a LAMP-based vDNA detection method (vDNA-LAMP). The LAMP reaction, using primers targeting a segment of the NS5 region of DENV-2, detected vDNA from crude DNA extracted from experimentally infected cultured cells and Aedes mosquitoes. Detection revealed that the amount of DENV-2 vDNA generated in infected cells was relatively low; nevertheless, vDNA-LAMP enabled successful detection. The timing and quantity of vDNA generation in cultured cells were associated with the initial number of viral particles introduced during infection. Furthermore, vDNA-LAMP was applied to detect dengue virus vDNA in wild mosquitoes in dengue-endemic regions. This resulted in the successful detection of DENV-2 vDNA in field-collected mosquitoes, indicating that a proportion of wild mosquitoes in Burkina Faso harbored DENV-2 vDNA. Mapping these vDNA-positive mosquitoes allowed the identification of areas where infected mosquitoes and/or their progeny were likely present. These findings provide insights into the dynamics of DENV-2 vDNA in natural environments and underscore the potential of vDNA-LAMP as a tool for tracing vDNA in wild mosquitoes, which are responsible for transmitting viral infections.",
+    "publishedAt": "2025-09-12",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40938858/",
+    "source": "PMC",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pmid-40938858",
+    "countryDetection": {
+      "country": "Burkina Faso",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "burkina faso",
+      "region": "Africa"
+    },
+    "country": "Burkina Faso",
+    "continent": "Africa",
+    "relevanceScore": 35
+  },
+  {
     "title": "FG, Lagos declare zero tolerance for malaria",
     "description": "",
     "url": "https://news.google.com/read/CBMinAFBVV95cUxOU0s3bUxMNlJwZnlwdUVfZVVnSFQwUXJQUWduWGZMSnJlcEVkRUFnUmMwT0xqakt2V1NmTExwLUU5amxBZ1JBT2RhRE1IZnlvMkxvbUJmNG1QdkJKY0U2anFIV2liQ21nazhRbHkwZXZNMWxNMFpKcVRCQ21ISnBYR0NyYmdZeV9NQlVnRGU2TXZuNXlEQS1uT29WdHE?hl=en-US&gl=US&ceid=US%3Aen",
@@ -1317,6 +1930,33 @@
       "es": {
         "title": "Loreto: evacuan a cinco soldados por presentar complicaciones de salud a causa de malaria.",
         "description": "Cinco miembros del Ejército del Perú (EP) fueron evacuados de emergencia desde la localidad de San Antonio de El Estrecho, capital de la provincia loretana de Putumayo, al Hospital Regional de Loreto, en Iquitos, debido a que presentaban complicaciones a su estado de salud durante el tratamiento contra la malaria."
+      }
+    }
+  },
+  {
+    "title": "After USAID cuts, Africa University restarts malaria program",
+    "description": "",
+    "url": "https://news.google.com/read/CBMingFBVV95cUxQb2I2SlhHemJfNlNzSXJPeW9acG94R1ZMQnRLSkpwNmkwOXRDZEk1Y0RhUUxqLVMxTW0wSXZwM3hsclhyU0RNbXgtcWxyQ2FTT1h6SWJMd21naUR6TTc5OXoxd2dEYXVRaVpRNWFiR2Y2OXV4a1hoeEtaZUhrTk9xUno0NFFjYVFjMzQ2cXlhb3hIQ2JLeXRYY2xBYXd6Zw?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-11T17:50:15.000Z",
+    "source": "The Christian Century",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMingFBVV95cUxQb2I2SlhHemJfNlNzSXJPeW9acG94R1ZMQnRLSkpwNmkwOXRDZEk1Y0RhUUxqLVMxTW0wSXZwM3hsclhyU0RNbXgtcWxyQ2FTT1h6SWJMd21naUR6TTc5OXoxd2dEYXVRaVpRNWFiR2Y2OXV4a1hoeEtaZUhrTk9xUno0NFFjYVFjMzQ2cXlhb3hIQ2JLeXRYY2xBYXd6Zw?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iJ0NnNXdhazF5WkMxdE4wdDVkRTh4VFJEQUFoamdBeWdLTWdNQlFCbw=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Africa",
+    "continent": "Africa",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Après les coupes de l'USAID, l'Université d'Afrique redémarre son programme sur le paludisme."
+      },
+      "pt": {
+        "title": "Após os cortes da USAID, a Universidade da África reinicia o programa de malária."
+      },
+      "es": {
+        "title": "Tras los recortes de USAID, la Universidad de África reinicia su programa de malaria."
       }
     }
   },
@@ -1392,6 +2032,33 @@
     }
   },
   {
+    "title": "Denisovan DNA May Make Some People Resistant To Malaria And Other Parasitic Infections",
+    "description": "",
+    "url": "https://news.google.com/read/CBMikgFBVV95cUxQazM0YzlwQ1Jsd0NaZ2o5Z0duLVRiLXp6OEk5Q1N3SU9VMm4tQjY4UkNxc3VMNGQ1QlFhZ1BObU5UZ1psWjNld0doQUpYR19Ha0tFNEdsVlREbFIwam1xa3NvS1JicEtzbjBFaGE4WU1uQkQyOHVfQkxJTXJUOEtwX3Y3RVJFMFN4Y0VkQUs4Wjkydw?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-11T16:27:42.000Z",
+    "source": "IFLScience",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMikgFBVV95cUxQazM0YzlwQ1Jsd0NaZ2o5Z0duLVRiLXp6OEk5Q1N3SU9VMm4tQjY4UkNxc3VMNGQ1QlFhZ1BObU5UZ1psWjNld0doQUpYR19Ha0tFNEdsVlREbFIwam1xa3NvS1JicEtzbjBFaGE4WU1uQkQyOHVfQkxJTXJUOEtwX3Y3RVJFMFN4Y0VkQUs4Wjkydw?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNVRVVEpDYlVOdGFIaElOR3RUVFJES0F4aVFBeWdLTWdZZGw1Skt0Z1k=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "L'ADN des Denisoviens pourrait rendre certaines personnes résistantes au paludisme et à d'autres infections parasitaires."
+      },
+      "pt": {
+        "title": "O DNA denisovano pode tornar algumas pessoas resistentes à malária e a outras infecções parasitárias."
+      },
+      "es": {
+        "title": "El ADN de los denisovanos puede hacer que algunas personas sean resistentes a la malaria y otras infecciones parasitarias."
+      }
+    }
+  },
+  {
     "id": "44080568a2d6c8070e7d2b44624f7045",
     "title": "Denisovan DNA May Make Some People Resistant To Malaria",
     "description": "Southeast Asians receive the highest level of protection.",
@@ -1452,6 +2119,70 @@
       "es": {
         "title": "Punjab Lucha contra Enfermedades Post-Inundación con una Amplia Campaña de Nebulización",
         "description": "El gobierno de Punjab ha iniciado una amplia campaña de fumigación para combatir la propagación del dengue y la malaria en las áreas afectadas por las inundaciones. Esta medida de salud pública es una respuesta rápida a las recientes inundaciones. Además, el AIIMS llevó a cabo una misión de ayuda, entregando asistencia médica crucial a las comunidades afectadas."
+      }
+    }
+  },
+  {
+    "id": "f68c7ffcef21f314a8a68a5b4397f4f1",
+    "title": "Preservar territórios indígenas na Amazônia beneficia a saúde humana, aponta estudo",
+    "description": "Proteção de cobertura vegetal pode reduzir o número de casos de doenças como malária nas regiões próximas",
+    "content": "Proteger territórios indígenas e áreas de alta cobertura vegetal na Amazônia está associado a um menor número de casos de doenças, como malária ou condições respiratórias. A conclusão é de um artigo publicado na revista Communications Earth & Environ... [3671 chars]",
+    "url": "https://veja.abril.com.br/agenda-verde/preservar-territorios-indigenas-na-amazonia-beneficia-a-saude-humana-aponta-estudo/",
+    "image": "https://veja.abril.com.br/wp-content/uploads/2025/09/GettyImages-1044285108.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+    "publishedAt": "2025-09-11T15:00:43Z",
+    "lang": "pt",
+    "source": "Google News",
+    "language": "pt",
+    "uniqueId": "https://veja.abril.com.br/agenda-verde/preservar-territorios-indigenas-na-amazonia-beneficia-a-saude-humana-aponta-estudo/",
+    "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2025/09/GettyImages-1044285108.jpg?quality=70&strip=info&resize=1080,565&crop=1",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "Preserving indigenous territories in the Amazon benefits human health, a study indicates.",
+        "description": "Vegetation cover protection can reduce the number of cases of diseases such as malaria in nearby regions."
+      },
+      "fr": {
+        "title": "Preserving Indigenous territories in the Amazon benefits human health, study finds.",
+        "description": "La protection de la couverture végétale peut réduire le nombre de cas de maladies comme le paludisme dans les régions environnantes."
+      },
+      "es": {
+        "title": "Preserving indigenous territories in the Amazon benefits human health, study finds.",
+        "description": "La protección de la cobertura vegetal puede reducir el número de casos de enfermedades como la malaria en las regiones cercanas."
+      }
+    }
+  },
+  {
+    "id": "8ae75bb931b0497f7d72919877f6c67e",
+    "title": "Terras indígenas protegem a saúde na Amazônia, mas só com a floresta em pé",
+    "description": "Pesquisa que analisou nove países ao longo de 20 anos mostra que territórios reconhecidos por lei reduzem doenças respiratórias e malária apenas em áreas com alta cobertura.",
+    "content": "Neblina paira sobre o rio Guamá na aldeia Tenetehar Wa Tembe, na Terra Indígena do Alto Rio Guamá, município de Paragominas, Pará, Brasil, enquanto o sol nasce no sábado, 10 de junho de 2023. — Foto: Foto AP/Eraldo Peres\nEssa é a principal conclusão ... [5901 chars]",
+    "url": "https://g1.globo.com/meio-ambiente/noticia/2025/09/11/terras-indigenas-protegem-a-saude-na-amazonia-mas-so-quando-a-floresta-esta-preservada-aponta-estudo.ghtml",
+    "image": "https://s2-g1.glbimg.com/Z0csIpkTUxyZIdnkCmj0jea1qWU=/5616x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/Q/F/HKGo72Te6B6w5RnlaXHg/ap23324568298102.jpg",
+    "publishedAt": "2025-09-11T15:00:14Z",
+    "lang": "pt",
+    "source": "Google News",
+    "language": "pt",
+    "uniqueId": "https://g1.globo.com/meio-ambiente/noticia/2025/09/11/terras-indigenas-protegem-a-saude-na-amazonia-mas-so-quando-a-floresta-esta-preservada-aponta-estudo.ghtml",
+    "imageUrl": "https://s2-g1.glbimg.com/Z0csIpkTUxyZIdnkCmj0jea1qWU=/5616x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/Q/F/HKGo72Te6B6w5RnlaXHg/ap23324568298102.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "Indigenous lands protect health in the Amazon, but only with the forest standing.",
+        "description": "A study that analyzed nine countries over 20 years shows that legally recognized territories reduce respiratory diseases and malaria only in areas with high coverage."
+      },
+      "fr": {
+        "title": "Les terres indigènes protègent la santé en Amazonie, mais seulement avec la forêt en place.",
+        "description": "Une étude qui a analysé neuf pays sur une période de 20 ans montre que les territoires reconnus par la loi réduisent les maladies respiratoires et le paludisme uniquement dans les zones bénéficiant d'une couverture élevée."
+      },
+      "es": {
+        "title": "Las tierras indígenas protegen la salud en la Amazonía, pero solo con el bosque en pie.",
+        "description": "Una investigación que analizó nueve países a lo largo de 20 años muestra que los territorios reconocidos por ley reducen las enfermedades respiratorias y la malaria solo en áreas con alta cobertura."
       }
     }
   },
@@ -1622,6 +2353,38 @@
     }
   },
   {
+    "id": "5da7a1c286a1d573e9f16c677f010b97",
+    "title": "Moçambique: Pelo menos 99 mortos em quase 450 mil casos de Malária",
+    "description": "Pelo menos 99 pessoas morreram entre janeiro e agosto deste ano vítimas de malária na província de Niassa, norte de Moçambique, com registo de 448.526 casos da doença, avançaram as autoridades provinciais.",
+    "content": "De acordo com uma nota do Conselho Executivo Provincial de Niassa, consultada hoje pela Lusa, de janeiro a agosto, Niassa registou um total de 448.526 casos e 99 óbitos, um aumento de 62,3% face a 2024.\nSegundo as autoridades, Niassa teve no mesmo pe... [2405 chars]",
+    "url": "https://www.noticiasaominuto.com/mundo/2851798/mocambique-pelo-menos-99-mortos-em-quase-450-mil-casos-de-malaria",
+    "image": "https://media-manager.noticiasaominuto.com/960/45509287.webp",
+    "publishedAt": "2025-09-11T09:22:05Z",
+    "lang": "pt",
+    "source": "Google News",
+    "language": "pt",
+    "uniqueId": "https://www.noticiasaominuto.com/mundo/2851798/mocambique-pelo-menos-99-mortos-em-quase-450-mil-casos-de-malaria",
+    "imageUrl": "https://media-manager.noticiasaominuto.com/960/45509287.webp",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "Mozambique: At least 99 dead in nearly 450,000 cases of Malaria.",
+        "description": "At least 99 people died from malaria between January and August of this year in the Niassa province, northern Mozambique, with a reported 448,526 cases of the disease, provincial authorities announced."
+      },
+      "fr": {
+        "title": "Mozambique : Au moins 99 morts dans près de 450 000 cas de paludisme.",
+        "description": "Au moins 99 personnes sont mortes entre janvier et août de cette année des suites du paludisme dans la province de Niassa, dans le nord du Mozambique, avec un enregistrement de 448.526 cas de la maladie, ont rapporté les autorités provinciales."
+      },
+      "es": {
+        "title": "Moçambique: Al menos 99 muertos en casi 450 mil casos de malaria.",
+        "description": "Al menos 99 personas murieron entre enero y agosto de este año víctimas de malaria en la provincia de Niassa, en el norte de Mozambique, con un registro de 448.526 casos de la enfermedad, informaron las autoridades provinciales."
+      }
+    }
+  },
+  {
     "title": "Acetyl-CoA synthetase mutations affect the susceptibility of &lt;i&gt;Plasmodium falciparum&lt;/i&gt; to antimalarial drugs.",
     "publishedAt": "2025-09-11",
     "source": "Europe PMC",
@@ -1705,6 +2468,48 @@
     "country": "Latin America",
     "continent": "Latin America",
     "relevanceScore": 50
+  },
+  {
+    "title": "Prevalence of asymptomatic non-falciparum and falciparum malaria in the 2014-15 Rwanda Demographic Health Survey",
+    "description": "BackgroundRecent molecular surveillance suggests an unexpectedly high prevalence of non-falciparum malaria in Africa. Malaria control is also challenged by undetected asymptomatic P. falciparum malaria resulting in an undetectable reservoir for potential transmission. Context-specific surveillance of asymptomatic P. falciparum and non-falciparum species is needed to properly inform malaria control programs.MethodsWe performed quantitative real time PCR for four malaria species in 5,050 primarily adult individuals in Rwanda using the 2014–2015 Demographic Health Survey. We assessed correlates of infection by species to explore attributes associated with each species. Asymptomatic P. ovale spp., P. malariae, and P. falciparum malaria infection had broad spatial distribution across Rwanda. P. vivax infection was rare.ResultsOverall infection prevalence was 22.3% (95%CI [20.3, 24.3]), with P. falciparum and non-falciparum at 16.3% [14.5, 18.1] and 8.0% [6.6, 9.3], respectively. Parasitemias tended to be low and mixed species infections were common, especially where malaria transmission and overall prevalence was the highest. P. falciparum infection was associated with lower wealth, rural residence and low elevation. Fewer factors were significantly associated with non-falciparum malaria.ConclusionsAsymptomatic non-falciparum malaria and P. falciparum malaria are common and widely distributed across Rwanda in adults. Continued molecular monitoring, preferably done by the national malaria control program, of Plasmodium diversity using routine survey samples is needed to strengthen malaria control.",
+    "publishedAt": "2025-09-11",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40934175/",
+    "source": "PMC",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pmid-40934175",
+    "countryDetection": {
+      "country": "Rwanda",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "rwanda",
+      "region": "Africa"
+    },
+    "country": "Rwanda",
+    "continent": "Africa",
+    "relevanceScore": 55
+  },
+  {
+    "title": "Low prevalence of helminth infection in Ugandan children hospitalized with severe malaria",
+    "description": "Co-infection by intestinal helminths and Plasmodium spp. may be common in endemic communities. In 2003, Uganda instituted a national deworming program, with anti-helminth medication provided twice annually to children 6 months to 5 years of age, but few follow-up studies have been conducted. Several studies have identified a relationship between helminth infection, Plasmodium spp. infection and malaria severity. However, the relationship is not well defined, and results are inconclusive. We analyzed 177 stool samples from a cohort of children with severe malaria enrolled in two hospitals in Uganda from 2014–2017. All children were 6 months to 48 months of age and had a clinical presentation of and laboratory confirmation for severe malaria. We also analyzed 25 stool samples from community children who were negative for malaria via rapid diagnostic test and were enrolled from the same household or neighborhood and matched by age, sex, and time of enrollment. We investigated if intestinal helminth infection modified risk of severe malaria. We extracted nucleic acids from stool and tested them for six helminth species (Anyclostoma duodenale, Ascaris lumbricoides, Necator americanus, Strongyloides stercolaris, Trichuris trichiura, Shistosoma mansoni) using highly sensitive quantitative PCR. We found a low prevalence of infection by ≥1 intestinal helminth species in children with severe malaria (5.1%, n = 9/177) and community control children (4.0%, n = 1/25). Helminth infection did not increase or decrease the risk of severe malaria in this cohort (aRR = 1.0, 95% Confidence Interval = 0.82, 1.3, p = 0.78). In these areas of Uganda, the national deworming campaign has been highly successful, as stool-based helminth infection was rare even when using sensitive methods of detection and helminths were not associated with severe malaria in this study.",
+    "publishedAt": "2025-09-11",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40934205/",
+    "source": "PMC",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pmid-40934205",
+    "countryDetection": {
+      "country": "Uganda",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "uganda",
+      "region": "Africa"
+    },
+    "country": "WHO",
+    "continent": "Global",
+    "relevanceScore": 45
   },
   {
     "title": "A new malaria case in New Jersey: Why doctor says there's no need to panic | Bodyworks",
@@ -1879,6 +2684,38 @@
       "es": {
         "title": "Malaria: el Fondo Mundial teme más muertes de niños.",
         "description": "El Fondo Mundial teme más muertes de niños por malaria debido a los recortes en la ayuda internacional. Más alentador, la organización afirmó el miércoles en Ginebra que ha superado la barrera de los 70 millones de vidas salvadas en casi 25 años."
+      }
+    }
+  },
+  {
+    "id": "77bdbaac7e76d1a08d340f347cf747a2",
+    "title": "Novo mosquito urbano ameaça expandir casos de malária no Brasil",
+    "description": "Doença, antes restrita a áreas florestais, ganha espaço no ambiente urbano, especialmente com a possibilidade de chegada de um novo mosquito transmissor",
+    "content": "Pesquisadores da USP alertam para o risco de introdução no Brasil do Anopheles stephensi, mosquito originário da Ásia e que já se espalhou pela África e pode se tornar um novo vetor da malária no país. Diferente do Anopheles darlingi, transmissor pre... [3925 chars]",
+    "url": "https://www.cnnbrasil.com.br/blogs/pedro-cortes/nacional/brasil/novo-mosquito-urbano-ameaca-expandir-casos-de-malaria-no-brasil/",
+    "image": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/mosquito.jpg",
+    "publishedAt": "2025-09-10T06:33:16Z",
+    "lang": "pt",
+    "source": "Google News",
+    "language": "pt",
+    "uniqueId": "https://www.cnnbrasil.com.br/blogs/pedro-cortes/nacional/brasil/novo-mosquito-urbano-ameaca-expandir-casos-de-malaria-no-brasil/",
+    "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/mosquito.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "A new urban mosquito threatens to expand cases of malaria in Brazil.",
+        "description": "The disease, previously restricted to forest areas, is gaining ground in urban environments, especially with the possibility of the arrival of a new transmitting mosquito."
+      },
+      "fr": {
+        "title": "Novo moustique urbain menace d'élargir les cas de paludisme au Brésil.",
+        "description": "La maladie, auparavant limitée aux zones forestières, s'étend dans l'environnement urbain, notamment avec la possibilité d'arrivée d'un nouveau moustique vecteur."
+      },
+      "es": {
+        "title": "Nuevo mosquito urbano amenaza con expandir los casos de malaria en Brasil.",
+        "description": "La enfermedad, antes restringida a áreas forestales, gana espacio en el ambiente urbano, especialmente con la posibilidad de la llegada de un nuevo mosquito transmisor."
       }
     }
   },
@@ -2076,6 +2913,33 @@
       "es": {
         "title": "Oko Poly Rector Impulsa el Centro Médico con Medicamentos y Equipos Esenciales",
         "description": "La Rectora del Politécnico Federal de Oko, Dra. Chioma Irene Awuzie, ha tomado medidas decisivas para fortalecer la atención sanitaria en la institución al suministrar una amplia gama de medicamentos esenciales, equipos médicos y kits de prueba al centro médico de la escuela. Los artículos entregados incluyen medicamentos antimaláricos y antibióticos, medicamentos para alergias, amodiaquina, cartones de solución de rehidratación oral... La publicación Oko Poly Rector Boosts Medical Centre With Essential Drugs, Equipment apareció primero en New Telegraph."
+      }
+    }
+  },
+  {
+    "title": "Mekong Malaria Elimination Programme epidemiology summary, volume 30, April-June 2025",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiWkFVX3lxTE9TanlPYWM3SUNkTnU5WU1ibm8zcURxNXozc2pNWjhHMFdHUkxkbV9EZmU4R25WMFgxaENHbTlmQ19QTUdodVptRkoxb0ZaeUZoNWV1WVBrNTVfdw?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-09-09T13:28:21.000Z",
+    "source": "World Health Organization (WHO)",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiWkFVX3lxTE9TanlPYWM3SUNkTnU5WU1ibm8zcURxNXozc2pNWjhHMFdHUkxkbV9EZmU4R25WMFgxaENHbTlmQ19QTUdodVptRkoxb0ZaeUZoNWV1WVBrNTVfdw?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iL0NnNXZNRXg0V0dwc2NuQkZTRTlPVFJDT0FoaTdBU2dLTWdrVkE0aXFIU2VETWdF=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 40,
+    "translations": {
+      "fr": {
+        "title": "Résumé épidémiologique du Programme d'élimination du paludisme du Mékong, volume 30, avril-juin 2025."
+      },
+      "pt": {
+        "title": "Resumo de epidemiologia do Programa de Eliminação da Malária do Mekong, volume 30, abril-junho de 2025."
+      },
+      "es": {
+        "title": "Resumen epidemiológico del Programa de Eliminación de la Malaria del Mekong, volumen 30, abril-junio de 2025."
       }
     }
   },
@@ -3900,6 +4764,17 @@
     "country": "Sri Lanka",
     "continent": "Asia",
     "relevanceScore": 60
+  },
+  {
+    "title": "Issues associated with malaria self-medication in sub-Saharan Africa: A systematic literature review and meta-analysis.",
+    "publishedAt": "2025-09-04",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40949058",
+    "countryDetection": null,
+    "country": "Africa",
+    "continent": "Africa",
+    "relevanceScore": 35
   },
   {
     "uid": "40903008",
@@ -7605,6 +8480,17 @@
     "continent": "Global"
   },
   {
+    "title": "Congenital malaria in a neonate born in a malaria-endemic area: a case report.",
+    "publishedAt": "2025-08-31",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40887648",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
+  },
+  {
     "source": "NewsAPI",
     "author": null,
     "title": "Faux News host hospitalized with malaria. Which, honestly, tracks, given... *waves at everything* [Scary]",
@@ -7912,6 +8798,17 @@
     "country": "Global",
     "continent": "Global",
     "relevanceScore": 35
+  },
+  {
+    "title": "Artemisinin and Its Derivatives from Molecular Mechanisms to Clinical Applications: New Horizons Beyond Antimalarials.",
+    "publishedAt": "2025-08-29",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40943352",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
   },
   {
     "uid": "12395913",
@@ -8257,6 +9154,60 @@
     "continent": "Global"
   },
   {
+    "title": "Fox News’ John Roberts Hospitalized with ‘Severe' Malaria After ‘Uncontrolled Shivering' On-Air (Exclusive)",
+    "description": "",
+    "url": "https://news.google.com/read/CBMilwFBVV95cUxOcVRGMl9zb0ZqaWxjTFg2Yk5xUnhoYkFmUGhtZ01KYjBBNk9PZVBmRXFnNzB6R0JJeDYyVUE3a1RRTXZXdnp6VzVwT2M0SmVfMzYtci1aOXpIVWlqa0E0S1VLM0twOWFFM2FSLVB4bzNwZ1NDUDJIUWJsRHhMb2E4NkZZbVJNWHd0LVV0d2g1cG56ZlRFUUE0?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-28T07:00:00.000Z",
+    "source": "People.com",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMilwFBVV95cUxOcVRGMl9zb0ZqaWxjTFg2Yk5xUnhoYkFmUGhtZ01KYjBBNk9PZVBmRXFnNzB6R0JJeDYyVUE3a1RRTXZXdnp6VzVwT2M0SmVfMzYtci1aOXpIVWlqa0E0S1VLM0twOWFFM2FSLVB4bzNwZ1NDUDJIUWJsRHhMb2E4NkZZbVJNWHd0LVV0d2g1cG56ZlRFUUE0?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNUNNMU5rYmpWeVNYWk5ZVGsxVFJERUF4aW1CU2dLTWdZcEZwN3RsUW8=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "John Roberts de Fox News hospitalisé avec une malaria 'sévère' après des 'frissons incontrôlés' en direct (Exclusif)"
+      },
+      "pt": {
+        "title": "John Roberts, da Fox News, hospitalizado com malária 'severa' após 'tremores incontroláveis' ao vivo (Exclusivo)"
+      },
+      "es": {
+        "title": "John Roberts de Fox News hospitalizado con malaria 'severa' tras 'temblores incontrolables' en el aire (Exclusivo)"
+      }
+    }
+  },
+  {
+    "title": "Fox News' John Roberts diagnosed with malaria: 'Never felt that sick in my life'",
+    "description": "",
+    "url": "https://news.google.com/read/CBMitgFBVV95cUxNQnRUQXQ4U25nUTJka2w3N2dLUC16dy1EbU9oZ3hYLUlGT1NMVEJwMmRWRG5VNmNRY0g2cUM3OFJyelIwR0ZYQ0VUYkVxYWs3OXZocWg3dHpJQTN2WG1PVGhabzd2akNydWxnT3ZkeW9hNkFDdC1PamRQZEltSEF4MkJ5RHNTeEUtVUxVWG40X1ZrOGFyRk5tcWFLbTZNLWZWRnZ6ZmlyLU9LX2ExS2xWZ09LQkNRQQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-28T07:00:00.000Z",
+    "source": "USA Today",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMitgFBVV95cUxNQnRUQXQ4U25nUTJka2w3N2dLUC16dy1EbU9oZ3hYLUlGT1NMVEJwMmRWRG5VNmNRY0g2cUM3OFJyelIwR0ZYQ0VUYkVxYWs3OXZocWg3dHpJQTN2WG1PVGhabzd2akNydWxnT3ZkeW9hNkFDdC1PamRQZEltSEF4MkJ5RHNTeEUtVUxVWG40X1ZrOGFyRk5tcWFLbTZNLWZWRnZ6ZmlyLU9LX2ExS2xWZ09LQkNRQQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNXRUSEp6U0VjMWFITlZVM0ZuVFJEekFoaVVCU2dLTWdhcFJZak5xUVk=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "John Roberts de Fox News diagnostiqué avec le paludisme : 'Jamais je ne me suis senti aussi malade de ma vie'"
+      },
+      "pt": {
+        "title": "John Roberts, da Fox News, diagnosticado com malária: 'Nunca me senti tão doente na minha vida'"
+      },
+      "es": {
+        "title": "John Roberts de Fox News diagnosticado con malaria: 'Nunca me he sentido tan enfermo en mi vida'"
+      }
+    }
+  },
+  {
     "title": "Epitranscriptomic Dysregulation Underpins Artemisinin Mechanism of Action",
     "publishedAt": "2025-08-28",
     "source": "Europe PMC",
@@ -8277,6 +9228,17 @@
       }
     },
     "continent": "Global"
+  },
+  {
+    "title": "Mapping Plasmodium falciparum mutations in Africa: A critical review of emerging drug resistance and implications for malaria control.",
+    "publishedAt": "2025-08-28",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40885517",
+    "countryDetection": null,
+    "country": "Africa",
+    "continent": "Africa",
+    "relevanceScore": 60
   },
   {
     "uid": "12392489",
@@ -9289,6 +10251,38 @@
     "continent": "Global"
   },
   {
+    "id": "b087c6ba39953ddd8236142589632cc0",
+    "title": "Desmatamento na Amazônia aumenta risco de malária, diz pesquisa",
+    "description": "Estudo aponta que áreas com 50% de desmatamento próximas a locais de moradia, ou de vegetação fragmentada, permitem maior contato de mosquitos com humanos",
+    "content": "Estudo aponta que áreas com 50% de desmatamento próximas a locais de moradia, ou de vegetação fragmentada, permitem maior contato de mosquitos com humanos\nEm meio às discussões preparatórias para a COP30, que envolvem inclusive temas ligados à saúde,... [7144 chars]",
+    "url": "https://www.cnnbrasil.com.br/nacional/desmatamento-na-amazonia-aumenta-risco-de-malaria-diz-pesquisa/",
+    "image": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/08/55606_0ab34e-e1756136835119.jpg",
+    "publishedAt": "2025-08-25T15:56:00Z",
+    "lang": "pt",
+    "source": "Google News",
+    "language": "pt",
+    "uniqueId": "https://www.cnnbrasil.com.br/nacional/desmatamento-na-amazonia-aumenta-risco-de-malaria-diz-pesquisa/",
+    "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/08/55606_0ab34e-e1756136835119.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "Deforestation in the Amazon increases the risk of malaria, says research.",
+        "description": "A study indicates that areas with 50% deforestation near residential areas or fragmented vegetation allow for greater contact between mosquitoes and humans."
+      },
+      "fr": {
+        "title": "Le déboisement en Amazonie augmente le risque de paludisme, selon une recherche.",
+        "description": "Une étude indique que les zones avec 50 % de déforestation à proximité des lieux d'habitation ou de végétation fragmentée permettent un plus grand contact entre les moustiques et les humains."
+      },
+      "es": {
+        "title": "Desmatamento en la Amazonía aumenta el riesgo de malaria, dice investigación.",
+        "description": "Un estudio señala que las áreas con un 50% de deforestación cercanas a lugares de residencia o a vegetación fragmentada permiten un mayor contacto entre mosquitos y humanos."
+      }
+    }
+  },
+  {
     "title": "Burkina Faso prohíbe y ordena destruir los mosquitos genéticamente modificados de Bill Gates",
     "description": "El país africano exige el cese de la actividad de la organización Target Malaria así como la destrucción de todas las muestras con las que cuente fruto de sus investigaciones",
     "url": "https://www.larazon.es/tecnologia-consumo/burkina-faso-prohibe-ordena-destruir-mosquitos-geneticamente-modificados-bill-gates_2025082568ac374f506ef67d06de7976.html",
@@ -9433,6 +10427,38 @@
       },
       "es": {
         "title": "Burkina Faso says no to Bill Gates’ plan of creating modified species of mosquitoes"
+      }
+    }
+  },
+  {
+    "id": "015118c097cfb02dfcd7eea0b20f7f31",
+    "title": "Estudo mostra que desmatamento intermediário aumenta risco de malária na Amazônia",
+    "description": "Brasil concentra quase todos os casos de malária na Amazônia Legal e busca erradicação até 2035",
+    "content": "Uma pesquisa publicada na revista Acta Tropica reforça a relação entre desmatamento e avanço da malária na Amazônia Legal. O estudo indica que áreas com cerca de 50% de perda de cobertura florestal apresentam maior risco de transmissão da doença, tan... [2187 chars]",
+    "url": "https://tribunademinas.com.br/especiais/saude/23-08-2025/estudo-mostra-que-desmatamento-intermediario-aumenta-risco-de-malaria-na-amazonia.html",
+    "image": "https://tribunademinas.com.br/wp-content/uploads/2025/08/prefeitura-de-caraguatatuba-divulgacao-malaria.jpg",
+    "publishedAt": "2025-08-23T23:00:39Z",
+    "lang": "pt",
+    "source": "Google News",
+    "language": "pt",
+    "uniqueId": "https://tribunademinas.com.br/especiais/saude/23-08-2025/estudo-mostra-que-desmatamento-intermediario-aumenta-risco-de-malaria-na-amazonia.html",
+    "imageUrl": "https://tribunademinas.com.br/wp-content/uploads/2025/08/prefeitura-de-caraguatatuba-divulgacao-malaria.jpg",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "A study shows that intermediate deforestation increases the risk of malaria in the Amazon.",
+        "description": "Brazil concentrates almost all malaria cases in the Legal Amazon and aims for eradication by 2035."
+      },
+      "fr": {
+        "title": "Une étude montre que le déboisement intermédiaire augmente le risque de paludisme en Amazonie.",
+        "description": "Le Brésil concentre presque tous les cas de paludisme dans l'Amazonie légale et vise une éradication d'ici 2035."
+      },
+      "es": {
+        "title": "Un estudio muestra que la deforestación intermedia aumenta el riesgo de malaria en la Amazonía.",
+        "description": "Brasil concentra casi todos los casos de malaria en la Amazonía Legal y busca erradicación hasta 2035."
       }
     }
   },
@@ -10052,6 +11078,33 @@
     }
   },
   {
+    "title": "New Malaria Case Prompts Testing of Mosquitoes in New Jersey",
+    "description": "",
+    "url": "https://news.google.com/read/CBMihAFBVV95cUxOQVdKazhEdUs4S2dwMno2eGZlanJoTWJ1a0x2bHdXMHpLQmQ1dVpLSTl1ZDd3UUlMLVdNQ01icU92NXYycW51VWx1ZDNsR2dnVFBodnVuYTlyeWFZZ21McHB1Y2xzcENPS3VEZ29qTEhpazVGcFl5czgwak95V2trdHIzZC0?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-20T07:00:00.000Z",
+    "source": "The New York Times",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMihAFBVV95cUxOQVdKazhEdUs4S2dwMno2eGZlanJoTWJ1a0x2bHdXMHpLQmQ1dVpLSTl1ZDd3UUlMLVdNQ01icU92NXYycW51VWx1ZDNsR2dnVFBodnVuYTlyeWFZZ21McHB1Y2xzcENPS3VEZ29qTEhpazVGcFl5czgwak95V2trdHIzZC0?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNUhRV1oxVFhsaVdVaE9VRTVRVFJDUkF4allCQ2dLTWdhZE1aeHRJUW8=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Un nouveau cas de paludisme incite à tester les moustiques dans le New Jersey."
+      },
+      "pt": {
+        "title": "Novo Caso de Malária Leva à Testagem de Mosquitos em Nova Jersey"
+      },
+      "es": {
+        "title": "Nuevo caso de malaria provoca pruebas de mosquitos en Nueva Jersey."
+      }
+    }
+  },
+  {
     "uid": "40894953",
     "pubdate": "2025 Dec",
     "epubdate": "2025 Aug 20",
@@ -10498,6 +11551,60 @@
     "continent": "Global"
   },
   {
+    "title": "New Jersey health officials investigate possible malaria case in person who didn't travel internationally",
+    "description": "",
+    "url": "https://news.google.com/read/CBMioAFBVV95cUxQdnp2S3FpRmg5UlRuWHdJTUsyZ3Y5V1N4TVliODg1Wm1hX25wR0Y0YThxSHFyWHJQbmpucWVrdFJzMFc0a09WeVMxQm5jdllwUWZmd1JqaEFMVXZibnpyVXhtc1RSTjdrZlB3SDRlTm9ubDJLYVduZ3ZXbzE3QThCZkhoaXlnbDhEUHoxdGpOdU5uNFRrdjU3ZkcwQXJzV3Nx?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-19T07:00:00.000Z",
+    "source": "CBS News",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMioAFBVV95cUxQdnp2S3FpRmg5UlRuWHdJTUsyZ3Y5V1N4TVliODg1Wm1hX25wR0Y0YThxSHFyWHJQbmpucWVrdFJzMFc0a09WeVMxQm5jdllwUWZmd1JqaEFMVXZibnpyVXhtc1RSTjdrZlB3SDRlTm9ubDJLYVduZ3ZXbzE3QThCZkhoaXlnbDhEUHoxdGpOdU5uNFRrdjU3ZkcwQXJzV3Nx?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNU5abE5rU21GblQxRTJUa2RtVFJERUF4aW1CU2dLTWdZcFpZenVwUWc=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "WHO",
+    "continent": "Global",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Les responsables de la santé du New Jersey enquêtent sur un possible cas de paludisme chez une personne qui n'a pas voyagé à l'international."
+      },
+      "pt": {
+        "title": "Autoridades de saúde de Nova Jersey investigam possível caso de malária em pessoa que não viajou internacionalmente."
+      },
+      "es": {
+        "title": "Los funcionarios de salud de Nueva Jersey investigan un posible caso de malaria en una persona que no viajó internacionalmente."
+      }
+    }
+  },
+  {
+    "title": "Malaria case in New Jersey resident who hasn’t traveled under investigation",
+    "description": "",
+    "url": "https://news.google.com/read/CBMijgFBVV95cUxOVkhOTmhqa01vSlhuSG9Dc1YyZU14ZF8zdmFPWEp4aDJPVjBfbFc5T2hEYmtUZmlKUVdDRG4xY0NYTU5hUl9DVXAyZTlSUXVxOEZuQ0R4amZNWmUyU0ExUThzdzk5X19sQS1pMnhBSGxzLXNHZ01PSk1YQ0hqMGJkSk9FNGM2ZnBhZFR6Q0x30gGTAUFVX3lxTE1QcHZFYVcyTUpIQUlCRThheTlWeWxneGhCNnJhRlVENG5qdVhUZFVpUldaM2tseW84dzlzZURfZFFENy02ei04cnMwNmJTdXlvdTZSUEs3eENOUXJyMjRoY05tdjhraHJKaFVGWFREb1B6TkFfYkxTeVZHbXRUbHhUVk12ZFZFVHo0Nm1QQnMzQUJwRQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-08-19T07:00:00.000Z",
+    "source": "The Hill",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMijgFBVV95cUxOVkhOTmhqa01vSlhuSG9Dc1YyZU14ZF8zdmFPWEp4aDJPVjBfbFc5T2hEYmtUZmlKUVdDRG4xY0NYTU5hUl9DVXAyZTlSUXVxOEZuQ0R4amZNWmUyU0ExUThzdzk5X19sQS1pMnhBSGxzLXNHZ01PSk1YQ0hqMGJkSk9FNGM2ZnBhZFR6Q0x30gGTAUFVX3lxTE1QcHZFYVcyTUpIQUlCRThheTlWeWxneGhCNnJhRlVENG5qdVhUZFVpUldaM2tseW84dzlzZURfZFFENy02ei04cnMwNmJTdXlvdTZSUEs3eENOUXJyMjRoY05tdjhraHJKaFVGWFREb1B6TkFfYkxTeVZHbXRUbHhUVk12ZFZFVHo0Nm1QQnMzQUJwRQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNUxZVUpPU1haZmNHUnplbk53VFJDZ0F4amlCU2dLTWdhZElaNU5IUW8=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "WHO",
+    "continent": "Global",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Cas de paludisme chez un résident du New Jersey qui n'a pas voyagé sous enquête."
+      },
+      "pt": {
+        "title": "Caso de malária em residente de Nova Jersey que não viajou está sob investigação."
+      },
+      "es": {
+        "title": "Caso de malaria en residente de Nueva Jersey que no ha viajado está bajo investigación."
+      }
+    }
+  },
+  {
     "source": "NewsAPI",
     "author": "The Star Online",
     "title": "China-aided malaria projects expected to help Cambodia achieve malaria-free goal: health official",
@@ -10607,6 +11714,42 @@
     "country": "Global",
     "countryDetection": null,
     "continent": "Global"
+  },
+  {
+    "title": "Efficacies of artemether-lumefantrine, artesunate-amodiaquine, dihydroartemisinin-piperaquine, and artesunate-pyronaridine for the treatment of uncomplicated Plasmodium falciparum malaria in children aged 6 months to 10 years in Uganda: a randomised, open-label, phase 4 clinical trial.",
+    "publishedAt": "2025-08-19",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40845863",
+    "countryDetection": {
+      "country": "Uganda",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "uganda",
+      "region": "Africa"
+    },
+    "country": "Uganda",
+    "continent": "Africa",
+    "relevanceScore": 45
+  },
+  {
+    "title": "A scoping review of antimalarial drug resistance markers in Kenya (1987-2022): Toward a National Surveillance Framework and Data Repository",
+    "publishedAt": "2025-08-19",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-PPR1068445",
+    "countryDetection": {
+      "country": "Kenya",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "kenya",
+      "region": "Africa"
+    },
+    "country": "Kenya",
+    "continent": "Africa",
+    "relevanceScore": 60
   },
   {
     "source": "NewsAPI",
@@ -11311,6 +12454,24 @@
     "relevanceScore": 45
   },
   {
+    "title": "Antimalarial drug resistance and population structure of Plasmodium falciparum in Mozambique using genomic surveillance at health facilities in 2021 and 2022.",
+    "publishedAt": "2025-08-11",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40790052",
+    "countryDetection": {
+      "country": "Mozambique",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "mozambique",
+      "region": "Africa"
+    },
+    "country": "Mozambique",
+    "continent": "Africa",
+    "relevanceScore": 60
+  },
+  {
     "source": "NewsAPI",
     "author": "Kevin Hughes",
     "title": "Health Ranger Report: The truth about chlorine dioxide and Mark Grenon’s battle for health freedom",
@@ -11670,6 +12831,17 @@
       "region": "Africa"
     },
     "continent": "Africa"
+  },
+  {
+    "title": "Enhanced Antimalarial Efficacy of &lt;i&gt;Annona muricata&lt;/i&gt; Leaf Extract Combined With Artesunate, Chloroquine, and Pyrimethamine in &lt;i&gt;Plasmodium berghei&lt;/i&gt;-Infected ICR Mice.",
+    "publishedAt": "2025-08-07",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40822987",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
   },
   {
     "source": "NewsAPI",
@@ -12206,6 +13378,17 @@
     "relevanceScore": 25
   },
   {
+    "title": "Targeting Plasmodium glutathione S-transferases to overcome antimalaria drug resistance in Southern Africa.",
+    "publishedAt": "2025-08-01",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40694003",
+    "countryDetection": null,
+    "country": "Africa",
+    "continent": "Africa",
+    "relevanceScore": 50
+  },
+  {
     "source": "NewsAPI",
     "title": "Comparative analysis of Egypt’s malaria elimination strategies and implementation science: Pathways to achieve malaria-free status for other African countries",
     "description": "Background Malaria elimination is a critical public health goal, particularly in Africa, where the disease disproportionately affects vulnerable populations. Egypt’s success in achieving World Health Organization (WHO) malaria-free certification on October 20…",
@@ -12265,6 +13448,42 @@
     "country": "Global",
     "countryDetection": null,
     "continent": "Global"
+  },
+  {
+    "title": "Plasmodium falciparum Genomic Surveillance Reveals a Diversity of Kelch 13 Mutations in Zambia.",
+    "publishedAt": "2025-07-31",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40744006",
+    "countryDetection": {
+      "country": "Zambia",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "zambia",
+      "region": "Africa"
+    },
+    "country": "Zambia",
+    "continent": "Africa",
+    "relevanceScore": 45
+  },
+  {
+    "title": "High Prevalence of Molecular Markers Associated with Artemisinin, Sulfadoxine, and Pyrimethamine Resistance in Northern Namibia.",
+    "publishedAt": "2025-07-31",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40744004",
+    "countryDetection": {
+      "country": "Namibia",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "namibia",
+      "region": "Africa"
+    },
+    "country": "Namibia",
+    "continent": "Africa",
+    "relevanceScore": 50
   },
   {
     "uid": "40741950",
@@ -12389,6 +13608,24 @@
     },
     "countryDetection": null,
     "continent": "Global"
+  },
+  {
+    "title": "Prevalence of Plasmodium falciparum parasites harbouring chloroquine-resistant but not artemisinin-resistant alleles in Busia County, Western Kenya.",
+    "publishedAt": "2025-07-30",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40739505",
+    "countryDetection": {
+      "country": "Kenya",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "kenya",
+      "region": "Africa"
+    },
+    "country": "Kenya",
+    "continent": "Africa",
+    "relevanceScore": 35
   },
   {
     "source": "NewsAPI",
@@ -12673,6 +13910,24 @@
       "region": "Asia"
     },
     "continent": "Asia"
+  },
+  {
+    "title": "Assessing the quality of antimalarial drugs in Equatorial Guinea: a follow-up study.",
+    "publishedAt": "2025-07-27",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40716799",
+    "countryDetection": {
+      "country": "Guinea",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "guinea",
+      "region": "Africa"
+    },
+    "country": "Guinea",
+    "continent": "Africa",
+    "relevanceScore": 35
   },
   {
     "source": "NewsAPI",
@@ -12963,6 +14218,40 @@
     "continent": "Global"
   },
   {
+    "title": "Timor-Leste certified malaria-free by WHO",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiigFBVV95cUxNNkplb2h4RWdTdk9BNVBGeDNleml0ZHotbkRhTllWRzAwX3ZxVHhhNlJzTkVudF92bVVacDBGUTlIWlJFdmlRckhLSzJJYnczR04xT09wa3h5YmlTZlB3Q1dvWmtralRPZXhlTHkxT3lwenlpVVl6QlljN0RSNVdLdmhSb2dZYXVzZ0E?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-07-24T07:00:00.000Z",
+    "source": "World Health Organization (WHO)",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiigFBVV95cUxNNkplb2h4RWdTdk9BNVBGeDNleml0ZHotbkRhTllWRzAwX3ZxVHhhNlJzTkVudF92bVVacDBGUTlIWlJFdmlRckhLSzJJYnczR04xT09wa3h5YmlTZlB3Q1dvWmtralRPZXhlTHkxT3lwenlpVVl6QlljN0RSNVdLdmhSb2dZYXVzZ0E?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNUJNRVJ0VTFaamQwcG1aVmQ2VFJERUF4aW1CU2dLTWdZaG80NVJOUVk=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": {
+      "country": "Timor-Leste",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "timor-leste",
+      "region": "Asia"
+    },
+    "country": "WHO",
+    "continent": "Global",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Timor-Leste certifié sans paludisme par l'OMS."
+      },
+      "pt": {
+        "title": "Timor-Leste certificado livre de malária pela OMS."
+      },
+      "es": {
+        "title": "Timor-Leste certificado libre de malaria por la OMS."
+      }
+    }
+  },
+  {
     "title": "An expanded method for malaria parasite genetic surveillance using targeted nanopore sequencing.",
     "publishedAt": "2025-07-24",
     "source": "Europe PMC",
@@ -13116,6 +14405,69 @@
         "description": "A partir del primer día de su segundo mandato, el presidente Trump emitió varias acciones ejecutivas que han cambiado fundamentalmente la asistencia exterior. Estas incluyeron: una orden ejecutiva que solicitaba una revisión de 90 días de la ayuda exterior; una posterior \"orden de suspensión de trabajo\" que congeló todos los pagos y servicios para trabajos ya en curso; la disolución de USAID, incluyendo la reducción de la mayoría del personal y contratistas; y la cancelación de la mayoría de los premios de asistencia exterior. Aunque se emitió una exención para permitir asistencia humanitaria que salva vidas, se ha limitado a ciertos servicios únicamente y ha sido difícil para los implementadores de programas obtenerla. Además, aunque ha habido varios desafíos legales a estas acciones, hasta la fecha ha habido un remedio legal limitado. Como resultado, los programas de salud global de EE.UU. se han visto interrumpidos y, en algunos casos, finalizados. Los recientes cambios en el Departamento de Salud y Servicios Humanos, incluyendo recortes propuestos y reorganización, también probablemente afecten estos programas. Esta hoja informativa es parte de una serie sobre el estado de los programas de salud global de EE.UU.\n\nEl gobierno de EE.UU. ha estado involucrado en actividades globales contra la malaria desde la década de 1950. En 2005, se lanzó la Iniciativa del Presidente contra la Malaria (PMI) para aumentar los esfuerzos para abordar la malaria en los países africanos más afectados. \n\nLa malaria es una enfermedad potencialmente mortal que se transmite a los humanos por mosquitos. Hay aproximadamente 263 millones de casos de malaria y 600,000 muertes cada año; la mayoría de las muertes por malaria son en niños menores de cinco años. \n\nSe atribuye a PMI el haber ayudado a salvar 11.7 millones de vidas y prevenir 2.1 mil millones de casos de malaria desde el año 2000. De hecho, desde 2006, en los países donde trabaja PMI, los esfuerzos globales han apoyado una disminución del 29% en las tasas de casos de malaria y una reducción del 48% en las muertes. La introducción de dos vacunas contra la malaria en 2021 y 2023, respectivamente, ha aumentado el optimismo sobre la posibilidad de fortalecer aún más el control global de la malaria. \n\nLa Resolución Continua del FY 2025 que se aprobó en marzo incluyó financiamiento a nivel para PMI y otras actividades contra la malaria en USAID y CDC de $805 millones (así como financiamiento a nivel para el Fondo Global de Lucha contra el SIDA, la Tuberculosis y la Malaria). EE.UU. ha sido el principal gobierno donante para los esfuerzos contra la malaria, a través de PMI y contribuciones al Fondo Global. La solicitud de presupuesto de la administración para el FY 2026 incluye $424 millones para malaria, una disminución de $381 millones (los niveles finales de apropiación son determinados por el Congreso).\n\nSupervisado por un Coordinador Global de Malaria de EE.UU., un puesto creado por el Congreso en 2008 para ser nombrado por el presidente y ubicado en USAID, PMI es una iniciativa interagencial liderada por USAID en asociación con CDC. Los esfuerzos se han centrado en 30 países que representan el 90% de los casos y muertes por malaria en el mundo. \n\nLas siguientes acciones de la administración han tenido un impacto significativo en las operaciones de PMI:\nCongelación de fondos/orden de suspensión de trabajo: La orden de suspensión de trabajo congeló inicialmente toda la programación y servicios de PMI, deteniendo las actividades existentes de PMI, incluyendo la provisión de mosquiteros, la pulverización residual y la entrega de medicamentos antipalúdicos. Debido a que la orden detuvo los pagos, muchos implementadores tuvieron que despedir a miles de empleados y finalizar algunos servicios. \nExención limitada: Los programas de malaria recibieron una exención limitada el 4 de febrero que permitía la continuación de \"servicios que salvan vidas\", definidos como aquellos servicios que \"deben reanudarse dentro de los 30 días para garantizar el diagnóstico y tratamiento de la malaria, así como la prevención a través de la distribución de mosquiteros y pulverización residual en interiores que apunta a las áreas con mayor carga... y medicamentos antipalúdicos que salvan vidas para mujeres embarazadas y niños\". Incluso con la exención, los servicios siguen interrumpidos y los implementadores han enfrentado desafíos para obtener permiso para reanudar la programación y dificultades para recibir pagos. \nDisolución de USAID: USAID fue la principal agencia gubernamental implementadora para los esfuerzos contra la malaria, obligando casi toda la asistencia bilateral contra la malaria en el FY 2023 (96%). Sin USAID y la"
       }
     }
+  },
+  {
+    "title": "Stealth Genetic Switch in Mosquitoes Halts Malaria Spread",
+    "description": "",
+    "url": "https://news.google.com/read/CBMijwFBVV95cUxOYVMtZ0QzTVlDYkV6NXNoNmdncWt0S1NuTEtzTW4tc1k3cWtSU1hVY25LWVoyQkVrVzBBeE1fc0d4c0hwTGh4MmlfRVR2S2YxaEJzOTJJenRrRFlFZ0dLdVU2eURJVEhZaGhkb2wxaG1Pb3c4QVZ1MnNpOHc2RWw1N21wQWlxU2JITjBhV2JQRQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-07-23T07:00:00.000Z",
+    "source": "UC San Diego Today",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMijwFBVV95cUxOYVMtZ0QzTVlDYkV6NXNoNmdncWt0S1NuTEtzTW4tc1k3cWtSU1hVY25LWVoyQkVrVzBBeE1fc0d4c0hwTGh4MmlfRVR2S2YxaEJzOTJJenRrRFlFZ0dLdVU2eURJVEhZaGhkb2wxaG1Pb3c4QVZ1MnNpOHc2RWw1N21wQWlxU2JITjBhV2JQRQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNHlVVE5UUTBsak1EZExiR2h0VFJDUUF4ai1CU2dLTWdhTkVZd0hIZ2M=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Interrupteur génétique furtif chez les moustiques arrête la propagation du paludisme."
+      },
+      "pt": {
+        "title": "Interruptor Genético Stealth em Mosquitos Interrompe a Disseminação da Malária"
+      },
+      "es": {
+        "title": "Interruptor Genético Sigiloso en Mosquitos Detiene la Propagación de la Malaria"
+      }
+    }
+  },
+  {
+    "title": "Self-medication for malaria and associated factors in Kakumiro District, Uganda, August 2023: implications for malaria management and mortality prevention.",
+    "publishedAt": "2025-07-23",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40702525",
+    "countryDetection": {
+      "country": "Uganda",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "uganda",
+      "region": "Africa"
+    },
+    "country": "Uganda",
+    "continent": "Africa",
+    "relevanceScore": 45
+  },
+  {
+    "title": "Understanding Malaria Treatment Adherence in Rwanda: Implications for Artemisinin Resistance",
+    "publishedAt": "2025-07-23",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-PPR1054497",
+    "countryDetection": {
+      "country": "Rwanda",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "rwanda",
+      "region": "Africa"
+    },
+    "country": "Rwanda",
+    "continent": "Africa",
+    "relevanceScore": 60
   },
   {
     "uid": "40742185",
@@ -13306,6 +14658,24 @@
     "relevanceScore": 95
   },
   {
+    "title": "Rising prevalence of Plasmodium falciparum Artemisinin partial resistance mutations in Ethiopia.",
+    "publishedAt": "2025-07-18",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40681807",
+    "countryDetection": {
+      "country": "Ethiopia",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "ethiopia",
+      "region": "Africa"
+    },
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "relevanceScore": 50
+  },
+  {
     "title": "Emerging Molecular Mechanisms in Malaria Pathogenesis and Novel Therapeutic Approaches: A Focus on &lt;i&gt;P. falciparum&lt;/i&gt; Malaria.",
     "publishedAt": "2025-07-17",
     "source": "Europe PMC",
@@ -13459,6 +14829,62 @@
     "country": "Global",
     "continent": "Global",
     "relevanceScore": 40
+  },
+  {
+    "title": "WHO issues first-ever guidance to support countries in staying malaria-free",
+    "description": "",
+    "url": "https://news.google.com/read/CBMitwFBVV95cUxQV2lYWmdtSExZclEwVnFOWWhtQXo4ZUhnODNYQ0ZWMWUtSjgwZWVkNnh0eV9vVy00YmQxUDhZaWdJUVZrZElLd09YSHA5THBnN002NTVCWm9sd1NDdEpPS05UdDVYOU83Wjl4U2F6ZmFOWkZBeXZESUNvcUhMOGRieUpIWGtGYVdNNEo4dmdjM3R3X0g0TXBrNWlEV1hkbUdneFhad0FaRzNjT1g0d3NVeGJLY2xsYXc?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-07-14T07:00:00.000Z",
+    "source": "World Health Organization (WHO)",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMitwFBVV95cUxQV2lYWmdtSExZclEwVnFOWWhtQXo4ZUhnODNYQ0ZWMWUtSjgwZWVkNnh0eV9vVy00YmQxUDhZaWdJUVZrZElLd09YSHA5THBnN002NTVCWm9sd1NDdEpPS05UdDVYOU83Wjl4U2F6ZmFOWkZBeXZESUNvcUhMOGRieUpIWGtGYVdNNEo4dmdjM3R3X0g0TXBrNWlEV1hkbUdneFhad0FaRzNjT1g0d3NVeGJLY2xsYXc?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iJ0NnNVFXRVZ1TjNaR1NtWndlVlZUVFJDTEFoaTlBU2dCTWdNUkF4QQ=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "WHO",
+    "continent": "Global",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "L'OMS publie ses premières directives pour aider les pays à rester sans paludisme."
+      },
+      "pt": {
+        "title": "A OMS emite a primeira diretriz para apoiar os países na manutenção da ausência de malária."
+      },
+      "es": {
+        "title": "La OMS emite la primera guía para apoyar a los países en la permanencia libre de malaria."
+      }
+    }
+  },
+  {
+    "title": "Efficacy of artemether-lumefantrine, artesunate-amodiaquine, dihydroartemisinin-piperaquine and artesunate-pyronaridine for the treatment of uncomplicated Plasmodium falciparum malaria in Mozambique, 2022.",
+    "publishedAt": "2025-07-14",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40660279",
+    "countryDetection": {
+      "country": "Mozambique",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "mozambique",
+      "region": "Africa"
+    },
+    "country": "Mozambique",
+    "continent": "Africa",
+    "relevanceScore": 45
+  },
+  {
+    "title": "Tracking Plasmodium falciparum antimalarial resistance markers during a malaria pre-elimination period in the Pacific coast of South America.",
+    "publishedAt": "2025-07-14",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40659734",
+    "countryDetection": null,
+    "country": "Latin America",
+    "continent": "Latin America",
+    "relevanceScore": 65
   },
   {
     "title": "Pharmacokinetics and metabolism of artemisinin (ART) in Plasmodium yoelii: ART-heme adduct as a potential biomarker for its resistance.",
@@ -13724,6 +15150,39 @@
     "continent": "Africa"
   },
   {
+    "title": "Assessment of ex vivo antimalarial drug efficacy in African Plasmodium falciparum parasite isolates, 2016-2023: a genotype-phenotype association study.",
+    "publishedAt": "2025-07-09",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40639048",
+    "countryDetection": null,
+    "country": "Africa",
+    "continent": "Africa",
+    "relevanceScore": 35
+  },
+  {
+    "title": "Investigating the relationship between &lt;i&gt;Pfkelch13&lt;/i&gt; mutations and response to artemisinin-based treatment for uncomplicated falciparum malaria: a protocol for a systematic review and individual patient data meta-analysis.",
+    "publishedAt": "2025-07-08",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40633944",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35
+  },
+  {
+    "title": "Antimalarial drug resistance and drug discovery: learning from the past to innovate the future.",
+    "publishedAt": "2025-07-08",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40680501",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 40
+  },
+  {
     "title": "First malaria treatment for babies approved for use",
     "description": "",
     "url": "https://news.google.com/read/CBMiWkFVX3lxTFBtLUVJdGgyOTJxb2MxN3Z2bkxPSUdnMVJwd2lKWHFOUVNrS3lVLUl0MmY4QkZ4NXl5elpUUUF1ZUdnM1RodnhaYUU3RkhpejNXb1RfcldoRzVvUdIBX0FVX3lxTE14NjlmVDAxRUVTYjBqbWRWU3BVZVZKempLM2dkVkZOcFRLcmRZR1F0Nnp0WWZWR0daQXZGU3Y4cDc0MnItX0JISUs1MS1XeVVGVjhIWWZEaG85eDdsY2lF?hl=en-US&gl=US&ceid=US%3Aen",
@@ -13854,6 +15313,64 @@
     "country": "Africa",
     "countryDetection": null,
     "continent": "Africa"
+  },
+  {
+    "title": "Plasmodium falciparum isolates: ex vivo drug response.",
+    "publishedAt": "2025-07-01",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40343740",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
+  },
+  {
+    "title": "Artemisinin and partner drug resistance markers in Plasmodium falciparum from Tanzanian paediatric malaria patients, 2016-2022.",
+    "publishedAt": "2025-07-01",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40598187",
+    "countryDetection": {
+      "country": "Tanzania",
+      "probability": 0.85,
+      "risk": "High",
+      "type": "demonym",
+      "term": "tanzanian",
+      "region": "Africa"
+    },
+    "country": "Tanzania",
+    "continent": "Africa",
+    "relevanceScore": 50
+  },
+  {
+    "title": "Exploring Plant-Derived Natural Products Against Plasmodium falciparum Malaria Causative Agent by Targeting Protein Kinase 5: Insights Into Computational Approaches.",
+    "publishedAt": "2025-07-01",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40591878",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
+  },
+  {
+    "title": "Prevalence of Plasmodium falciparum Drug Resistance Markers pfcrt K76T and pfaat1 S258L in Southern Rwanda, 2010 to 2023.",
+    "publishedAt": "2025-07-01",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-39936828",
+    "countryDetection": {
+      "country": "Rwanda",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "rwanda",
+      "region": "Africa"
+    },
+    "country": "Rwanda",
+    "continent": "Africa",
+    "relevanceScore": 50
   },
   {
     "uid": "40602372",
@@ -14149,6 +15666,42 @@
     "continent": "Global"
   },
   {
+    "title": "Longitudinal surveillance of kelch13 identifies C469Y, P553L, R561H and A675V mutations associated with artemisinin resistance in Western Kenya",
+    "publishedAt": "2025-06-25",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-PPR1042338",
+    "countryDetection": {
+      "country": "Kenya",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "kenya",
+      "region": "Africa"
+    },
+    "country": "Kenya",
+    "continent": "Africa",
+    "relevanceScore": 60
+  },
+  {
+    "title": "Tracking Drug Resistance in &lt;i&gt;Plasmodium falciparum&lt;/i&gt;: Genetic Diversity of Key Resistance Markers in Brazilian Malaria Hotspots.",
+    "publishedAt": "2025-06-21",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40649756",
+    "countryDetection": {
+      "country": "Brazil",
+      "probability": 0.85,
+      "risk": "Moderate",
+      "type": "demonym",
+      "term": "brazilian",
+      "region": "Latin America"
+    },
+    "country": "Brazil",
+    "continent": "Latin America",
+    "relevanceScore": 50
+  },
+  {
     "title": "Correlative humoral and cellular immunity to genetically attenuated malaria parasites in humans",
     "description": "",
     "url": "https://news.google.com/read/CBMidkFVX3lxTE8wR0pRZDVpV3RsU1dEaGRlTTZ1REZyVThHWTBVVWxIU0ZnMjBkQ2hJbjh5ZldtX05xOWQ2V0VCS2QyVkcwNkI3THJaOWtLQUJaUWJZUHd5R2dJUnItekN6YjhhN2hRLU9GbnhYM3plTExyRl8zbVE?hl=en-US&gl=US&ceid=US%3Aen",
@@ -14210,6 +15763,44 @@
     "country": "Global",
     "countryDetection": null,
     "continent": "Global"
+  },
+  {
+    "title": "Slowing malaria by treating mosquitoes",
+    "description": "",
+    "url": "https://news.google.com/read/CBMikgFBVV95cUxNdmVqbWdTT29wd2FQNnJWVlBaSjNXOXJpSjVIVWVtRldUYWtwNWxxVGhiX01PenVUakRvbjNydWpGLTlqWEJTS3pXRWpHOXR2a3hkajh0RUtac1IweWJoa3lyZ3dtR0ZNaHd6SjA1VjMxdUFhSDZGUS1JdzlRMGJEU0IweWtMS2p2UDZ6cXRqMmdMUQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-06-17T07:00:00.000Z",
+    "source": "National Institutes of Health (NIH) | (.gov)",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMikgFBVV95cUxNdmVqbWdTT29wd2FQNnJWVlBaSjNXOXJpSjVIVWVtRldUYWtwNWxxVGhiX01PenVUakRvbjNydWpGLTlqWEJTS3pXRWpHOXR2a3hkajh0RUtac1IweWJoa3lyZ3dtR0ZNaHd6SjA1VjMxdUFhSDZGUS1JdzlRMGJEU0IweWtMS2p2UDZ6cXRqMmdMUQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNURNVk5tVUhGQ1NUSnNlblptVFJERUF4aW1CU2dLTWdaQllwZzBxUWc=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Ralentir le paludisme en traitant les moustiques"
+      },
+      "pt": {
+        "title": "Atrasando a malária através do tratamento de mosquitos"
+      },
+      "es": {
+        "title": "Reduciendo la malaria mediante el tratamiento de mosquitos"
+      }
+    }
+  },
+  {
+    "title": "Malaria: past, present, and future.",
+    "publishedAt": "2025-06-17",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40523953",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
   },
   {
     "uid": "40527304",
@@ -14406,6 +15997,24 @@
       "region": "Africa"
     },
     "continent": "Africa"
+  },
+  {
+    "title": "Comprehensive analysis of molecular markers linked to antimalarial drug resistance in Plasmodium falciparum in Northern, Northeastern and Eastern Uganda.",
+    "publishedAt": "2025-06-13",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40514714",
+    "countryDetection": {
+      "country": "Uganda",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "uganda",
+      "region": "Africa"
+    },
+    "country": "Uganda",
+    "continent": "Africa",
+    "relevanceScore": 50
   },
   {
     "title": "Study Highlights Role of Jaundice-Associated Pigment in Protecting Against Malaria",
@@ -14651,6 +16260,24 @@
     "continent": "Asia"
   },
   {
+    "title": "High Prevalence of Artemisinin-Resistant Plasmodium falciparum, Southeastern Sudan.",
+    "publishedAt": "2025-06-01",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40439506",
+    "countryDetection": {
+      "country": "Sudan",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "sudan",
+      "region": "Africa"
+    },
+    "country": "Sudan",
+    "continent": "Africa",
+    "relevanceScore": 35
+  },
+  {
     "title": "Editorial: Advancement in malaria treatment.",
     "publishedAt": "2025-05-28",
     "source": "Europe PMC",
@@ -14815,6 +16442,78 @@
     }
   },
   {
+    "title": "New approach to preventing malaria transmission holds promise",
+    "description": "",
+    "url": "https://news.google.com/read/CBMilwFBVV95cUxPT3JLb29VLVNRS1pCd0pOS1RudTJNYThwUkFWSllkR0tEMWxISy1yT0xSZ19xeEVId2ViWHFCaGN3aTlaUEJMc2JvRXRhUWozdDRpTlVzeXhqS3JZSHhsOWVmR0xqa1EtWmZNeUVMNjdfQmlrZmNfMlR1U05reWNwX0pKTUhYc2FIb0xodmg0d3R4QmlJdnZj?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-05-22T07:00:00.000Z",
+    "source": "Harvard T.H. Chan School of Public Health",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMilwFBVV95cUxPT3JLb29VLVNRS1pCd0pOS1RudTJNYThwUkFWSllkR0tEMWxISy1yT0xSZ19xeEVId2ViWHFCaGN3aTlaUEJMc2JvRXRhUWozdDRpTlVzeXhqS3JZSHhsOWVmR0xqa1EtWmZNeUVMNjdfQmlrZmNfMlR1U05reWNwX0pKTUhYc2FIb0xodmg0d3R4QmlJdnZj?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNDNTbG8xY25WRVJXdFVWR3g1VFJDZkF4ampCU2dLTWdZQmhKQndzUVk=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Une nouvelle approche pour prévenir la transmission du paludisme suscite de l'espoir."
+      },
+      "pt": {
+        "title": "Nova abordagem para prevenir a transmissão da malária apresenta promessas"
+      },
+      "es": {
+        "title": "Un nuevo enfoque para prevenir la transmisión de la malaria muestra promesas."
+      }
+    }
+  },
+  {
+    "title": "Applying new compound to bed nets targets malaria parasites, not mosquitoes",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiqgFBVV95cUxPeUx4NW0xTHJ3Wlg3T3hoQWRKV1lvaGk0MDk1RGlUUUFPNnY0cG1oZG9JelZoazRvRGhnRm5HWjdYYVQxcnU3MndmOUtNc19HaWZQNzJxZ3FUSFlOX081aUJMRDZHTGE3SjdtWXVESG9hWlVjTVp3OTR4ZFE1OVFCSGRmQVF6dXpHNzFpMWxIZGtMWHVOblZYaS15cTJVZXVvSnQzMHRUWng4UQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-05-22T07:00:00.000Z",
+    "source": "CIDRAP",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiqgFBVV95cUxPeUx4NW0xTHJ3Wlg3T3hoQWRKV1lvaGk0MDk1RGlUUUFPNnY0cG1oZG9JelZoazRvRGhnRm5HWjdYYVQxcnU3MndmOUtNc19HaWZQNzJxZ3FUSFlOX081aUJMRDZHTGE3SjdtWXVESG9hWlVjTVp3OTR4ZFE1OVFCSGRmQVF6dXpHNzFpMWxIZGtMWHVOblZYaS15cTJVZXVvSnQzMHRUWng4UQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 40,
+    "translations": {
+      "fr": {
+        "title": "L'application d'un nouveau composé sur les moustiquaires cible les parasites du paludisme, et non les moustiques."
+      },
+      "pt": {
+        "title": "Aplicando um novo composto em redes mosquiteiras visa atacar os parasitas da malária, e não os mosquitos."
+      },
+      "es": {
+        "title": "Aplicar un nuevo compuesto a las mosquiteras tiene como objetivo los parásitos de la malaria, no los mosquitos."
+      }
+    }
+  },
+  {
+    "title": "Medication errors in malaria management in children: insights from pharmacovigilance data in the Democratic Republic of Congo.",
+    "publishedAt": "2025-05-22",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40405294",
+    "countryDetection": {
+      "country": "Democratic Republic of Congo",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "democratic republic of congo",
+      "region": "Africa"
+    },
+    "country": "Democratic Republic of Congo",
+    "continent": "Africa",
+    "relevanceScore": 35
+  },
+  {
     "title": "In vivo screen of Plasmodium targets for mosquito-based malaria control",
     "description": "",
     "url": "https://news.google.com/read/CBMiX0FVX3lxTE1CdU1VZjMxamF4VmJPWTZXWkE5NVRBVEI0RWwzSm5NRFZPcFZGWTAwREc2QkdJa3NyM0hXRGVIVDhaUzBFaFRodzVmNHAzZklsMDBtS2ZOWExNSHRJbG1Z?hl=en-US&gl=US&ceid=US%3Aen",
@@ -14867,6 +16566,44 @@
         "title": "Nueva estrategia de control de la malaria mata eficientemente los parásitos en el mosquito, podría llevar a mosquiteros más efectivos."
       }
     }
+  },
+  {
+    "title": "Target mosquito parasites with drugs to cut malaria, study says",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiWkFVX3lxTE8ya2U1TUJKeHFRYUI1dEdjdThLY05lU045dDRZOHU5RjlGR1dIWGxpTVNMV1Y2elNMN0J0Ukp5ejdCWUNHU1htN0tpYlZGRmNyTVdiUVE3SEZTd9IBX0FVX3lxTE5vOXY1R1VzeHBzYXhrLXlSdHB5WTdFdGI0b2VJazFmM0xsUlN0c1ZKT0J5VVdMYUxXaGhzT1pITm9oaTRSQkhZQVNUOHFZUDJLMHI1RDZrSDhGQlNEekpF?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-05-21T07:00:00.000Z",
+    "source": "BBC",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiWkFVX3lxTE8ya2U1TUJKeHFRYUI1dEdjdThLY05lU045dDRZOHU5RjlGR1dIWGxpTVNMV1Y2elNMN0J0Ukp5ejdCWUNHU1htN0tpYlZGRmNyTVdiUVE3SEZTd9IBX0FVX3lxTE5vOXY1R1VzeHBzYXhrLXlSdHB5WTdFdGI0b2VJazFmM0xsUlN0c1ZKT0J5VVdMYUxXaGhzT1pITm9oaTRSQkhZQVNUOHFZUDJLMHI1RDZrSDhGQlNEekpF?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iJ0NnNVZia1p1Ulhwc1UxSmFaRWx3VFJDZkF4ampCU2dLTWdNQldRSQ=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Ciblez les parasites des moustiques avec des médicaments pour réduire le paludisme, indique une étude."
+      },
+      "pt": {
+        "title": "Alvo parasitas de mosquitos com medicamentos para reduzir a malária, diz estudo."
+      },
+      "es": {
+        "title": "Apunta a los parásitos de los mosquitos con medicamentos para reducir la malaria, dice un estudio."
+      }
+    }
+  },
+  {
+    "title": "A dendrimer-based dual delivery system for artesunate and fluconazole: Effective malaria treatment in a murine model of Plasmodium berghei.",
+    "publishedAt": "2025-05-21",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40409742",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35
   },
   {
     "title": "A shared inflammatory signature across severe malaria syndromes manifested by transcriptomic, proteomic and metabolomic analyses",
@@ -14923,6 +16660,33 @@
     }
   },
   {
+    "title": "Mosquito vector diversity and malaria transmission",
+    "description": "",
+    "url": "https://news.google.com/read/CBMijgFBVV95cUxNTTl6RmwybFY1bllPT3loWEtHSUdtZXJjaWRES1dEVkdKNUpxWE9ZcmdCeE5BYjd5VWtOZFVXOWc5N2tmNnIwUHkyTGRtclhNU3Q2X21uWnhoSk0tLWhhX1VYZ082enJIV0RLQ1MyempkWlR6VW0xOWJQTDloVk1EYnBTYVhqZnJHZmRtb1BB?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-05-14T07:00:00.000Z",
+    "source": "Frontiers",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMijgFBVV95cUxNTTl6RmwybFY1bllPT3loWEtHSUdtZXJjaWRES1dEVkdKNUpxWE9ZcmdCeE5BYjd5VWtOZFVXOWc5N2tmNnIwUHkyTGRtclhNU3Q2X21uWnhoSk0tLWhhX1VYZ082enJIV0RLQ1MyempkWlR6VW0xOWJQTDloVk1EYnBTYVhqZnJHZmRtb1BB?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iJ0NnNHpUVzVpYzBkSU1FVk1Xak5QVFJEQ0F4aXBCU2dLTWdNQkFnUQ=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Diversité des vecteurs de moustiques et transmission du paludisme"
+      },
+      "pt": {
+        "title": "Diversidade de vetores de mosquitos e transmissão da malária"
+      },
+      "es": {
+        "title": "Diversidad de vectores de mosquitos y transmisión de malaria"
+      }
+    }
+  },
+  {
     "title": "The President’s Malaria Initiative and Other U.S. Government Global Malaria Efforts",
     "description": "",
     "url": "https://news.google.com/read/CBMiwAFBVV95cUxORTlabzVld2NmUmNGczBkc3hOZlowczVaX2owcTlULXYwdXF1bmxJNFZkZldCNEFOZ2tGT2V6a2dDT3c0RWdlNkk4V1I4WkJ1ekgwSnF2SS13R0tqVzB4Mk5wYmduQ0g4czJnclZVX3dnYWxqWHJXWGl3czgzLV9DeFltc1VvbVB4X0hxSHN4QXptRmdoYkh3ZnBOUy11U2JWemZvSHA1SU9mSWdVRFl4V3VLN1dUV1lkcVB0SERIZjE?hl=en-US&gl=US&ceid=US%3Aen",
@@ -14970,6 +16734,24 @@
     "country": "Global",
     "countryDetection": null,
     "continent": "Global"
+  },
+  {
+    "title": "Expansion of the &lt;i&gt;Plasmodium falciparum Kelch13&lt;/i&gt; R622I Mutation in Northwest Ethiopia.",
+    "publishedAt": "2025-05-09",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40463829",
+    "countryDetection": {
+      "country": "Ethiopia",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "ethiopia",
+      "region": "Africa"
+    },
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "relevanceScore": 35
   },
   {
     "title": "Cell cycle checkpoint activity in the malaria parasite <i>Plasmodium falciparum</i>",
@@ -15253,6 +17035,33 @@
     }
   },
   {
+    "title": "Expanded use of new dual-insecticide nets offers hope for malaria control efforts in Africa",
+    "description": "",
+    "url": "https://news.google.com/read/CBMi3AFBVV95cUxPUy1uMFNlTzE1aVdOYVVWNVlXZGpGUURVazJIUUhHWVdrbWNYc2tHeV9OSlRuTG1kcnFScXNReGpkZUEwQnJQbjh1V2M1U3d2UC1Wcy1obmVqdjdDRk5QWmJyVFRWUEpWUy1PMmZpb3VYaFNoOVptdXlQYU5fb2MwN1h1NzBRY0EwSGprM1FIQjZ1c01DcVFYOXQyX1Q0TFR1bmpPbXlyQmVGRXpMSDhjeE9NSkZmV1VXS3VBTjVVWDdFbldDeUFEZ2VpSF9oYVJGZzYwMXQ5Vmg0TDVK?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-04-24T07:00:00.000Z",
+    "source": "World Health Organization (WHO)",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMi3AFBVV95cUxPUy1uMFNlTzE1aVdOYVVWNVlXZGpGUURVazJIUUhHWVdrbWNYc2tHeV9OSlRuTG1kcnFScXNReGpkZUEwQnJQbjh1V2M1U3d2UC1Wcy1obmVqdjdDRk5QWmJyVFRWUEpWUy1PMmZpb3VYaFNoOVptdXlQYU5fb2MwN1h1NzBRY0EwSGprM1FIQjZ1c01DcVFYOXQyX1Q0TFR1bmpPbXlyQmVGRXpMSDhjeE9NSkZmV1VXS3VBTjVVWDdFbldDeUFEZ2VpSF9oYVJGZzYwMXQ5Vmg0TDVK?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNXNTRGxOZFU0M2NtZzFMVUZ6VFJDT0F4aUNCaWdLTWdZaEpZS3RIUWs=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Africa",
+    "continent": "Africa",
+    "relevanceScore": 60,
+    "translations": {
+      "fr": {
+        "title": "L'utilisation élargie de nouveaux moustiquaires à double insecticide offre de l'espoir pour les efforts de lutte contre le paludisme en Afrique."
+      },
+      "pt": {
+        "title": "O uso expandido de novas redes com inseticidas duplos oferece esperança para os esforços de controle da malária na África."
+      },
+      "es": {
+        "title": "El uso ampliado de nuevas mosquiteras de doble insecticida ofrece esperanza para los esfuerzos de control de la malaria en África."
+      }
+    }
+  },
+  {
     "title": "An Evidence-Based Review of Perniosis (Chilblains): Therapeutic Strategies and Integration With Raynaud's Syndrome Management.",
     "description": "Perniosis (chilblains) is an uncommon inflammatory condition characterized by erythematous to violaceous papules or plaques typically affecting acral surfaces. The pathogenesis remains poorly understood, and its management remains challenging due to the limited evidence available. This comprehensive review examines evidence-based therapies for primary and secondary perniosis, informed by observational studies, case series, and trials on similar conditions such as Raynaud's phenomenon. We synthesize treatment options for managing inflammation, alleviating symptoms, and preventing recurrence, including topical and systemic vasodilators, corticosteroids, selective serotonin reuptake inhibitors (SSRIs), antimalarials, and antithrombotic therapies. A focus is placed on systemic vasodilators, including nifedipine, and topical therapies like nitroglycerin, which have shown efficacy in improving peripheral perfusion. Additionally, corticosteroids are used to address inflammation, although their effectiveness is debated in randomized controlled trials. Antimalarials and SSRIs, notably fluoxetine, also show promise, particularly for secondary perniosis. Despite the absence of high-quality randomized controlled trials, therapeutic recommendations have emerged from case reports and studies on related vascular conditions. The role of botulinum toxin, though under investigation, remains inconclusive for primary perniosis, but may be considered in cases of secondary perniosis or coexisting vascular issues. This review underscores the need for individualized treatment approaches and highlights the importance of future research to refine management strategies and enhance patient outcomes.",
     "publishedAt": "2025-04-24",
@@ -15455,6 +17264,17 @@
         "title": "Perspectivas recientes en el desarrollo clínico de vacunas contra la malaria."
       }
     }
+  },
+  {
+    "title": "Hybrid Molecules as Efficient Drugs against Multidrug-Resistant Malaria Parasites.",
+    "publishedAt": "2025-04-14",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40227011",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
   },
   {
     "title": "Malaria progress in jeopardy amid foreign aid cuts",
@@ -15667,6 +17487,24 @@
     "continent": "Africa"
   },
   {
+    "title": "A Narrative Review on the Prevalence of &lt;i&gt;Plasmodium falciparum&lt;/i&gt; Resistance Mutations to Antimalarial Drugs in Rwanda.",
+    "publishedAt": "2025-03-29",
+    "source": "Europe PMC",
+    "type": "research",
+    "uniqueId": "europepmc-40278762",
+    "countryDetection": {
+      "country": "Rwanda",
+      "probability": 1,
+      "risk": "Low-Moderate",
+      "type": "country",
+      "term": "rwanda",
+      "region": "Africa"
+    },
+    "country": "Rwanda",
+    "continent": "Africa",
+    "relevanceScore": 50
+  },
+  {
     "title": "Highlights from the Global Malaria Programme: annual report 2024",
     "description": "",
     "url": "https://news.google.com/read/CBMiY0FVX3lxTE8zMDNUQndBRGpuQTdnQ3Z5U3BHMlBIODZEdmswRWJiTGhIcTltWDJLY2p3ZmtfTC1PRnNjQ3hydGtRc1JGS1Jod1JQVks3TmFNNFpmWFZUSGtZbjRGbm55NE5Qcw?hl=en-US&gl=US&ceid=US%3Aen",
@@ -15690,6 +17528,33 @@
       },
       "es": {
         "title": "Aspectos destacados del Programa Global de Malaria: informe anual 2024."
+      }
+    }
+  },
+  {
+    "title": "Public health impact of current and proposed age-expanded perennial malaria chemoprevention: a modelling study",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiX0FVX3lxTFBUaU9WR2Z5dGpTZlBkQ2stdU02emx4WDNRMXFnaktnUThodEZDT0JxN3JrWk4ydnZLZV9qVFEwVi1HeVViWE1pT2VNSldCaEVXUUVyVHpTN3NpY3I1ZG53?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-03-26T07:00:00.000Z",
+    "source": "Nature",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiX0FVX3lxTFBUaU9WR2Z5dGpTZlBkQ2stdU02emx4WDNRMXFnaktnUThodEZDT0JxN3JrWk4ydnZLZV9qVFEwVi1HeVViWE1pT2VNSldCaEVXUUVyVHpTN3NpY3I1ZG53?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iJ0NnNUpibmxNTTJWblJFUnRlRTk2VFJEYUFSam5BU2dCTWdNQk1nZw=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35,
+    "translations": {
+      "fr": {
+        "title": "Impact sur la santé publique de la chimioprévention pérannuelle du paludisme, actuelle et proposée, élargie à un âge plus large : une étude de modélisation."
+      },
+      "pt": {
+        "title": "Impacto da saúde pública da quimioprofilaxia perene contra a malária, atual e proposta para idades expandidas: um estudo de modelagem."
+      },
+      "es": {
+        "title": "Impacto en la salud pública de la quimioprofilaxis perenne contra la malaria, actual y propuesta, ampliada por edad: un estudio de modelado."
       }
     }
   },
