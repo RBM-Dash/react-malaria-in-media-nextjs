@@ -355,6 +355,38 @@
     }
   },
   {
+    "title": "SPSC announces final result of various post",
+    "description": "The Sindh Public Service Commission (SPSC) announces final results for various posts, and 26 candidates declared successful.According to result, the SPSC has declared the final results for the posts of Malaria Superintendent (BPS-16) in the Health Department and Instructor/Lecturer (BPS-17) in Physi ..",
+    "url": "https://www.urdupoint.com/en/pakistan/spsc-announces-final-result-of-various-post-2046016.html",
+    "publishedAt": "2025-09-17 18:20:16",
+    "source": "NewsData.io",
+    "language": "english",
+    "uniqueId": "https://www.urdupoint.com/en/pakistan/spsc-announces-final-result-of-various-post-2046016.html",
+    "imageUrl": "https://photo-cdn.urdupoint.com/images/UrduPoint-English-22.png",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "en": {
+        "title": "SPSC announces final results for various positions.",
+        "description": "The Sindh Public Service Commission (SPSC) announces final results for various posts, with 26 candidates declared successful. According to the results, the SPSC has declared the final results for the positions of Malaria Superintendent (BPS-16) in the Health Department and Instructor/Lecturer (BPS-17) in Physi..."
+      },
+      "fr": {
+        "title": "Le SPSC annonce le résultat final de divers postes.",
+        "description": "La Commission de la fonction publique du Sind (SPSC) annonce les résultats finaux pour divers postes, et 26 candidats ont été déclarés réussis. Selon les résultats, la SPSC a déclaré les résultats finaux pour les postes de Superviseur de la malaria (BPS-16) dans le Département de la santé et d'Instructeur/Conférencier (BPS-17) en Physi..."
+      },
+      "pt": {
+        "title": "SPSC anuncia resultado final de várias vagas",
+        "description": "A Comissão de Serviço Público de Sindh (SPSC) anuncia os resultados finais para várias vagas, e 26 candidatos foram declarados aprovados. De acordo com o resultado, a SPSC declarou os resultados finais para os cargos de Superintendente de Malária (BPS-16) no Departamento de Saúde e Instrutor/Professor (BPS-17) em Fisi..."
+      },
+      "es": {
+        "title": "SPSC anuncia el resultado final de varios puestos.",
+        "description": "La Comisión de Servicio Público de Sindh (SPSC) anuncia los resultados finales para varios puestos, y 26 candidatos han sido declarados exitosos. Según el resultado, la SPSC ha declarado los resultados finales para los puestos de Superintendente de Malaria (BPS-16) en el Departamento de Salud e Instructor/Lector (BPS-17) en Fisi.."
+      }
+    }
+  },
+  {
     "title": "Air pollution now top killer, overtakes HIV/AIDS, malaria — Study",
     "description": "",
     "url": "https://news.google.com/read/CBMilwFBVV95cUxQXzM2N2pzX3E2YjFDNlJablRKSUpmdGRKTEpqdlRDV21ObDJUMDBsODRKTUg0X0oyZ1lnelplRUkyb2RpTXhpcjQyaDF2WEZLTU5NTlE0Ni14c1FRZl8yaHVNcmJ2c2txOFFaT1VrM254NzB4c0Z6dFloNF9TNUNRVVhoVG1tRVlCNTZKbFIyQjZQQWZkOXM00gGWAUFVX3lxTE0xdU9NWDUweElfNFpoaTlXa2lQSkhldGlxVXBOVjZkT0Q5UXNGdmdvSVoyanlwNm1Rd0NpOG51OGE4dExuMVF6X3VuSGhCd00zZjBINEJ6d3BranRfQ1NGVjNoRVpzZmlSbTNDMm53aXlqNlRHWVFFdmtXaTN5VTVGcGZweXJsQXZNcFpyaGVYQmhaN3BpQQ?hl=en-US&gl=US&ceid=US%3Aen",
@@ -3314,6 +3346,27 @@
     "country": "Ghana",
     "continent": "Africa",
     "relevanceScore": 55
+  },
+  {
+    "title": "Conserved multiepitopes in Plasmodium falciparum STEVORs enable rational design of a fusion antigen vaccine construct with broad immunogenicity.",
+    "description": "There is no vaccine for severe malaria. STEVOR antigens on the surface of Plasmodium falciparum-infected red blood cells are implicated in severe malaria and are targeted by neutralizing antibodies, but their epitopes remain unknown. Using computational immunology, we identified highly immunogenic overlapping B- and T-cell epitopes (referred to as multiepitopes, 7-27 amino acids) in the semiconserved domain of four STEVORs linked with severe malaria and clinical immunity. Structural analyses confirmed the conservation in homologous sequences across 138 clinical isolates (Togo and Brazil) and 342 global strains. Designed fused multiepitopes showed high IgG antibody reactivity in the sera of P. falciparum-infected individuals. The fused multiepitopes had no allergenicity/toxicity, and phenotyping via flow cytometry and immunological assays revealed the induction of CD4+ and CD8+ T-cell proliferation and IgG antibodies in BALB/c mice, respectively. On this basis, structure-guided design of a multiepitope fusion antigen (MEFA) vaccine construct achieved 97.15% global combined HLA coverage and elicited both cellular and humoral immunity in silico. Recombinant MEFA was stably expressed in Escherichia coli and recognized significantly more anti-STEVOR IgG antibodies in the sera of nonsevere malaria cases than in those of severe cases, underscoring its potential immunogenicity and association with milder disease. The STEVOR MEFA construct emerges as a promising severe malaria vaccine candidate, combining global HLA coverage, safety, and broad immunogenicity linked to milder clinical outcomes.",
+    "publishedAt": "2025-09-10",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40928987/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40928987",
+    "countryDetection": {
+      "country": "Brazil",
+      "probability": 1,
+      "risk": "Moderate",
+      "type": "country",
+      "term": "brazil",
+      "region": "Latin America"
+    },
+    "country": "Brazil",
+    "continent": "Latin America",
+    "relevanceScore": 65
   },
   {
     "title": "Community health centre at Hisar village remains closed for 10 days",
@@ -10253,6 +10306,27 @@
     "continent": "Global"
   },
   {
+    "title": "Biodiversity threats and socio-ecological dynamics in Chebera Churchura National Park: A One Health approach.",
+    "description": "Chebera Churchura National Park (CCNP), a protected area in Ethiopia renowned for its diverse and thriving ecosystems, including nearly one-third of the nation's African elephant population and the largest concentration of African buffalo, grapples with pressing conservation challenges. We conducted a study in 2024 in the Konta and Dwauro Zones to assess the park's conservation status and ecosystem services using a One Health (OH) approach. The study utilized a mixed-method approach using the Rapid Assessment and Prioritization of Protected Area Management (RAPPAM) tool, field observations, document reviews, and key informant interviews across human and animal health, agriculture, local administration, and environmental sectors in five purposefully chosen kebeles bordering the park. Findings showed that the conservation status and ecosystem services of CCNP were inadequate, with key challenges including expansion to the park, deforestation, and illegal logging, leading to habitat loss, increased poaching of high-value species, and frequent regular human-wildlife conflicts. The problem is exacerbated by inadequate financial, human, and infrastructural resources for effective park management. Outbreaks of vector-borne diseases like malaria and trypanosomiasis in nearby communities and animals, respectively, and neglected tropical diseases such as schistosomiasis and onchocerciasis were found to prevail. Lack of collaboration among stakeholders and limited support for park management from the local government and the public at large were critical gaps. In conclusion, the study underscored the need for multisectoral collaborative engagements, strong partnerships, and improved governance and resources to enhance conservation strategies, improve community health, and ensure the sustainable management of CCNP. Cross-sectoral alliance is essential for good governance, optimizing resource allocation, and advancing effective conservation practices to address the multifaceted challenges confronting the park despite its biodiversity hotspot of global significance.",
+    "publishedAt": "2025-08-27",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40955282/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40955282",
+    "countryDetection": {
+      "country": "Ethiopia",
+      "probability": 1,
+      "risk": "High",
+      "type": "country",
+      "term": "ethiopia",
+      "region": "Africa"
+    },
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "relevanceScore": 50
+  },
+  {
     "source": "NewsAPI",
     "author": "Nagesh Dhanaji Chavan, S. Sarveswari, V. Vijayakumar",
     "title": "Quinoline derivatives' biological interest for anti-malarial and anti-cancer activities: an overview",
@@ -12685,6 +12759,27 @@
     }
   },
   {
+    "title": "Dihydroartemisinin targets ANXA2 to suppress hepatocellular carcinoma angiogenesis through the PI3K/AKT signaling pathway.",
+    "description": "Annexin A2 (ANXA2), implicated in the progression of multiple cancers, is considered a promising biomarker for anti-cancer therapies. Our research explores the molecular mechanisms of ANXA2 in hepatocellular carcinoma (HCC) and discovers the potential of traditional Chinese medicine compounds to target ANXA2, aiming to improve current HCC therapeutic approaches.Our study leveraged TCGA data to investigate ANXA2 expression in HCC, complemented by gene set enrichment analysis to elucidate its potential impact. We quantified ANXA2 expressions in HCC cells using qRT-PCR and western blot. Modulating ANXA2 expression, we used cell counting kit-8 to gauge cell viability and Transwell assays to measure invasiveness. Scratch and tube formation assays were conducted on human umbilical vein endothelial cells (HUVECs), and vascular endothelial growth factor A (VEGFA) levels were detected via enzyme-linked immunosorbent assay. Molecular docking with AutoDock and cell thermal shift assays established the binding affinity and targeting of dihydroartemisinin (DHA) to ANXA2.ANXA2 was upregulated in HCC tissues and cells and was particularly enriched in the PI3K/AKT signaling pathway. Knockdown of ANXA2 in HCC cells resulted in the inhibition of cell invasion and angiogenesis, while overexpression led to the opposite effects. We discovered a binding relationship between DHA and ANXA2, suggesting that the therapeutic effects of DHA on HCC are mediated through targeting ANXA2.DHA, by engaging ANXA2, mitigates the PI3K/AKT signaling, thereby inhibiting invasive and angiogenic activities of HCC.",
+    "publishedAt": "2025-08-13",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40834828/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40834828",
+    "countryDetection": {
+      "country": "China",
+      "probability": 0.85,
+      "risk": "Low-Moderate",
+      "type": "demonym",
+      "term": "chinese",
+      "region": "Asia"
+    },
+    "country": "China",
+    "continent": "Asia",
+    "relevanceScore": 45
+  },
+  {
     "source": "NewsAPI",
     "title": "Physical integrity and residual bio-efficacy of PBO-pyrethroid synergist-treated and pyrethroid-only LLINs after 1.5 years of field use in Western Kenya",
     "description": "Background Long-lasting insecticidal nets (LLINs) are vital for malaria control in sub-Saharan Africa, but their durability is challenged by fabric decay and pyrethroid resistance. This study assessed the physical integrity and bioefficacy of piperonyl butoxi…",
@@ -13432,6 +13527,20 @@
     "relevanceScore": 25
   },
   {
+    "title": "Effects of doxycycline on prepatent and patent infections of Brugia pahangi in dogs and observations on the growth and survival of L3 in jirds and dogs.",
+    "description": "The effects of doxycycyline administered orally at 10 mg/kg twice daily for 30-day periods in 20 Beagles with SC-induced infections of Brugia pahangi and the effects of treatment on in vivo development of L3 fed on blood from these dogs was studied. Doxycycline was administered on Days 0-29, 40-69 or 65-94, with an untreated control. No worms were recovered from dogs treated on Days 0-29, while all dogs treated on Days 40-69 and 65-94 had some live, stunted worms at necropsy on 218-22 days PI. All control dogs had normal worms. Mosquitoes were fed blood from dogs to assess the ability of L3 to develop in jirds and dogs. L3 from treated and untreated groups were injected IP into jirds. Worm recovery for the treated group at Day 35 PI was somewhat lower than for controls, while recovery for the treated group at Day 60 PI was significantly lower. When L3 from treated and control groups were injected SC into dogs, none of the dogs in the treated group had Mf or live adult worms at necropsy on Day 88 PI, while all control dogs were microfilaremic and had live worms. In conclusion, doxycycline treatment of dogs infected with B. pahangi killed all developing larvae, most immature adults, and some mature adults and disrupted embryogenesis. L3 from mosquitoes fed on dogs treated with doxycycline were unable to complete development when injected into dogs, and IP inoculation into jirds revealed short-term growth, stunting and gradual reduction in survival of the worms.",
+    "publishedAt": "2025-08-07",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40782506/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40782506",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 45
+  },
+  {
     "source": "NewsAPI",
     "author": "Al Jazeera",
     "title": "MSF ‘overwhelmed’ in Ethiopia’s southwest following aid cuts",
@@ -13628,6 +13737,20 @@
     "continent": "Asia"
   },
   {
+    "title": "Can we cure antiphospholipid syndrome?",
+    "description": "Antiphospholipid antibody syndrome (APS) is a vasculopathy with recurrent thrombosis and/or miscarriages mediated by autoantibodies against PL-binding proteins (aPL), mainly beta2glycoprotein I (β2GPI). While clotting is the key in vascular APS, thrombosis is not critical for placenta pathology. Despite that, anticoagulant/antiplatelet drugs are the leading treatments, but this is not a 'one-size-fits-all' therapy, and recurrences are reported. Additional therapies (e.g. antimalarials, statins) and a better characterization of the individual risk profile may improve the outcome. Nevertheless, we are still unable to 'cure' APS. The ideal target would be aPL suppression. However, immunosuppression or even B-cell therapies are not effective. Targeting CD38 on antibody-producing cells or anti-CD19 CAR-T cell therapy are promising alternatives, as well as the chimeric autoantigen receptor T cell therapy, due to the identification of β2GPI as an APS autoantigen. Further therapies aimed at improving clot lysis or affecting β2GPI/anti-β2GPI tissue complex formation are appealing preclinical perspectives.",
+    "publishedAt": "2025-08-06",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40768877/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40768877",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35
+  },
+  {
     "source": "NewsAPI",
     "author": "Nasha Addarich Martínez",
     "title": "Your Blood Type Might Be Why Mosquitoes Love You. A Doctor Explains Why",
@@ -13683,6 +13806,34 @@
         "title": "Hacia un mundo libre de malaria: eliminación de la malaria y prevención de su restablecimiento en Tayikistán."
       }
     }
+  },
+  {
+    "title": "Lysosome-hijacking inhalable nanomimosa enhances ferroptosis for lung cancer therapy.",
+    "description": "Ferroptosis therapy shows potential for lung tumor treatment, but precise accumulation of reactive oxygen species (ROS) remains a challenge. A lysosome-hijacking strategy was developed, aiming to induce ROS spread from lysosomes to the entire cell. The key is delivering a ROS inducer to the lysosome for rapid and targeted ROS generation. In this study, transferrin (Tf) was anchored on nanomicelles to create Tf-Mic, with a coordination effect between surface carboxyl groups and Fe3+. The Fenton-like reaction substrate dihydroartemisinin (DHA) and system Xc- (xCT) inhibitor sorafenib (SRF) were encapsulated to form inhalable Tf-Mic@SD, or \"nanomimosa,\" which undergoes a conformation transition in response to stimuli. Upon inhalation, nanomimosa is captured by tumor cells through transferrin receptor (TfR) recognition, then endocytosed by lysosomes, where Tf undergoes a conformational change. This releases Fe3+, DHA, and SRF, causing a rapid generation of ROS. The ROS amplification accelerates ferroptosis, leading to faster tumor elimination both in vitro and in vivo. This study provides a versatile approach using lysosome-hijacking to enhance ferroptosis therapy for cancer treatment.",
+    "publishedAt": "2025-08-05",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40769411/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40769411",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 50
+  },
+  {
+    "title": "Plasmodium yoelii infection regulates M1 macrophage polarization and function through TLR7/STAT3 signaling pathway.",
+    "description": "Macrophages play a crucial role in innate immunity and are essential for resisting Plasmodium infection. However, the regulatory mechanisms of Plasmodium infection on macrophage function and subsequent effects on adaptive immune responses remain incompletely understood. In this study, we investigated the functional regulatory mechanism of macrophages during Plasmodium yoelii (P. yoelii) infection and their regulatory role in adaptive immune responses. We found that P. yoelii infection triggered macrophages to polarize towards an M1 phenotype and enhances their phagocytosis. This enhanced function is related to the upregulation of TLR7 expression in macrophages. Notably, the TLR7 agonist R848 alleviated the symptoms of infection in mice, supporting the regulatory role of TLR7. Furthermore, the expression of STAT3 in macrophages also increased upon P. yoelii infection. Inhibitors of STAT3 attenuated the effects induced by TLR7 activation, indicating that the polarization and phagocytosis of macrophages were regulated through a TLR7-STAT3 signaling pathway. We also assessed the role of macrophages in P. yoelii infection by depleting macrophages via Clodronate liposome treatment. The results showed that Clodronate liposome administration increased parasitemia in infected mice and the immune responses of T cells and B cells were also weakened upon macrophage depletion, revealing macrophages are essential for adaptive immunity. In summary, this study demonstrated that Plasmodium infection promoted M1-type polarization and phagocytosis of macrophages through the TLR7-STAT3 signaling pathway, initiating innate and adaptive responses to defend against infection.",
+    "publishedAt": "2025-08-05",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40753850/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40753850",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35
   },
   {
     "source": "NewsAPI",
@@ -15058,6 +15209,20 @@
     "relevanceScore": 60
   },
   {
+    "title": "Single-atom nanozyme-mediated dihydroartemisinin delivery for self-enhanced chemodynamic therapy and ferroptosis.",
+    "description": "Chemodynamic therapy (CDT), leveraging intracellular iron ions (Fe2+) and hydrogen peroxide (H2O2), is a highly selective therapeutic strategy with significant potential. However, its clinical application is currently hindered by the limited catalytic activity of transition metal ions and insufficient H2O2 supply. In this study, we present a novel and effective CDT approach using an Fe single-atom nanozyme (Fe-SAE) to deliver dihydroartemisinin (DHA), a first-line antimalarial drug. DHA serves dual roles: as a substitute for H2O2 and as a recruiter of Fe3+, significantly enhancing the reactive oxygen species (ROS) cascade for self-amplified chemodynamic and ferroptosis therapy. Upon internalization by tumor cells, Fe-SAE, with its atomically dispersed active sites, exhibits remarkable peroxidase-like activity, catalyzing the generation of hydroxyl radicals from H2O2. Simultaneously, the endoperoxide bridge in released DHA is cleaved by Fe-SAE, further generating ROS and inducing lethal lipid peroxidation. DHA also upregulates the expression of transferrin receptor 1 (TfR1), facilitating Fe3+ influx and increasing intracellular Fe3+ levels, thereby enhancing chemodynamic efficacy. Additionally, Fe-SAE@D demonstrates glutathione oxidase-like activity, oxidizing reductive GSH to glutathione disulfide and promoting GPX4 inactivation. Both in vitro and in vivo studies confirm that Fe-SAE@D induces CDT and ferroptosis by self-supplying H2O2, initiating a ROS storm, and depleting glutathione. These synergistic effects significantly enhance CDT efficacy, presenting a promising strategy to overcome traditional CDT limitations.",
+    "publishedAt": "2025-07-22",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40761510/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40761510",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25
+  },
+  {
     "uid": "40742185",
     "pubdate": "2025 Oct 1",
     "epubdate": "2025 Jul 21",
@@ -15203,6 +15368,20 @@
     }
   },
   {
+    "title": "Identification of chemosensory protein inhibitors as a potential strategy to combat pyrethroid resistance in Anopheles gambiae.",
+    "description": "Insecticide resistance in Anopheles gambiae, the primary malaria vector, poses a serious threat to global public health. Chemosensory proteins (CSPs), key components of the insect olfactory system responsible for detecting chemical signals, have been implicated in insecticide resistance by binding and sequestering pyrethroids, thereby reducing their bioavailability at target sites. Developing effective strategies to counteract CSP-mediated insecticide resistance remains a critical challenge in modern vector and pest control.In this study, we identified two cinnamaldehyde derivatives, α-hexylcinnamaldehyde (HCA) and α-pentylcinnamaldehyde (PCA), as high-affinity ligands for Anopheles gambiae CSPs (AgCSPs). Isothermal titration calorimetry (ITC) assays revealed that HCA and PCA bind AgCSPs with significantly higher affinities than deltamethrin and permethrin. Notably, preincubation of AgCSPs with HCA and PCA effectively blocked pyrethroid binding, indicating competitive occupation of the same binding sites. Molecular docking and molecular dynamics (MD) simulations further elucidated the binding modes of these ligands, which were experimentally validated through site-directed mutagenesis. Bioassays with mosquito larvae confirmed the in vitro findings, showing that AgCSP-sequestered deltamethrin treatment significantly reduced larval mortality compared to deltamethrin alone. Importantly, the addition of PCA competitively displaced deltamethrin from AgCSPs, restoring its insecticidal efficacy.Our findings suggest that high-affinity CSP inhibitors capable of competitively blocking insecticide sequestration represent a promising strategy for overcoming CSP-mediated resistance. This study provides a foundation for the development of novel insecticide synergists to enhance the efficacy of pyrethroids and combat resistance in malaria vectors. © 2025 Society of Chemical Industry.",
+    "publishedAt": "2025-07-19",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40682435/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40682435",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 60
+  },
+  {
     "title": "Bio-guided investigation of nine Niger's ethnomedicinal plants reveals nature-derived antimalarial chemical pharmacophores for drug discovery.",
     "publishedAt": "2025-07-18",
     "source": "Europe PMC",
@@ -15313,6 +15492,27 @@
       "region": "Africa"
     },
     "continent": "Africa"
+  },
+  {
+    "title": "Polymorphisms of the CYP2D6 gene and its relationship with Plasmodium vivax relapses after chloroquine-primaquine treatment in Turbo, Colombia.",
+    "description": "Plasmodium vivax relapse due to hypnozoites represents a significant mechanism for parasite persistence in the population. Primaquine (PQ), the drug of choice for eliminating hypnozoites, requires metabolic activation by Cytochrome P450-2D6 (CYP2D6). Genetic variations in CYP2D6 can alter PQ metabolism, potentially increasing the risk of relapses. This study aimed to determine CYP2D6 polymorphisms in subjects with Plasmodium vivax under supervised chloroquine-primaquine treatment and explore their association with relapses and PQ plasma levels.CYP2D6 phenotypes and genotypes were successfully determined for 71 out of 78 patients included in the study. Nine polymorphisms (SNPs and indels) and gene copy number variation were analyzed. The association between the CYP2D6 phenotype, P. vivax relapse over six months follow-up, and PQ plasma levels were explored.Most diplotypes (81.7 %) were associated with normal (gNM-F) and ultrarapid (gUM) CYP2D6 metabolizers, while 18.3 % were associated with poor (gPM) and intermediate (gIM and gNM-S) metabolizers. The median plasma PQ concentration on day 2 was higher in impaired CYP2D6 activity group (poor/intermediate) compared normal metabolizers (normal/ultrarapid) (660.4 ng/ml vs 313.5 ng/ml; effect size r -0.51, 95 % CI -0.82 to 0.03). No significant difference was found in the hazard ratio (HR) of relapse between impaired and normal CYP2D6 activity (adjusted HR: 1.45; 95 % CI: 0.39-5.39).Impaired CYP2D6 activity phenotypes were frequent in individuals infected with P. vivax from an endemic region of Colombia. Further research is essential to elucidate the relationship between these phenotypes and P. vivax relapses, as suggested by this exploratory study.",
+    "publishedAt": "2025-07-16",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40695081/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40695081",
+    "countryDetection": {
+      "country": "Colombia",
+      "probability": 1,
+      "risk": "Moderate",
+      "type": "country",
+      "term": "colombia",
+      "region": "Latin America"
+    },
+    "country": "Colombia",
+    "continent": "Latin America",
+    "relevanceScore": 55
   },
   {
     "title": "Marked heterogeneity in malaria infection rate in a Malian longitudinal cohort",
@@ -16762,6 +16962,20 @@
     }
   },
   {
+    "title": "Artemether Improves Aβ1-42-Induced Mitochondrial Dysfunction and Protects Against Blood-Brain Barrier Damage Through Activating the CAMKK2/AMPK/PGC1α Signaling Pathway.",
+    "description": "Alzheimer's disease (AD) represents the most common manifestation of dementia. Cerebrovascular dysfunction constitutes one of the initial events in the pathogenic process of AD. Recently, our research group has reported that artemether, a first-line antimalarial drug approved by the FDA, exhibits a neuroprotective property. Nevertheless, the impact of artemether on cerebrovascular dysfunction, along with its underlying mechanisms, still awaits comprehensive elucidation. This study systematically investigated the neuroprotective effects of artemether against Aβ1-42-induced injury in brain microvascular endothelial cells and explored the underlying molecular mechanisms. Our findings demonstrate that artemether potently mitigates Aβ1-42-mediated cytotoxicity and endothelial barrier dysfunction in mouse brain microvascular endothelial cells. Moreover, artemether attenuated blood-brain barrier disruption by upregulating tight junction proteins OCLN, CLDN-5, and ZO-1. Further studies revealed that artemether treatment improved elevated ROS levels, the dissipation of mitochondrial membrane potential, and the decrease of ATP content. Immunoblotting analysis demonstrated that artemether stimulated the CAMKK2-AMPK kinase and its downstream target PGC1α. In addition, the blockage of the CAMKK2/AMPK/PGC1α pathway by inhibitor STO-609, Compound C, or knocking down the expression level of PGC1α with sgRNA significantly attenuated the neuroprotective activity of artemether. These results indicate the essential role of the CAMKK2/AMPK/PGC1α pathway in the protective effect of artemether in mouse brain microvascular endothelial cells. Similar results were obtained in Aβ1-42-treated human brain microvascular endothelial cells. In the AD mice model, we found that artemether treatment increased the expression level of ZO-1, CLDN-5, and OCLN of the AD mice model. Collectively, these findings demonstrate that artemether exerts neuroprotection against Aβ1-42-induced injury in brain microvascular endothelial cells through activation of the CAMKK2/AMPK/PGC1α signaling axis, which supports the protective effect of artemether in the prevention and treatment of AD through improving cerebrovascular dysfunction.",
+    "publishedAt": "2025-06-10",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40493345/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40493345",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 55
+  },
+  {
     "title": "Mekong malaria elimination programme epidemiology summary, Volume 24, January and March 2024",
     "description": "",
     "url": "https://news.google.com/read/CBMiWkFVX3lxTE82WnZySkJlb1pHV1paZ0hib194TVRWS0pWZVlwVGFOUG96OVZaajZYX3BmdldqVUZZYklSdk0xUjNNUXlxSkdINTZ1ODRwNFo2VXdGM1dXZ1BZdw?hl=en-US&gl=US&ceid=US%3Aen",
@@ -17567,6 +17781,34 @@
     }
   },
   {
+    "title": "A promising strategy to disrupt Plasmodium falciparum metabolic resilience by targeting G6PD: Virtual screening for potential inhibitors against malaria.",
+    "description": "Malaria is a protozoan disease caused by the Plasmodium species. It is one of the top reasons for mortality globally, with 241 million cases and more than 6,27,000 deaths reported in 2020. The Pentose Phosphate Pathway (PPP) in Plasmodium falciparum plays a vital role in cellular metabolism, serving two main functions: generating ribose-5-phosphate for nucleotide biosynthesis and producing NADPH for reductive biosynthesis and oxidative stress regulation. The oxidative phase of the PPP is initiated by the allosteric enzyme glucose 6-phosphate dehydrogenase (G6PD), which catalyzes the conversion of glucose 6-phosphate into 6-phosphogluconolactone, leading to the production of NADPH. This NADPH is essential for maintaining redox balance and supporting biosynthetic processes in the parasite. Also, considering the importance of this enzyme, G6PD was chosen as the target for the current study. In identifying effective inhibitors against G6PD, structural similarity-based virtual screening, DFT, MMGBSA, ADME, and Toxicity prediction were employed. Based on previously reported compounds ML276 and ML304 as references, a shape-based screening approach was used to identify the best hit. The compounds with a sim score of 0.141 to 1.942 were chosen for further screening. Finally, four compounds, namely ZINC58252420, ZINC86331320, ZINC2046313, and ZINC521399619, were selected based on the scoring functions and their interactions. The ΔG binding values and docking scores showed a good relationship, indicating all four compounds could be specific inhibitors. These results provide further evidence that the compounds can act as effective inhibitors.",
+    "publishedAt": "2025-04-29",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40318264/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40318264",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 55
+  },
+  {
+    "title": "Which trial do we need? A randomised controlled study to compare the protective efficacy of early post-exposure discontinuation versus standard atovaquone-proguanil malaria prophylaxis in a human Plasmodium falciparum challenge model.",
+    "description": "",
+    "publishedAt": "2025-04-26",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40294866/",
+    "source": "PubMed",
+    "type": "research",
+    "language": "en",
+    "uniqueId": "pubmed-40294866",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 35
+  },
+  {
     "title": "PAHO urges expanded access to malaria diagnosis and treatment to accelerate elimination in the Americas",
     "description": "",
     "url": "https://news.google.com/read/CBMivAFBVV95cUxNRWhyMkw2Q3JnVkFxUHhxWmlZLWtCZE5BQVJJZW5Na3F4anp5NE0wVDI0TEZaYUU1RmJ3c1d6cWY5eVBHOGZDTUdfbkxJVUNNLTVobGF4cmNzbzl3RU16VWd4OVJCcUNBWnB1RWFJWWpYdG1Xb1V4R1pEQzN3V0JHSjR1N3hxcEkzOG1sdGdiSDdCdUJ1eW4wc0ZKUVlQUkNzQTUteUhoSGFVLUxWR2xicmFTUTN4VUVNOTlfQw?hl=en-US&gl=US&ceid=US%3Aen",
@@ -17906,6 +18148,33 @@
     "country": "Kenya",
     "continent": "Africa",
     "relevanceScore": 45
+  },
+  {
+    "title": "Transmissibility of a new Plasmodium falciparum 3D7 bank for use in malaria volunteer infection studies evaluating transmission blocking interventions",
+    "description": "",
+    "url": "https://news.google.com/read/CBMiX0FVX3lxTE1laFU2cFNqanMxR0tIdTR4UVk1c2hTdXVkSnppb05hNURMNDBVT3RJYzJISFFVOXBHd1NnZTFLLWRBcmVOTTFTN0tNYlcxb0ZkbER1aHVXU1lOZWw3dXFV?hl=en-US&gl=US&ceid=US%3Aen",
+    "publishedAt": "2025-04-16T07:00:00.000Z",
+    "source": "Nature",
+    "language": "en",
+    "uniqueId": "https://news.google.com/read/CBMiX0FVX3lxTE1laFU2cFNqanMxR0tIdTR4UVk1c2hTdXVkSnppb05hNURMNDBVT3RJYzJISFFVOXBHd1NnZTFLLWRBcmVOTTFTN0tNYlcxb0ZkbER1aHVXU1lOZWw3dXFV?hl=en-US&gl=US&ceid=US%3Aen",
+    "imageUrl": "https://news.google.com/api/attachments/CC8iK0NnNXVjREEyVWpGaE5Vb3pYMVZJVFJEdkFoaXRCU2dLTWdZSkVZUVFIUWc=-w400-h224-p-df-rw",
+    "author": null,
+    "fullContent": "",
+    "countryDetection": null,
+    "country": "Global",
+    "continent": "Global",
+    "relevanceScore": 25,
+    "translations": {
+      "fr": {
+        "title": "Transmissibilité d'une nouvelle banque de Plasmodium falciparum 3D7 pour une utilisation dans des études d'infection volontaire au paludisme évaluant des interventions de blocage de la transmission."
+      },
+      "pt": {
+        "title": "Transmissibilidade de um novo banco de Plasmodium falciparum 3D7 para uso em estudos de infecção em voluntários com malária avaliando intervenções de bloqueio de transmissão."
+      },
+      "es": {
+        "title": "Transmisibilidad de un nuevo banco de Plasmodium falciparum 3D7 para su uso en estudios de infección por malaria en voluntarios que evalúan intervenciones que bloquean la transmisión."
+      }
+    }
   },
   {
     "title": "Recent perspectives in clinical development of malaria vaccines",
