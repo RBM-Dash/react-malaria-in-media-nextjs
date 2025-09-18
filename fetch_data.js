@@ -477,7 +477,7 @@ class EnhancedMalariaIntelligence {
                 title: article.title,
                 description: article.content,
                 url: article.link,
-                publishedAt: article.datetime,
+                publishedAt: parseDateString(article.datetime),
                 source: article.source,
                 language: 'en',
                 uniqueId: article.link,
@@ -980,7 +980,7 @@ class EnhancedMalariaIntelligence {
                     return {
                         title: p.title,
                         description: p.abstractText,
-                        publishedAt: p.firstPublicationDate,
+                        publishedAt: parseDateString(p.firstPublicationDate),
                         url: p.fullTextUrlList?.fullTextUrl[0]?.url,
                         source: 'Europe PMC',
                         type: 'research',
@@ -1007,7 +1007,7 @@ class EnhancedMalariaIntelligence {
                     results.push(...data.results.map(item => ({
                         title: item.bibjson.title,
                         description: item.bibjson.abstract,
-                        publishedAt: item.bibjson.journal.publication_start_date || item.created_date,
+                        publishedAt: parseDateString(item.bibjson.journal.publication_start_date || item.created_date),
                         url: item.bibjson.link.find(link => link.type === 'fulltext')?.url,
                         source: 'DOAJ',
                         language: item.bibjson.journal.language?.[0] || 'en', // Assuming first language if multiple
@@ -1170,7 +1170,7 @@ class EnhancedMalariaIntelligence {
                     title: a.title,
                     description: a.description,
                     url: a.link,
-                    publishedAt: a.pubDate,
+                    publishedAt: parseDateString(a.pubDate),
                     source: 'NewsData.io',
                     language: a.language,
                     uniqueId: a.link, // Using link as uniqueId
