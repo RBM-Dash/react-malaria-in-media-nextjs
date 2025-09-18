@@ -100,12 +100,13 @@ function sortArticles(a, b) {
 // Helper function to parse various date formats
 function parseDateString(dateString) {
     if (!dateString) return null;
+    serverLog(`[DEBUG-DATE] Attempting to parse dateString: "${dateString}"`);
     let date = new Date(dateString);
     if (!isNaN(date.getTime())) {
+        serverLog(`[DEBUG-DATE] Successfully parsed as ISO: ${date.toISOString()}`);
         return date.toISOString();
     }
-
-    // Try common RSS date formats
+    serverLog(`[DEBUG-DATE] Initial parsing failed. Trying common RSS formats.`);
     const formats = [
         "ddd, DD MMM YYYY HH:mm:ss ZZ", // RFC 822, 1036, 1123, 2822
         "YYYY-MM-DDTHH:mm:ssZ",        // ISO 8601
@@ -783,7 +784,7 @@ class EnhancedMalariaIntelligence {
                         // Process and add items
                         const processedItems = filteredItems.map(item => ({
                             ...item,
-                            publishedAt: this.parseDateString(item.pubDate),
+                            publishedAt: parseDateString(item.pubDate),
                             source: 'African Media',
                             sourceName: feed.name,
                             language: feed.lang,
@@ -1231,11 +1232,12 @@ class EnhancedMalariaIntelligence {
         this.logProgress(`[AGGREGATE] Translation complete for new articles.`);
 
         // Step 5: Final AI Deduplication of new translated articles against existing ones
-        
-        let finalNewArticles = translatedNewArticles;
+        this.logProgress('[DEDUP-AI] Starting AI deduplication...');
+        let finalNewArticles = await this.time('AIDeduplication', deduplicateMalariaNews(translatedNewArticles, existingArticles, CONFIG.apis.openai.apiKey));
+        this.logProgress(`[DEDUP-AI] AI deduplication complete. Reduced from ${translatedNewArticles.length} to ${finalNewArticles.uniqueArticles.length} articles.`);
         
         // Step 6: Combine and Sort
-        const finalArticleList = [...existingArticles, ...finalNewArticles];
+        const finalArticleList = [...existingArticles, ...finalNewArticles.uniqueArticles];
         finalArticleList.sort(sortArticles);
 
         this.logProgress(`[AGGREGATE] Aggregation complete. Final article count: ${finalArticleList.length}`);
